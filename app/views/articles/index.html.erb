@@ -1,0 +1,11 @@
+<div data-controller="articles-category">
+<%# render category bar %>
+<div class="categories">
+  <% @categories.uniq.each do |category| %>
+    <a data-action="click->articles-category#update" href=""><%= category %></a>
+  <% end %>
+</div>
+
+<%# cards in general / per category %>
+  <%= render "list", articles: @articles %>
+</div>

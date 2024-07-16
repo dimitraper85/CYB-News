@@ -1,0 +1,12 @@
+<div class="p-3" data-articles-category-target="list">
+  <% articles.each do |article| %>
+    <%= link_to article_path(article) do %>
+      <div class="article-card">
+        <img src="<%= article.image_url %>" style="width:100%;" alt="article image">
+        <h2><%= article.title %></h2>
+        <p><%= article.source_name %></p>
+      </div>
+    <% end %>
+    <p>This article is marked as : <%= article.fake_news_validation %></p>
+  <% end %>
+</div>
