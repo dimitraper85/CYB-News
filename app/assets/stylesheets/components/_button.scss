@@ -1,4 +1,5 @@
 .app-button {
+  padding: $spacing-small;
   height: 50px;
   margin: 5px;
   width: 120px;
@@ -46,6 +47,7 @@
 
 
 .glow-on-hover {
+  padding: $spacing-small;
   width: 220px;
   height: 50px;
   border: none;

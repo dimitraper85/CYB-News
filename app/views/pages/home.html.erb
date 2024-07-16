@@ -1,11 +1,19 @@
 <div class="banner">
-  <%= image_tag "placeholder-home.png" %>
-  <div class="container">
-    <h1>Pages#home</h1>
-    <p>Find me in app/views/pages/home.html.erb</p>
+  <div class="box">
+    <h1>CYB News</h1>
+    <p>Check your biases. Prevent fake news.</p>
+    <%= link_to "Discover", root_path, class: "glow-on-hover" %>
   </div>
 </div>
 <div class="container">
-  <h2>This is our mission</h2>
-  <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+  <div><h2>How it works</h2></div>
+  <div></div>
+  <div>
+    <%= image_tag "How-it-works.png" %>
+  </div>
+  <div>
+    <p>We use artificial intelligence to analyse news and rate their likelihood to be fake or biased. Our mission is to make the web a safer place with less desinformation. You can browse the new we display or sign up to check an article you found elsewhere.</p>
+    <%= link_to "Browse news", root_path %>
+    <%= link_to "Check an article you found", root_path %>
+  </div>
 </div>
