@@ -1,17 +1,21 @@
 // Specific CSS for your home-page
-.banner {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 5px;
-  background-color: $backgr
-}
-
 
 .container {
-
+  background-color: $background-color
 }
 
 
 p, h1, h2, h3 {
+  color: $text-color;
+}
+.banner {
+  width: 100%;
+  height: 300px;
+  background-image: "placeholder-home.png";
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  text-align: center;
 }
