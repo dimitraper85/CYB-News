@@ -1,0 +1,1019 @@
+{
+    "articles": {
+        "results": [
+            {
+                "uri": "8228364614",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:32",
+                "dateTime": "2024-07-16T14:02:32Z",
+                "dateTimePub": "2024-07-16T14:02:04Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.thenorthernview.com/news/former-bc-green-leader-says-rustad-is-open-minded-like-horgan-7442008",
+                "title": "Former B.C. Green leader says Rustad is open-minded, like Horgan",
+                "body": "Andrew Weaver says Conservative Party of B.C. leader is a flexible listener he could work with\n\nFormer B.C. Greens' Leader Andrew Weaver says he is still not sure for whom he is going to vote in the up-coming provincial election. He has no plans to run as a candidate.\n\nBut he praised the listening skills of John Rustad, adding that he could see himself working with the Conservative Party of B.C. leader.\n\n\"He (Rustad) reminds me a bit of (former B.C. NDP premier) John Horgan, who was a fantastic premier, who will go down in history as one of British Columbia's most influential premiers,\" Weaver said. According to Weaver, Rustad -- like Horgan and contrary to Premier David Eby -- listens to opposing views and changes his mind.\n\n\"Now, that type of leadership is one that makes your tent bigger because it is more welcoming.\"\n\nWeaver made these comments in the wake of Weaver's recent opinion piece in the Vancouver Sun, where he questioned Eby's leadership while expressing uncertainty about his future vote.\n\nWeaver helped negotiate the confidence-and-supply agreement that allowed Horgan to become premier in 2017 with the support of the three B.C. Greens elected in 2017.\n\nEby said Friday (July 12) that he does not understand why Weaver would even consider voting for the provincial Conservatives. He finds it \"very bizarre\" given Weaver's work with the team that won a Nobel Prize for its work on climate change, pointing to the provincial Conservatives' perspective on c=the subject.\n\nA statement on the party's website dated Nov. 22, 2023 states that \"our changing climate is real and man is impacting our climate\" but adds that \"British Columbians are NOT facing an existential threat from our changing climate.\" It denies the existence of \"a crisis,\" and goes on to say that \"our changing climate is not the most pressing issue facing us in B.C. or around the world.\"\n\nThis position contradicts recent assessments from the world's leading scientists, starting with the Intergovernmental Panel on Climate Change.\n\nThe world's leading body of scientific advisors said its latest report, published in 2023, that \"(climate change) has caused substantial damages and increasingly irreversible losses, in terrestrial, freshwater, cryospheric (frozen water) and coastal and open ocean ecosystems.\" It notes that \"(human-caused) climate change is already affecting many weather and climate extremes in every region across the globe.\"\n\nA recent report from the World Meteorological Organization found 2023 to have been the warmest year on record. United Nations Secretary General António Guterres said humanity finds itself playing \"Russian roulette\" with the planet.\n\n\"We need an exit ramp off the highway to climate hell,\" Guterres said this spring.\n\nThe Conservatives' statement goes on to say that the party \"will not go down the rabbit hole of over-taxation, hype, scare-tactics and false promises.\"\n\nWeaver said he does not like the alarmist language that exists around climate change and does not see the Conservatives' as a party that denies climate change.\n\n\"I don't think that is a term characteristic of the party today,\" Weaver said. \"I think that would be a very fair characterization of the Conservative Party, even as little as a year ago.\"\n\nHe added that climate change does not care about party affiliation.\n\n\"You can look at the issue of climate change through one of two lenses,\" he said.\n\nThe first is the lens of \"hopelessness and despair\" and the other lens is the \"lens of opportunity,\"\n\n\"The NDP are not these virtuous sellers of climate policy,\" Weaver said, pointing to the party's involvement with LNG projects. \"I forced them to do it and so I don't really have time for arguments that climate policy will all die when the (provincial) Conservatives come in because I have worked with Gordon Campbell, I have worked with John Horgan, I have worked with Christy Clark and I could work with John Rustad if they are willing to recognize that climate change is not a 'the-world-could-end-in-five-years-issue.'\"\n\nOn its website the Conservative Party of B.C. states that its climate policy plan include \"(eliminating) costly climate taxes and policies - including the Carbon Tax, Gas Tax, Clean B.C. and Fuel Standard - and returning the money to British Columbians.\n\n\"Taxing everyday, working people into poverty will not change the weather.\"\n\nWeaver for his part does not take those statements too seriously.\n\n\"Nobody's released their platforms yet,\" Weaver said. \"I questioned John about what's on their website. It is an archaic leftover from a party that really wasn't going anywhere and if they want to go anywhere...the tent has to be broader. It has to be inclusive.\"\n\nAs for his former party, Weaver said the party under the current leadership of Sonia Furstenau has \"lost its way\" by moving to the \"far left.\" Weaver specifically pointed to the party's endorsement of a recent report by provincial health officer Bonnie Henry to expand access to \"non-prescribed\" drugs.\n\nUltimately, Weaver sees himself as an advocate for a consensus-oriented form of politics.\n\n\"Most British Columbians are in the middle and that...60 per cent is really angry right now because they feel that their political establishment is not going to listen to them.\"",
+                "source": {
+                    "uri": "thenorthernview.com",
+                    "dataType": "news",
+                    "title": "Prince Rupert Northern View"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Recreation/Parties",
+                        "label": "dmoz/Recreation/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Parties/Planning",
+                        "label": "dmoz/Recreation/Parties/Planning",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Children/Parties",
+                        "label": "dmoz/Shopping/Children/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Home/Entertaining/Holidays",
+                        "label": "dmoz/Home/Entertaining/Holidays",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 93
+                    }
+                ],
+                "image": "https://www.bpmcdn.com/f/files/northdelta/import/2019-03/16197768_web1_20190331-BPD-Andrew-Weaver-hTV-Feb27.18.jpg;w=1200;h=800;mode=crop",
+                "eventUri": null,
+                "sentiment": 0.192156862745098,
+                "wgt": 458834552,
+                "relevance": 23
+            },
+            {
+                "uri": "8228364616",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:32",
+                "dateTime": "2024-07-16T14:02:32Z",
+                "dateTimePub": "2024-07-16T14:02:04Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.comoxvalleyrecord.com/news/former-bc-green-leader-says-rustad-is-open-minded-like-horgan-7442008",
+                "title": "Former B.C. Green leader says Rustad is open-minded, like Horgan",
+                "body": "Andrew Weaver says Conservative Party of B.C. leader is a flexible listener he could work with\n\nFormer B.C. Greens' Leader Andrew Weaver says he is still not sure for whom he is going to vote in the up-coming provincial election. He has no plans to run as a candidate.\n\nBut he praised the listening skills of John Rustad, adding that he could see himself working with the Conservative Party of B.C. leader.\n\n\"He (Rustad) reminds me a bit of (former B.C. NDP premier) John Horgan, who was a fantastic premier, who will go down in history as one of British Columbia's most influential premiers,\" Weaver said. According to Weaver, Rustad -- like Horgan and contrary to Premier David Eby -- listens to opposing views and changes his mind.\n\n\"Now, that type of leadership is one that makes your tent bigger because it is more welcoming.\"\n\nWeaver made these comments in the wake of Weaver's recent opinion piece in the Vancouver Sun, where he questioned Eby's leadership while expressing uncertainty about his future vote.\n\nWeaver helped negotiate the confidence-and-supply agreement that allowed Horgan to become premier in 2017 with the support of the three B.C. Greens elected in 2017.\n\nEby said Friday (July 12) that he does not understand why Weaver would even consider voting for the provincial Conservatives. He finds it \"very bizarre\" given Weaver's work with the team that won a Nobel Prize for its work on climate change, pointing to the provincial Conservatives' perspective on c=the subject.\n\nA statement on the party's website dated Nov. 22, 2023 states that \"our changing climate is real and man is impacting our climate\" but adds that \"British Columbians are NOT facing an existential threat from our changing climate.\" It denies the existence of \"a crisis,\" and goes on to say that \"our changing climate is not the most pressing issue facing us in B.C. or around the world.\"\n\nThis position contradicts recent assessments from the world's leading scientists, starting with the Intergovernmental Panel on Climate Change.\n\nThe world's leading body of scientific advisors said its latest report, published in 2023, that \"(climate change) has caused substantial damages and increasingly irreversible losses, in terrestrial, freshwater, cryospheric (frozen water) and coastal and open ocean ecosystems.\" It notes that \"(human-caused) climate change is already affecting many weather and climate extremes in every region across the globe.\"\n\nA recent report from the World Meteorological Organization found 2023 to have been the warmest year on record. United Nations Secretary General António Guterres said humanity finds itself playing \"Russian roulette\" with the planet.\n\n\"We need an exit ramp off the highway to climate hell,\" Guterres said this spring.\n\nThe Conservatives' statement goes on to say that the party \"will not go down the rabbit hole of over-taxation, hype, scare-tactics and false promises.\"\n\nWeaver said he does not like the alarmist language that exists around climate change and does not see the Conservatives' as a party that denies climate change.\n\n\"I don't think that is a term characteristic of the party today,\" Weaver said. \"I think that would be a very fair characterization of the Conservative Party, even as little as a year ago.\"\n\nHe added that climate change does not care about party affiliation.\n\n\"You can look at the issue of climate change through one of two lenses,\" he said.\n\nThe first is the lens of \"hopelessness and despair\" and the other lens is the \"lens of opportunity,\"\n\n\"The NDP are not these virtuous sellers of climate policy,\" Weaver said, pointing to the party's involvement with LNG projects. \"I forced them to do it and so I don't really have time for arguments that climate policy will all die when the (provincial) Conservatives come in because I have worked with Gordon Campbell, I have worked with John Horgan, I have worked with Christy Clark and I could work with John Rustad if they are willing to recognize that climate change is not a 'the-world-could-end-in-five-years-issue.'\"\n\nOn its website the Conservative Party of B.C. states that its climate policy plan include \"(eliminating) costly climate taxes and policies - including the Carbon Tax, Gas Tax, Clean B.C. and Fuel Standard - and returning the money to British Columbians.\n\n\"Taxing everyday, working people into poverty will not change the weather.\"\n\nWeaver for his part does not take those statements too seriously.\n\n\"Nobody's released their platforms yet,\" Weaver said. \"I questioned John about what's on their website. It is an archaic leftover from a party that really wasn't going anywhere and if they want to go anywhere...the tent has to be broader. It has to be inclusive.\"\n\nAs for his former party, Weaver said the party under the current leadership of Sonia Furstenau has \"lost its way\" by moving to the \"far left.\" Weaver specifically pointed to the party's endorsement of a recent report by provincial health officer Bonnie Henry to expand access to \"non-prescribed\" drugs.\n\nUltimately, Weaver sees himself as an advocate for a consensus-oriented form of politics.\n\n\"Most British Columbians are in the middle and that...60 per cent is really angry right now because they feel that their political establishment is not going to listen to them.\"",
+                "source": {
+                    "uri": "comoxvalleyrecord.com",
+                    "dataType": "news",
+                    "title": "Comox Valley Record"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Recreation/Parties",
+                        "label": "dmoz/Recreation/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Parties/Planning",
+                        "label": "dmoz/Recreation/Parties/Planning",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Children/Parties",
+                        "label": "dmoz/Shopping/Children/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Home/Entertaining/Holidays",
+                        "label": "dmoz/Home/Entertaining/Holidays",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 93
+                    }
+                ],
+                "image": "https://www.bpmcdn.com/f/files/northdelta/import/2019-03/16197768_web1_20190331-BPD-Andrew-Weaver-hTV-Feb27.18.jpg;w=1200;h=800;mode=crop",
+                "eventUri": null,
+                "sentiment": 0.192156862745098,
+                "wgt": 458834552,
+                "relevance": 23
+            },
+            {
+                "uri": "8228364127",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:19",
+                "dateTime": "2024-07-16T14:02:19Z",
+                "dateTimePub": "2024-07-16T14:01:47Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://news.bloomberglaw.com/daily-tax-report-international/hungary-optimistic-on-tax-files-despite-tensions-within-eu",
+                "title": "Hungary 'Optimistic' on Tax Files Despite Tensions Within EU",
+                "body": "Hungary believes it can take \"serious steps forward\" on EU tax legislation even as member countries downgrade their participation at meetings organized by Budapest.\n\nSpeaking at a press briefing Tuesday in Brussels, Hungarian Finance Minister Mihaly Varga said he is \"optimistic\" about advancing tax-related legislative proposals despite what will be a \"long process\" to do so.\n\n\"We believe that during the Hungarian presidency we can make serious steps forward on this issue,\" Varga said, referring to the tax proposals currently being negotiated in the Council of the EU.",
+                "source": {
+                    "uri": "news.bloomberglaw.com",
+                    "dataType": "news",
+                    "title": "news.bloomberglaw.com"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Government/Multilateral",
+                        "label": "dmoz/Society/Government/Multilateral",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 58
+                    }
+                ],
+                "image": "https://news-cdn.bindg.com/indg/assets/news/images/Fallback-image.webp",
+                "eventUri": null,
+                "sentiment": -0.05098039215686279,
+                "wgt": 458834539,
+                "relevance": 8
+            },
+            {
+                "uri": "8228364158",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:18",
+                "dateTime": "2024-07-16T14:02:18Z",
+                "dateTimePub": "2024-07-16T14:01:50Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.vernonmorningstar.com/news/former-bc-green-leader-says-rustad-is-open-minded-like-horgan-7442008",
+                "title": "Former B.C. Green leader says Rustad is open-minded, like Horgan",
+                "body": "Andrew Weaver says Conservative Party of B.C. leader is a flexible listener he could work with\n\nFormer B.C. Greens' Leader Andrew Weaver says he is still not sure for whom he is going to vote in the up-coming provincial election. He has no plans to run as a candidate.\n\nBut he praised the listening skills of John Rustad, adding that he could see himself working with the Conservative Party of B.C. leader.\n\n\"He (Rustad) reminds me a bit of (former B.C. NDP premier) John Horgan, who was a fantastic premier, who will go down in history as one of British Columbia's most influential premiers,\" Weaver said. According to Weaver, Rustad -- like Horgan and contrary to Premier David Eby -- listens to opposing views and changes his mind.\n\n\"Now, that type of leadership is one that makes your tent bigger because it is more welcoming.\"\n\nWeaver made these comments in the wake of Weaver's recent opinion piece in the Vancouver Sun, where he questioned Eby's leadership while expressing uncertainty about his future vote.\n\nWeaver helped negotiate the confidence-and-supply agreement that allowed Horgan to become premier in 2017 with the support of the three B.C. Greens elected in 2017.\n\nEby said Friday (July 12) that he does not understand why Weaver would even consider voting for the provincial Conservatives. He finds it \"very bizarre\" given Weaver's work with the team that won a Nobel Prize for its work on climate change, pointing to the provincial Conservatives' perspective on c=the subject.\n\nA statement on the party's website dated Nov. 22, 2023 states that \"our changing climate is real and man is impacting our climate\" but adds that \"British Columbians are NOT facing an existential threat from our changing climate.\" It denies the existence of \"a crisis,\" and goes on to say that \"our changing climate is not the most pressing issue facing us in B.C. or around the world.\"\n\nThis position contradicts recent assessments from the world's leading scientists, starting with the Intergovernmental Panel on Climate Change.\n\nThe world's leading body of scientific advisors said its latest report, published in 2023, that \"(climate change) has caused substantial damages and increasingly irreversible losses, in terrestrial, freshwater, cryospheric (frozen water) and coastal and open ocean ecosystems.\" It notes that \"(human-caused) climate change is already affecting many weather and climate extremes in every region across the globe.\"\n\nA recent report from the World Meteorological Organization found 2023 to have been the warmest year on record. United Nations Secretary General António Guterres said humanity finds itself playing \"Russian roulette\" with the planet.\n\n\"We need an exit ramp off the highway to climate hell,\" Guterres said this spring.\n\nThe Conservatives' statement goes on to say that the party \"will not go down the rabbit hole of over-taxation, hype, scare-tactics and false promises.\"\n\nWeaver said he does not like the alarmist language that exists around climate change and does not see the Conservatives' as a party that denies climate change.\n\n\"I don't think that is a term characteristic of the party today,\" Weaver said. \"I think that would be a very fair characterization of the Conservative Party, even as little as a year ago.\"\n\nHe added that climate change does not care about party affiliation.\n\n\"You can look at the issue of climate change through one of two lenses,\" he said.\n\nThe first is the lens of \"hopelessness and despair\" and the other lens is the \"lens of opportunity,\"\n\n\"The NDP are not these virtuous sellers of climate policy,\" Weaver said, pointing to the party's involvement with LNG projects. \"I forced them to do it and so I don't really have time for arguments that climate policy will all die when the (provincial) Conservatives come in because I have worked with Gordon Campbell, I have worked with John Horgan, I have worked with Christy Clark and I could work with John Rustad if they are willing to recognize that climate change is not a 'the-world-could-end-in-five-years-issue.'\"\n\nOn its website the Conservative Party of B.C. states that its climate policy plan include \"(eliminating) costly climate taxes and policies - including the Carbon Tax, Gas Tax, Clean B.C. and Fuel Standard - and returning the money to British Columbians.\n\n\"Taxing everyday, working people into poverty will not change the weather.\"\n\nWeaver for his part does not take those statements too seriously.\n\n\"Nobody's released their platforms yet,\" Weaver said. \"I questioned John about what's on their website. It is an archaic leftover from a party that really wasn't going anywhere and if they want to go anywhere...the tent has to be broader. It has to be inclusive.\"\n\nAs for his former party, Weaver said the party under the current leadership of Sonia Furstenau has \"lost its way\" by moving to the \"far left.\" Weaver specifically pointed to the party's endorsement of a recent report by provincial health officer Bonnie Henry to expand access to \"non-prescribed\" drugs.\n\nUltimately, Weaver sees himself as an advocate for a consensus-oriented form of politics.\n\n\"Most British Columbians are in the middle and that...60 per cent is really angry right now because they feel that their political establishment is not going to listen to them.\"",
+                "source": {
+                    "uri": "vernonmorningstar.com",
+                    "dataType": "news",
+                    "title": "Vernon Morning Star"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Recreation/Parties",
+                        "label": "dmoz/Recreation/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Parties/Planning",
+                        "label": "dmoz/Recreation/Parties/Planning",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Children/Parties",
+                        "label": "dmoz/Shopping/Children/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Home/Entertaining/Holidays",
+                        "label": "dmoz/Home/Entertaining/Holidays",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 93
+                    }
+                ],
+                "image": "https://www.bpmcdn.com/f/files/northdelta/import/2019-03/16197768_web1_20190331-BPD-Andrew-Weaver-hTV-Feb27.18.jpg;w=1200;h=800;mode=crop",
+                "eventUri": null,
+                "sentiment": 0.192156862745098,
+                "wgt": 458834538,
+                "relevance": 23
+            },
+            {
+                "uri": "8228363907",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:06",
+                "dateTime": "2024-07-16T14:02:06Z",
+                "dateTimePub": "2024-07-16T14:01:38Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "http://coloradosun.com/2024/07/16/carrie-hauser-trust-for-public-land/",
+                "title": "Carrie Hauser takes charge at Trust for Public Land after 11 years at Colorado Mountain College, two terms on CPW commission",
+                "body": "A journalist was physically present to report the article from some or all of the locations it concerns.\n\nCarrie Besnette Hauser grew up climbing down first.\n\nAs a kid in northern Arizona, she'd often hike into the Grand Canyon, where descents precede ascents.\n\nIn Colorado, she flipped the direction of her off-road ambling and climbed all the state's 14ers. Those ascents are a mere footnote in her list of Colorado accomplishments, where the outdoorswoman and Ph.D. recipient spent 11 years guiding Colorado Mountain College, worked two terms as a commissioner for Colorado Parks and Wildlife and served on more than a dozen high-profile rural and urban business, finance, governance and charitable boards.\n\n\"It's been really fun to get to know the state through this tapestry of peaks and rivers and sort of set some goals,\" she said. \"And really, I think it's been as much a reflection of learning about these particularly rural communities where so much of this outdoor economy is so important.\"\n\nHauser is now taking the national reins of the Trust for Public Land, a 50-year-old nonprofit conservation group with offices in more than 30 states that has worked to protect nationally treasured landscapes as well as creating more than 5,000 community parks that put green, open spaces within a 10-minute walk of nearly 10 million Americans.\n\nIt's a big deal for Colorado to have the boss of one of the most powerful conservation groups in the country living on the Western Slope. (Hauser is not leaving Colorado.) And it's an even better deal for the Trust for Public Land.\n\n\"Carrie understands the profound impact that access to the outdoors can have on individuals and communities, and her leadership will help us bring these benefits to even more people across the country,\" Lucas St. Clair, chair of the trust's board, said in a statement. \"Her passion for the outdoors, commitment to equitable access to nature, and extensive community leadership will propel TPL's mission and team forward.\"\n\nHauser recently stepped down from an 11-year run as president of Colorado Mountain College, where she guided nearly $100 million in investment in housing and facilities, increased graduation rates to record levels and aligned the school's 11 campuses with the needs of the communities as part of its Dual Mission. Colorado Mountain College's Dual Mission work trains nurses, police officers, avalanche scientists, resort managers, chairlift mechanics, artists, environmental scientists and sustainability experts who help communities better handle the shifting challenges facing rural mountain towns. The school is funded by property taxes collected across eight counties covering 7,500 square miles of rural Colorado.\n\n\"We're loving these incredible places to death and we've got to figure out how to protect them,\" she said, noting how Colorado Mountain College's innovative 130 education tracks enable students to safeguard landscapes and mountain economies for future generations.\n\nHauser sees similarities in the Colorado Mountain College funding model and the way the Trust for Public Land finances conservation in that both are deeply involved with rural communities. It's not just about raising money to fund education for 12,000 students or protecting tens of thousands of acres of wild lands. It's about showing up in communities and working with residents to meet their needs.\n\n\"I think we need to think about not just protecting land or opening a park. It's also, 'What are the long-term impacts?'\" she said. \"How do you think about these things in the way of systems and not just sort of one project and move to the next project. How do they also connect together?\"\n\nUnder Hauser's leadership, Colorado Mountain College earned federal designation as a Hispanic Service Institution, attracting a student population that is more than 25% Latino, better reflecting the high country communities that house its campuses. The work will help her carry on the Trust for Public Land mission to connect more people with the outdoors and foster the next generation of public land stewards.\n\n\"In this politically divided climate where people don't feel listened to when decisions are made, I think Trust for Public Land is squarely in the bull's-eye of something that I think is really important. And that is the power of convening,\" she said. \"It's the power of listening. It's the power of making sure that all voices are heard, whether that's a rancher on the Western Slope of Colorado or in the middle of Nebraska, or it's a community in the South Side of Chicago that's really working to make sure that that's a safe place for kids.\"\n\nThe search for a new president and chief executive at the Trust for Public Land homed in on Hauser's \"unique experience, particularly from the education side,\" said Happy Haynes, a national and state board member for the Trust for Public Land and former director of Denver Parks and Recreation who has worked closely with Hauser when she was at Colorado Mountain College, the Daniels Fund and Metro State University.\n\n\"In the education realm, a lot of her work was focused on access and equity and getting kids who were less privileged into the outdoors,\" Haynes said. \"She brings great perspective and experience to ways the outdoor world can better engage communities of color and low-income communities.\"\n\nThe trust's work in rural and urban communities mirrors Hauser's work. She's lived in Colorado's big cities and small towns and advocated for both. She's traveled to just about every small town in Colorado and listened to the concerns of rural citizens who are feeling left out of policymaking discussions that impact them. She's worked with Tribal leaders to better address their concerns over land use policies. Breaking down the wall that divides rural and urban interests involves a lot of travel and meetings where all citizens have a voice.\n\n\"I do think that there's an equity question around this,\" she said. \"And that is, how do you make the process of these conversations and these decisions and these projects in the case of TPL, how do you also make them equitable?\"\n\nConservation around the country is on a roll. In the years coming out of the pandemic, voters overwhelmingly approved ballot measures that directed $3.7 billion toward preservation of open spaces and parks. The Trust for Public Land championed 26 conservation ballot measures in 11 states in 2020 and voters passed all of them, marking a first-ever sweep for the organization. In nearly 50 years, Trust for Public Land has protected more than 61 million acres. In the 25 years since the trust started working with communities to secure voter-approved funding for land protection, the organization has helped secure $94 billion in funding for parks, climate and conservation.\n\nOne of Hauser's most important assets, said Conor Hall, the head of the Colorado outdoor recreation office who spent many years working on national policy for the Trust for Public Land, \"is that she is a phenomenal listener; a really genuine listener who has the talent and expertise to act on what she hears.\"\n\nLook at how she navigated dozens of public meetings with the Colorado Parks and Wildlife Commission as the agency reintroduced wolves to western Colorado. Look at how she guided Colorado Mountain College toward meeting the needs of rural economies where it has campuses.\n\n\"She is beloved in all the places she has lived and worked. It can feel like there is more of a divide than ever between the rural and urban right now and there are political chasms that feel insurmountable. The beauty of TPL is that everyone cares so much about nature and that can transcend a lot of these divides,\" Hall said. \"Watch Carrie lean into that and bring people together from all sorts of backgrounds to protect our land and water.\"\n\nThe protection of open spaces in Colorado and the West is happening alongside increasing struggles around housing, real estate prices, the impacts of recreation and the challenges of shifting economic tides as communities transition away from traditional economic engines like tourism or energy development.\n\nBalancing those issues with conservation is a delicate dance. Hauser points to Colorado Parks and Wildlife's work to create a new state park around Fishers Peak in Trinidad as an example of how conservation groups can work with state officials and local communities to create something that benefits wildlife, ecosystems and residents.\n\n\"It means taking time to understand what's our impact and how can we build in some of this infrastructure to support it?\" she said. \"You can't just go 'OK, the gates are open.' It's systematically thinking about both the protection side and the access side, to make sure that more people have access to these incredible places and a much richer, more diverse complexion of people have access to these places.\"",
+                "source": {
+                    "uri": "coloradosun.com",
+                    "dataType": "news",
+                    "title": "The Colorado Sun"
+                },
+                "authors": [
+                    {
+                        "uri": "jason_blevins@coloradosun.com",
+                        "name": "Jason Blevins",
+                        "type": "author",
+                        "isAgency": false
+                    }
+                ],
+                "categories": [
+                    {
+                        "uri": "dmoz/Recreation/Outdoors",
+                        "label": "dmoz/Recreation/Outdoors",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Outdoors/Survival_and_Primitive_Technology",
+                        "label": "dmoz/Recreation/Outdoors/Survival and Primitive Technology",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Outdoors/Hiking",
+                        "label": "dmoz/Recreation/Outdoors/Hiking",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Sports/Disabled/Camps",
+                        "label": "dmoz/Sports/Disabled/Camps",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 46
+                    }
+                ],
+                "image": "https://i0.wp.com/newspack-coloradosun.s3.amazonaws.com/wp-content/uploads/2024/07/image001-1-scaled.jpg?fit=2560%2C1920&quality=70&ssl=1",
+                "eventUri": null,
+                "sentiment": 0.2784313725490195,
+                "wgt": 458834526,
+                "relevance": 2
+            },
+            {
+                "uri": "8228362599",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:06",
+                "dateTime": "2024-07-16T14:02:06Z",
+                "dateTimePub": "2024-07-16T14:00:39Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.thedailystar.net/entertainment/tv-film/news/celebrities-rally-behind-quota-reform-amid-violent-clashes-3658111",
+                "title": "Celebrities rally behind quota reform amid violent clashes",
+                "body": "In the wake of recent violent clashes between student protesters and Bangladesh Chhatra League (BCL) activists at Dhaka University, a wave of support from celebrities has emerged for the quota reform movement. The incident, which occurred on July 15, resulted in approximately 300 injuries, including female students and BCL members. As of July 16 (7:30pm), six students have been reported to be killed nationwide due to the ongoing clashes.\n\nThe unrest spread to other public universities across Bangladesh, including Jagannath University, Jahangirnagar University, Rajshahi University, Chittagong University, and Eden Mohila College.\n\nProminent figures from the entertainment industry took to social media to express their views on the contentious issue. Their statements reflect a growing concern over the government's response to the students' demands and the use of force against non-violent protesters.\n\nVeteran actor and freedom fighter Sohel Rana advocated for the quota's removal. He shared his opinion on his Facebook account, stating, \"Freedom fighters fought at the call of Bangabandhu for independence... We achieved that immediately after the War. We freedom fighters have nothing more to ask for.\" While acknowledging the system's past merit, Rana questioned its current relevance: \"53 years have passed since the country's independence. At this point, neither freedom fighters nor their children are of age to seek government jobs. So, I don't see the need to keep the quota system active even now,\" He suggested the system might now serve \"hidden self-interests,\" as it no longer logically benefits freedom fighters or their children.\n\nActor Rawnak Hasan, general secretary of Actors Equity Bangladesh, advocated for a nuanced approach to quota reform. He stated, \"Quota reform is certainly possible. The quota for freedom fighters and their children will naturally become ineffective in a few years. A minimum honorary quota from the state for our valiant freedom fighters is necessary.\" However, Hasan also hinted at possible ulterior motives, noting, \"The way this movement of thousands of students has been directed clearly indicates who the masterminds are.\"\n\nDirector Ashfaque Nipun showed solidarity with the students by sharing a powerful image of two female students being assaulted during the protests, simply stating, \"Stand by the students.\"\n\nFilmmaker Mishuk Moni expressed his sorrow over the violent scenes unfolding in the city. He criticised the government's tendency to label dissenters as traitors, saying, \"In this country, speaking against the government labels you a traitor. Criticising any government official's corruption also makes you a traitor. Participating in a movement for rightful demands makes you a traitor.\" Moni questioned the use of force, asking, \"Why did BCL activists, wearing helmets and armed with sticks, injure students in the quota reform movement? The government could have sent representatives to negotiate with the students.\"\n\nAyman Sadiq, content creator and founder of 10 Minute School, strongly condemned the violence against protesters, expressing his dismay: \"Dhaka University is covered in blood. Why is it that blood has been spilled on our campus? I strongly protest against such acts.\"\n\nMusician Ziaur Rahman of the Shironamhin band argued that the quota system may have outlived its original purpose. He explained, \"The quota system now only serves as a path for severe misuse. As a result, talented and qualified youth are losing their opportunities, forcing them to navigate their daily lives with frustration.\" He called for change, stating, \"Let the youth be freed from the quota system. Let merit and qualifications be recognised.\"\n\nAuthor and publisher Mohammad Nazimuddin offered a scathing critique of the situation, dismissing claims that the protesters were misled by opposition parties. He stated, \"They are not naive or misled by BNP-Jamaat as they say. The real culprits are the vote-rigging thieves and sycophants!\" Nazimuddin warned of the consequences of suppressing dissent, saying, \"Now, the exploited people are their nemesis.\"\n\nDirector Khijir Hayat questioned the judiciary's role, asking, \"Can't the Appellate Division of the Honourable Court expedite their decision considering the current situation of the country, instead of delaying it for a month?\"\n\nDhallywood actor Siam Ahmed expressed his dismay at the transformation of his alma mater into a battleground, questioning, \"Why has my campus become a war front? Why are students being attacked?\"\n\nNoted actor Nasir Uddin Khan shared images of the brutal attacks on protesters, showcasing the extent of injuries inflicted during clashes with BCL leaders. His question cuts to the heart of the issue: \"If the country is moving towards progress, then why is it that blood is shedding all over the place?\"\n\nCartoonist Morshed Mishu took a creative approach to express solidarity with the protesters. He illustrated a student as a Hulk-like figure draped in the colours of the Bangladeshi flag, bravely confronting agitators and trampling the quota system. Mishu's caption reads, \"No matter how lightly you take it, throw as many taunts as you like. We will take bullets with our chests out, we will break the system of 'quota'.\"\n\nActor Shohel Mondol criticised the government's tactics, describing them as \"catching fish in muddy waters\" and urged the public to cultivate social awareness to avoid being deceived by political machinations.\n\nNiloy Alamgir made a heartfelt appeal to the prime minister, saying, \"Honourable PM, today's students are tomorrow's future leaders. They can't all be wrong in their demands. As a freedom fighter's son, I urge you to reform the quota system.\"\n\nPopular YouTuber and actor Salman Mohammad Muqtadir took a proactive stance, offering accommodation and assistance to students affected by the violence. He stated, \"If there are any students who have been attacked or cannot enter their halls, I will try to manage accommodation for you. If you need a place to stay or require medical assistance, I am here for you.\"\n\nKhairul Basar shared an emotional post with the photo of an injured female student, expressing his anguish: \"She is my sister. My heart aches to see this! You are staining this divine campus, beloved Dhaka University, with blood. Do you ever reflect on your actions?\"\n\nActress Pori Moni added her voice to the chorus of dissent by sharing a disturbing image of a female Dhaka University student being brutally beaten during the quota reform clash. The caption reads, \"If you remain silent about violence against women, you are a hypocrite.\"\n\nAs the quota reform movement continues to gain traction, these celebrity voices add weight to the students' cause, highlighting the need for peaceful dialogue and reform. Their diverse perspectives reflect the complexity of the issue and the widespread concern over the use of violence against protesters.",
+                "source": {
+                    "uri": "thedailystar.net",
+                    "dataType": "news",
+                    "title": "The Daily Star"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Issues/Education",
+                        "label": "dmoz/Society/Issues/Education",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Health/Mental_Health/Grief,_Loss_and_Bereavement",
+                        "label": "dmoz/Health/Mental Health/Grief, Loss and Bereavement",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Advice",
+                        "label": "dmoz/Society/Advice",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 81
+                    }
+                ],
+                "image": "https://tds-images.thedailystar.net/sites/default/files/styles/social_share/public/images/2024/07/16/new_feature_photo.png",
+                "eventUri": null,
+                "sentiment": 0.09803921568627461,
+                "wgt": 458834526,
+                "relevance": 18
+            },
+            {
+                "uri": "8228363420",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:06",
+                "dateTime": "2024-07-16T14:02:06Z",
+                "dateTimePub": "2024-07-16T14:01:23Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://gazette.com/ap/international/israeli-strikes-in-southern-central-gaza-kill-more-than-60-palestinians-including-in-safe-zone/article_4e26205e-e8fb-5f59-a156-e81f10b5b71f.html",
+                "title": "Israeli strikes in southern, central Gaza kill more than 60 Palestinians, including in 'safe zone'",
+                "body": "DEIR AL-BALAH, Gaza Strip (AP) -- Israeli airstrikes killed more than 60 Palestinians in southern and central Gaza overnight and into Tuesday, including one that struck an Israeli-declared \"safe zone\" crowded with thousands of displaced people.\n\nThe day's deadliest strike came in the afternoon, hitting near a gas station outside the southern city of Khan Younis in Muwasi, a coastal region that's part of the humanitarian \"safe zone\" where the Israeli military has told Palestinians to take refuge to escape offensives elsewhere.\n\nOfficials at Khan Younis' Nasser Hospital said 17 people were killed. Nearby areas are packed with tent camps.\n\nThere was no immediate comment from the Israeli military on the strike. It occurred in the same area where Gaza health officials said more than 90 Palestinians, including children, were killed by a strike on Saturday that Israel said was targeting Hamas' top military commander, Mohammed Deif. His status remained unclear.\n\nThe new airstrikes came as Israel and Hamas continued to weigh the latest cease-fire proposal. Hamas has said talks meant to wind down the nine-month-long war would continue even after Israel targeted Deif.\n\nInternational mediators are working to push Israel and Hamas toward a deal that would halt the fighting and free about 120 hostages held by the militant group in Gaza.\n\nOther strikes hit in the Nuseirat and Zawaida refugee camps of central Gaza. Strikes on four houses killed at least 24 people, including 10 women and four children. Another hit a school-turned-shelter in Nuseirat, killing at least nine. An Associated Press journalist saw the bodies, some wrapped in blankets and a floral sheet, as they were taken to Al Aqsa hospital in the nearby town of Deir al-Balah, where hospital officials provided the death count.\n\nIsrael's military said it \"conducted targeted raids on terror targets\" in central Gaza, without elaborating. It did not immediately provide details on the targets.\n\nFeatured Local Savings\n\nOther strikes in Khan Younis and the southern city of Rafah overnight Monday and on Tuesday killed 12 people, according to medical officials and AP journalists. An AP journalist counted the bodies at the hospital before a funeral was held at its gates.\n\nThe military said air force planes struck some 40 targets in Gaza over the past day, among them observation posts, Hamas military structures and explosives-rigged buildings.\n\nThe war in Gaza, which was sparked by Hamas' Oct. 7 attack, has killed more than 38,600 people, according to the Hamas-run Health Ministry, which does not distinguish between combatants and civilians in its count. The war has created a humanitarian catastrophe in the coastal Palestinian territory, displaced most of its 2.3 million population and triggered widespread hunger.\n\nHamas' October attack killed 1,200 people, mostly civilians, and militants took about 250 hostage. About 120 remain in captivity, with about a third of them believed to be dead, according to Israeli authorities.\n\nViolence has also surged in the West Bank. On Tuesday a Palestinian stabbed an Israeli policeman, wounding him lightly, before another officer opened fire, killing the assailant who was identified as a 19-year-old from Gaza.\n\nFind more of AP's coverage at https://apnews.com/hub/israel-hamas-war",
+                "source": {
+                    "uri": "gazette.com",
+                    "dataType": "news",
+                    "title": "Colorado Springs Gazette"
+                },
+                "authors": [
+                    {
+                        "uri": "associated_press@gazette.com",
+                        "name": "Associated Press",
+                        "type": "author",
+                        "isAgency": true
+                    },
+                    {
+                        "uri": "wafaa_shurafa@gazette.com",
+                        "name": "Wafaa Shurafa",
+                        "type": "author",
+                        "isAgency": false
+                    }
+                ],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Issues/Terrorism",
+                        "label": "dmoz/Society/Issues/Terrorism",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Issues/Warfare_and_Conflict",
+                        "label": "dmoz/Society/Issues/Warfare and Conflict",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Politics/Nationalism",
+                        "label": "dmoz/Society/Politics/Nationalism",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 71
+                    }
+                ],
+                "image": "https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/0/72/0727fad5-f163-5ea3-ad4f-c6f74a6ae4eb/6693d7fb90e01.image.jpg?crop=1763%2C926%2C0%2C124&resize=438%2C230&order=crop%2Cresize",
+                "eventUri": null,
+                "sentiment": -0.2627450980392156,
+                "wgt": 458834526,
+                "relevance": 13
+            },
+            {
+                "uri": "8228363663",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:06",
+                "dateTime": "2024-07-16T14:02:06Z",
+                "dateTimePub": "2024-07-16T14:01:30Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://english.news.cn/20240716/1d9fbbbd5b5646ca86a6a37becb31dfc/c.html",
+                "title": "Roberta Metsola re-elected as European Parliament president",
+                "body": "STRASBOURG, France, July 16 (Xinhua) -- Maltese politician Roberta Metsola was re-elected as president of the European Parliament on Tuesday during the first plenary session of the newly elected parliament here\n\nMetsola secured 562 votes out of 699 in the first round of secret paper balloting, easily capturing the needed majority after the parliament's major groups agreed ahead of time to back the 45-year-old politician. Her rival, Spanish politician Irene Montero, received 61 votes.\n\nAs a candidate from the center-right European People's Party, which holds 188 seats in the European Parliament, Metsola's re-election was largely anticipated. Her new term will last for two and a half years.\n\nFollowing her victory, Metsola expressed her commitment to strengthening the European Parliament. In her follow-up speech, she called for efforts to create a new security and defense framework, to enhance Europe's competitiveness, and to give real solution to climate issues to \"leave Europe a better place.\"\n\nOn social media, she said, \"I will continue to stand for a strong European Parliament in a strong Europe. I aim to build bridges and bring change to our legislative and political powerhouse.\"\n\nEuropean Commission President Ursula von der Leyen congratulated Metsola on social media platform X, saying that the election was \"fully deserved,\" and \"Your leadership and passion for Europe is more needed than ever.\" ■",
+                "source": {
+                    "uri": "english.news.cn",
+                    "dataType": "news",
+                    "title": "english.news.cn"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Government/Parliaments_and_Legislatures",
+                        "label": "dmoz/Society/Government/Parliaments and Legislatures",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Environment",
+                        "label": "news/Environment",
+                        "wgt": 58
+                    }
+                ],
+                "image": null,
+                "eventUri": null,
+                "sentiment": 0.388235294117647,
+                "wgt": 458834526,
+                "relevance": 8
+            },
+            {
+                "uri": "8228362957",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:02:02",
+                "dateTime": "2024-07-16T14:02:02Z",
+                "dateTimePub": "2024-07-16T14:00:59Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.timesnownews.com/india/scandal-unmasked-how-ias-officer-puja-khedkar-exploited-system-loopholes-for-personal-gain-exclusive-article-111787310",
+                "title": "Scandal Unmasked: How IAS Officer Puja Khedkar Exploited System Loopholes For Personal Gain | EXCLUSIVE",
+                "body": "Hospital official reveals how Puja Khedkar mananged to exploit the loopholes in the system to her advantage\n\nA sting operation by Times Now has exposed how IAS officer Puja Khedkar exploited the loopholes in the system to her advantage to obtain disability certificates from multiple hospitals. During the sting, a hospital staff member disclosed how Khedkar manipulated the system by providing different addresses to different hospitals. The revelations highlight a loophole in the certification process, with discrepancies in addresses and disability claims unchecked.",
+                "source": {
+                    "uri": "timesnownews.com",
+                    "dataType": "news",
+                    "title": "TimesNow"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Business/Business_Services/Supplies_and_Equipment",
+                        "label": "dmoz/Business/Business Services/Supplies and Equipment",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Computers/Artificial_Intelligence/Applications",
+                        "label": "dmoz/Computers/Artificial Intelligence/Applications",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Computers/Programming/Operating_Systems",
+                        "label": "dmoz/Computers/Programming/Operating Systems",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Health/Emergency_and_Safety",
+                        "label": "dmoz/Shopping/Health/Emergency and Safety",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 60
+                    }
+                ],
+                "image": "https://static.tnn.in/thumb/msid-111787704,thumbsize-44308,width-1280,height-720,resizemode-75/111787704.jpg?quality=100",
+                "eventUri": null,
+                "sentiment": -0.07450980392156858,
+                "wgt": 458834522,
+                "relevance": 9
+            },
+            {
+                "uri": "8228363866",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:59",
+                "dateTime": "2024-07-16T14:01:59Z",
+                "dateTimePub": "2024-07-16T14:01:36Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.mapleridgenews.com/news/former-bc-green-leader-says-rustad-is-open-minded-like-horgan-7442008",
+                "title": "Former B.C. Green leader says Rustad is open-minded, like Horgan",
+                "body": "Andrew Weaver says Conservative Party of B.C. leader is a flexible listener he could work with\n\nFormer B.C. Greens' Leader Andrew Weaver says he is still not sure for whom he is going to vote in the up-coming provincial election. He has no plans to run as a candidate.\n\nBut he praised the listening skills of John Rustad, adding that he could see himself working with the Conservative Party of B.C. leader.\n\n\"He (Rustad) reminds me a bit of (former B.C. NDP premier) John Horgan, who was a fantastic premier, who will go down in history as one of British Columbia's most influential premiers,\" Weaver said. According to Weaver, Rustad -- like Horgan and contrary to Premier David Eby -- listens to opposing views and changes his mind.\n\n\"Now, that type of leadership is one that makes your tent bigger because it is more welcoming.\"\n\nWeaver made these comments in the wake of Weaver's recent opinion piece in the Vancouver Sun, where he questioned Eby's leadership while expressing uncertainty about his future vote.\n\nWeaver helped negotiate the confidence-and-supply agreement that allowed Horgan to become premier in 2017 with the support of the three B.C. Greens elected in 2017.\n\nEby said Friday (July 12) that he does not understand why Weaver would even consider voting for the provincial Conservatives. He finds it \"very bizarre\" given Weaver's work with the team that won a Nobel Prize for its work on climate change, pointing to the provincial Conservatives' perspective on c=the subject.\n\nA statement on the party's website dated Nov. 22, 2023 states that \"our changing climate is real and man is impacting our climate\" but adds that \"British Columbians are NOT facing an existential threat from our changing climate.\" It denies the existence of \"a crisis,\" and goes on to say that \"our changing climate is not the most pressing issue facing us in B.C. or around the world.\"\n\nThis position contradicts recent assessments from the world's leading scientists, starting with the Intergovernmental Panel on Climate Change.\n\nThe world's leading body of scientific advisors said its latest report, published in 2023, that \"(climate change) has caused substantial damages and increasingly irreversible losses, in terrestrial, freshwater, cryospheric (frozen water) and coastal and open ocean ecosystems.\" It notes that \"(human-caused) climate change is already affecting many weather and climate extremes in every region across the globe.\"\n\nA recent report from the World Meteorological Organization found 2023 to have been the warmest year on record. United Nations Secretary General António Guterres said humanity finds itself playing \"Russian roulette\" with the planet.\n\n\"We need an exit ramp off the highway to climate hell,\" Guterres said this spring.\n\nThe Conservatives' statement goes on to say that the party \"will not go down the rabbit hole of over-taxation, hype, scare-tactics and false promises.\"\n\nWeaver said he does not like the alarmist language that exists around climate change and does not see the Conservatives' as a party that denies climate change.\n\n\"I don't think that is a term characteristic of the party today,\" Weaver said. \"I think that would be a very fair characterization of the Conservative Party, even as little as a year ago.\"\n\nHe added that climate change does not care about party affiliation.\n\n\"You can look at the issue of climate change through one of two lenses,\" he said.\n\nThe first is the lens of \"hopelessness and despair\" and the other lens is the \"lens of opportunity,\"\n\n\"The NDP are not these virtuous sellers of climate policy,\" Weaver said, pointing to the party's involvement with LNG projects. \"I forced them to do it and so I don't really have time for arguments that climate policy will all die when the (provincial) Conservatives come in because I have worked with Gordon Campbell, I have worked with John Horgan, I have worked with Christy Clark and I could work with John Rustad if they are willing to recognize that climate change is not a 'the-world-could-end-in-five-years-issue.'\"\n\nOn its website the Conservative Party of B.C. states that its climate policy plan include \"(eliminating) costly climate taxes and policies - including the Carbon Tax, Gas Tax, Clean B.C. and Fuel Standard - and returning the money to British Columbians.\n\n\"Taxing everyday, working people into poverty will not change the weather.\"\n\nWeaver for his part does not take those statements too seriously.\n\n\"Nobody's released their platforms yet,\" Weaver said. \"I questioned John about what's on their website. It is an archaic leftover from a party that really wasn't going anywhere and if they want to go anywhere...the tent has to be broader. It has to be inclusive.\"\n\nAs for his former party, Weaver said the party under the current leadership of Sonia Furstenau has \"lost its way\" by moving to the \"far left.\" Weaver specifically pointed to the party's endorsement of a recent report by provincial health officer Bonnie Henry to expand access to \"non-prescribed\" drugs.\n\nUltimately, Weaver sees himself as an advocate for a consensus-oriented form of politics.\n\n\"Most British Columbians are in the middle and that...60 per cent is really angry right now because they feel that their political establishment is not going to listen to them.\"",
+                "source": {
+                    "uri": "mapleridgenews.com",
+                    "dataType": "news",
+                    "title": "Maple Ridge News"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Recreation/Parties",
+                        "label": "dmoz/Recreation/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Parties/Planning",
+                        "label": "dmoz/Recreation/Parties/Planning",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Children/Parties",
+                        "label": "dmoz/Shopping/Children/Parties",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Home/Entertaining/Holidays",
+                        "label": "dmoz/Home/Entertaining/Holidays",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 93
+                    }
+                ],
+                "image": "https://www.bpmcdn.com/f/files/northdelta/import/2019-03/16197768_web1_20190331-BPD-Andrew-Weaver-hTV-Feb27.18.jpg;w=1200;h=800;mode=crop",
+                "eventUri": null,
+                "sentiment": 0.192156862745098,
+                "wgt": 458834519,
+                "relevance": 23
+            },
+            {
+                "uri": "8228363712",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:59",
+                "dateTime": "2024-07-16T14:01:59Z",
+                "dateTimePub": "2024-07-16T14:01:31Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://thefrontierpost.com/u-s-addresses-concerns-over-democracy-in-pakistan/",
+                "title": "U.S. Addresses Concerns Over Democracy in Pakistan",
+                "body": "Washington DC: During a recent press briefing at the U.S. State Department, spokesperson Matthew Miller faced pointed questions from a journalist representing The Frontier Post. The inquiry focused on the perceived disparity in the U.S. response to political violence and democratic processes in Pakistan compared to its stance on similar issues within its own borders.\n\nThe Frontier Post began by noting the State Department's stance on political non-violence, highlighting the parallel incidents involving former President Donald Trump and former Pakistani Prime Minister Imran Khan, both of whom were shot in separate incidents. \"But over there in Pakistan, the reaction was not the way that it is in the U.S. Instead of giving justice to Imran Khan, he was instead put in jail,\" the journalist stated. He further emphasized that the Supreme Court of Pakistan had largely favored Imran Khan in his party's election petition.\n\nDrawing comparisons between the U.S. and Pakistan, the journalist pointed out that in the U.S., following the political violence at Capitol Hill, swift justice was administered. \"All 1,000 people - 600 pleaded guilty, 400 were charged, punishment was given immediately,\" he noted. In contrast, in Pakistan, former Foreign Minister Shah Mahmood Qureshi was charged more than a year after similar political violence occurred. Furthermore, the journalist highlighted the Pakistani government's recent decision to ban Imran Khan's political party and the U.S. Congress's decision to pass a bill declaring Pakistan's elections unfair.\n\nThe journalist's question culminated in a direct challenge: \"With an ally like Pakistan, why do you not have the same feelings on either political violence or democracy or the rule of law?\"\n\nMiller responded firmly, addressing the perceived inconsistency. \"So I think you have missed the very many times I have addressed this exact question from this podium, where I have said of course we abhor political violence in any country, including Pakistan, and have spoken out against it and condemned it,\" he began.\n\nMiller reiterated the U.S. commitment to supporting the rule of law and democratic principles globally. \"We support the rule of law in Pakistan and every country in the world, and we want to see respect for democratic principles and people's fundamental human rights and democratic rights upheld. That's true in Pakistan; it's true everywhere in the world,\" he emphasized.\n\nHe concluded by addressing the core of the journalist's question. \"That's been something I've spoken to many times, so I think the premise of the question, with respect, is wrong.\"\n\nThe exchange underscored the complexities of international relations and the challenges in addressing political violence and ensuring democratic processes. Miller's response highlighted the U.S. State Department's consistent stance on condemning political violence and advocating for democratic rights and the rule of law, regardless of the country involved.\n\nAs the briefing continued, it was evident that the issues of political violence, democracy, and the rule of law in Pakistan remain significant topics of concern. The U.S. State Department's position, as articulated by Miller, reaffirmed its commitment to these principles globally, striving for justice and democratic integrity in its foreign policy approach.",
+                "source": {
+                    "uri": "thefrontierpost.com",
+                    "dataType": "news",
+                    "title": "The Frontier Post"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Issues/Warfare_and_Conflict",
+                        "label": "dmoz/Society/Issues/Warfare and Conflict",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Issues/Immigration",
+                        "label": "dmoz/Society/Issues/Immigration",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Politics/Democracy",
+                        "label": "dmoz/Society/Politics/Democracy",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 96
+                    }
+                ],
+                "image": "https://thefrontierpost.com/wp-content/uploads/2024/07/IMG_4432.jpeg",
+                "eventUri": null,
+                "sentiment": -0.05882352941176472,
+                "wgt": 458834519,
+                "relevance": 24
+            },
+            {
+                "uri": "8228363876",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:56",
+                "dateTime": "2024-07-16T14:01:56Z",
+                "dateTimePub": "2024-07-16T14:01:37Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.kentonline.co.uk/folkestone/news/bus-driver-in-dock-over-death-crash-of-oap-309862/",
+                "title": "Bus driver in dock over death crash of OAP",
+                "body": "A bus driver accused of causing the death of a 70-year-old man after a crash at a busy depot has appeared in court for the first time.\n\nPaul Kirby was at the wheel of a single-decker Stagecoach 103 bus when it crashed into railings and then into a shelter where John Spearpoint had been waiting to catch a service in Folkestone.\n\nMr Spearpoint was airlifted to a London hospital where he underwent emergency surgery, but his condition deteriorated and he died on August 28, 2022, eight days after the horror crash.\n\nDespite the incident happening on August 20 that year at the bus station in Middelburg Square in the town, Kent Police only confirmed he was charged with causing death by dangerous driving earlier this month.\n\nThe charge followed a lengthy investigation into the circumstances of the incident.\n\nAn inquest into Mr Spearpoint's death, which was opened and adjourned in September 2022, heard how he was left trapped for 45 minutes following the crash.\n\nCoroner Katrina Hepburn told the court Mr Spearpoint, who lived in Bonsor Road in Folkestone, died as a result of multiple organ failure caused by complications from the crash injury.\n\nKirby, 65, appeared in the dock at Folkestone Magistrates' Court this morning but didn't enter any plea in relation to the charge and prosecutor Victoria Aked told District Judge Jennifer Twite that the case should be sent to the crown court to be dealt with.\n\nShe added: \"The incident happened at Folkestone bus station and the bus left a bay at high speed and it went over the pedestrian island and then hit a shelter where Mr Spearpoint was sitting at another bay.\n\n\"He was trapped underneath the shelter and this resulted in fatal injuries.\"\n\nFollowing his tragic death tributes were paid to Mr Spearpoint, a former armed forces man who was known around the town for his involvement in model-making.\n\nHe had previously worked at the Model Transport shop which once traded on Guildhall Street.\n\nHis former employer at the store, Trevor Claringbold, paid tribute to him by describing him as \"very laid back, gentle, always smiling\".\n\n\"He was good fun, he was always part of the team,\" he said.\n\n\"Everybody liked him, he was just one of those guys that you instantly took a liking to, he didn't have a bad word to say about anybody, and just lived life to the full.\n\n\"He used to enjoy himself and just got on with things that made him happy.\"\n\nA spokesman for bus operator Stagecoach also spoke out after his death and said: \"Our heart goes out to the family of the gentleman who has died and to his loved ones.\"\n\nKirby, who used to live in Folkestone, but is now of Hillend Place, Northern Moor, Manchester, was granted bail until his next hearing which will be at Canterbury Crown Court on August 12.",
+                "source": {
+                    "uri": "kentonline.co.uk",
+                    "dataType": "news",
+                    "title": "Kent Online"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Issues/End-of-Life",
+                        "label": "dmoz/Society/Issues/End-of-Life",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Issues/Crime_and_Justice",
+                        "label": "dmoz/Society/Issues/Crime and Justice",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Death",
+                        "label": "dmoz/Society/Death",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Humor/Job-Related",
+                        "label": "dmoz/Recreation/Humor/Job-Related",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 58
+                    }
+                ],
+                "image": "https://www.kentonline.co.uk/_media/img/EVU0BOLREQ37N83UBPIR.jpg",
+                "eventUri": null,
+                "sentiment": -0.4901960784313726,
+                "wgt": 458834516,
+                "relevance": 8
+            },
+            {
+                "uri": "8228363664",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:56",
+                "dateTime": "2024-07-16T14:01:56Z",
+                "dateTimePub": "2024-07-16T14:01:30Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://english.news.cn/20240716/03b7e9edf1f34102b359d1e525a36f5e/c.html",
+                "title": "Trump formally becomes Republican nominee, picks Ohio senator J.D. Vance as running mate",
+                "body": "WASHINGTON, July 15 (Xinhua) -- Former U.S. President Donald Trump, the presumptive Republican nominee, received enough delegate votes on Monday to officially become the party's nominee and announced that he has chosen Ohio Senator J.D. Vance as his running mate in the Nov. 5 presidential election.\n\nThe former president garnered a majority of votes from delegates at the Republican National Convention in Milwaukee, Wisconsin. He reached the required threshold with votes from Florida, which were announced by his son, Eric Trump.\n\nTrump is scheduled to formally accept the party's nomination in a prime-time speech on Thursday. He will lead the Republican Party through a third consecutive election, following his victory against Hillary Clinton in 2016 and his defeat to current President Joe Biden in 2020.\n\nThe four-day convention commenced in downtown Milwaukee's Fiserv Forum two days after Trump barely survived an assassination attempt in Pennsylvania and hours after he secured a significant legal victory when a federal judge dismissed one of his criminal prosecutions.\n\nThe assassination attempt, which killed one bystander and left Trump with a bloodied ear, immediately shifted the focus of the presidential campaign.\n\nU.S. District Judge Aileen Cannon ruled on Monday to dismiss federal charges against Trump for retaining classified documents after leaving the White House, which effectively removed a major legal threat against the former president, who faces other criminal cases that he says should also be thrown out.\n\n\"This dismissal of the lawless indictment in Florida should be just the first step, followed quickly by the dismissal of all the witch hunts,\" Trump said on Truth Social on Monday, also referring to the prosecution of hundreds of his supporters who stormed the U.S. Capitol on Jan. 6, 2021.\n\nEarlier Monday, Trump announced via his social media platform Truth Social that he had chosen Vance as his running mate, ending months of speculation on his vice president pick.\n\nVance, 39, was elected to the U.S. Senate in 2022 and sworn into office in January 2023. He was a fierce Trump critic in 2016 but has since become a prominent supporter of the former president's \"Make America Great Again\" agenda, particularly on trade, foreign policy and immigration.\n\nHe first achieved recognition with the 2016 memoir \"Hillbilly Elegy,\" a bestseller which detailed his Appalachian family background and Rust Belt upbringing. The book gave a voice to rural, working-class resentment in left-behind America.\n\nAnalysts say Vance's selection will boost Trump's support in the Nov. 5 election, especially in some Rust Belt states where the election is likely to be decided, but it offers less opportunity to win over more moderate voters and women.\n\nEarlier in the day, Florida Senator Marco Rubio and North Dakota Governor Doug Burgum, the other two finalists, were told they would not be selected. ■",
+                "source": {
+                    "uri": "english.news.cn",
+                    "dataType": "news",
+                    "title": "english.news.cn"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Politics/Campaigns_and_Elections",
+                        "label": "dmoz/Society/Politics/Campaigns and Elections",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Activism/Strategies",
+                        "label": "dmoz/Society/Activism/Strategies",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Niche/Politics",
+                        "label": "dmoz/Shopping/Niche/Politics",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 97
+                    }
+                ],
+                "image": null,
+                "eventUri": null,
+                "sentiment": -0.1215686274509804,
+                "wgt": 458834516,
+                "relevance": 25
+            },
+            {
+                "uri": "8228363031",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:51",
+                "dateTime": "2024-07-16T14:01:51Z",
+                "dateTimePub": "2024-07-16T14:01:01Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.irishnews.com/news/uk/mp-required-to-reswear-allegiance-to-king-amid-fears-of-legal-action-YTGT6FQYQRKODA3JOI7OOLUL74/",
+                "title": "MP required to reswear allegiance to King amid fears of legal action",
+                "body": "Clive Lewis failed to mention four words required by law as part of his initial affirmation in the Commons.\n\nA Labour MP was warned he risked possible legal action and losing his seat after failing to mention four words while swearing allegiance to the King.\n\nClive Lewis, who favours living in a republic, appeared in the chamber on Tuesday to repeat the affirmation after already making one attempt \"under protest\" to officially take his seat after the General Election.\n\nMPs are required by law to make an oath or affirmation of allegiance to the Crown and are not allowed to speak in debates, vote or receive their salary until they do so.\n\nNorwich South MP Mr Lewis omitted the words \"his heirs and successors\" during his first attempt to swear in, which prompted Commons officials to warn there was \"doubt about whether the manner in which you made the affirmation is legally valid\".\n\nMr Lewis, writing on X, said: \"After omitting to swear allegiance to King Charles' 'heirs and successors' last week, I've had to take the oath again in order to sit in the House of Commons. The majority of the public are committed to democracy, and so I hope one day MPs can swear an oath based on those values.\"\n\nHe posted a photo of the letter he received from the House of Commons Journal Office, adding: \"If I had not re-sworn the oath, then based on a law from 1866, I could be fined, subjected to legal action, and my seat 'shall be vacated in the same manner as if (I) were dead'.\n\n\"This should change, so MPs have the choice to swear allegiance to our constituents and democracy.\"\n\nThe Journal Office's letter to Mr Lewis noted: \"The Parliamentary Oaths Act 1866 prescribes that: if any member of the House of Commons votes as such in the said House, or sits during any debate after the Speaker has been chosen, without having made and subscribed the oath hereby appointed, he shall be subject to a like penalty (of £500) for every such offence, and in addition to such penalty his seat shall be vacated in the same manner as if he were dead.\n\n\"There is accordingly a risk that someone could bring a legal action. It would ultimately be for the courts to decide, but it could result in your losing your seat. The safest course would be to remake the affirmation in the words prescribed by law.\"\n\nMr Lewis last week opened by saying: \"I take this oath under protest and in the hope that one day my fellow citizens will democratically decide to live in a republic.\n\n\"Until that time I do solemnly, sincerely and truly declare and affirm that I will be faithful and bear true allegiance to His Majesty King Charles, according to law.\"\n\nOn Tuesday, Mr Lewis said: \"I was elected to Parliament to represent my constituents and our country to the best of my ability to defend democracy and uphold human rights and one day I hope all Members of Parliament will be entitled to swear an oath of allegiance based on those values.\n\n\"I do solemnly and sincerely and truly declare and affirm that I will be faithful and bear true allegiance to His Majesty King Charles, his heirs and successors, according to law.\"\n\nMr Lewis was not alone in making a protest when pledging allegiance, with other MPs also making clear their opposition to the monarchy.\n\nSDLP leader Colum Eastwood last week said: \"I read out this empty formula in order to represent my constituents but it's under protest.\"\n\nElsewhere on Tuesday, new Labour MP Uma Kumaran swore in just days after her 39-year-old husband suffered a stroke.\n\nMs Kumaran last week asked for \"patience and understanding\" from her constituents in Stratford and Bow, east London, after explaining her husband had been hospitalised during her first day in the Commons.\n\nShe later said her husband is back at home recovering.\n\nMs Kumaran took the oath while holding the Bhagavad Gita, saying: \"I swear by almighty God that I will be faithful and bear true allegiance to His Majesty King Charles, his heirs and successors, according to law. So help me God.\"\n\nCommons Speaker Sir Lindsay Hoyle had been prepared to sit for two hours on Tuesday to allow MPs to swear in.\n\nHe adjourned the session after around 36 minutes, with the remaining handful of MPs yet to swear in expected to do so on Wednesday afternoon ahead of the King's Speech debate.",
+                "source": {
+                    "uri": "irishnews.com",
+                    "dataType": "news",
+                    "title": "The Irish News"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Issues/End-of-Life",
+                        "label": "dmoz/Society/Issues/End-of-Life",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Transgendered/Coming_Out",
+                        "label": "dmoz/Society/Transgendered/Coming Out",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Advice",
+                        "label": "dmoz/Society/Advice",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 99
+                    }
+                ],
+                "image": "https://www.irishnews.com/resizer/v2/AEECDSPUHBO3XLNJOQMAPGLOE4.png?smart=true&auth=a4a6c5178b2efa4c1cf83c041a974a8b5ca152a2d140fc26299b5d6f1f9bd652&width=1200&height=630",
+                "eventUri": null,
+                "sentiment": -0.02745098039215688,
+                "wgt": 458834511,
+                "relevance": 26
+            },
+            {
+                "uri": "8228363636",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:51",
+                "dateTime": "2024-07-16T14:01:51Z",
+                "dateTimePub": "2024-07-16T14:01:29Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.dailydot.com/debug/lea-delaria-instagram-story-trump/",
+                "title": "'Orange is the New Black' actor called on Biden to kill Trump",
+                "body": "On July 2, Orange Is the New Black actor Lea DeLaria said in an Instagram post that President Joe Biden should have former President Donald Trump killed in light of the Supreme Court's decision that presidents receive \"absolute immunity\" and cannot be prosecuted for official acts they carry out while in office.\n\nAfter a lone shooter attempted to assassinate Trump and shot him in the ear on Saturday, many have tagged the FBI on X telling it to investigate DeLaria.\n\n\"Joe, you're a reasonable man. You don't want to do this, but here's the reality: This is a fucking war,\" DeLaria said in her post. \"Joe, you now have the right to take that bitch Trump out. Take him out, Joe... Blow him up.\"\n\nDeLaria's video was shared on X by @CannCon, a conservative podcaster and Gateway Pundit contributor, a right-wing news site.\n\nMany were disturbed by DeLaria's message when she initially posted it and prominent right-wing accounts called for the FBI to investigate her for inciting violence. Now, those calls have only increased.\n\nOthers tagged the X account for the Secret Service and the Department of Homeland Security as well.\n\n\"@SecretService @DHSgov @FBI You need to look into Lea DeLaria after this video she made, considering the #TrumpAssassinationAttempt this weekend,\" an X user tweeted.\n\nIn the wake of the Supreme Court ruling, numerous liberals online cracked similar jokes, with many referencing a dissent from Justice Sonia Sotomayor saying that a president could authorize military forces to assassinate political opponents.\n\nA Biden TikTok influencer caught tremendous backlash in the wake of the ruling, with Trump fans calling the Secret Service to investigate his comments. In them, he cited Sotomayor's language about presidential immunity.\n\n\"According to the Supreme Court, Biden could now send in Seal Team 6 to take all of them out. He could send in the military to take out Trump. He has 'immunity' for official acts now!\" Sisson wrote.\n\nDeLaria has since deleted her post about Biden killing Trump.",
+                "source": {
+                    "uri": "dailydot.com",
+                    "dataType": "news",
+                    "title": "The Daily Dot"
+                },
+                "authors": [
+                    {
+                        "uri": "tricia_crimmins@dailydot.com",
+                        "name": "Tricia Crimmins",
+                        "type": "author",
+                        "isAgency": false
+                    }
+                ],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Crime",
+                        "label": "dmoz/Society/Crime",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Issues/Crime_and_Justice",
+                        "label": "dmoz/Society/Issues/Crime and Justice",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Crime/Murder",
+                        "label": "dmoz/Society/Crime/Murder",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Humor/Job-Related",
+                        "label": "dmoz/Recreation/Humor/Job-Related",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Death/Suicide",
+                        "label": "dmoz/Society/Death/Suicide",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Arts_and_Entertainment",
+                        "label": "news/Arts and Entertainment",
+                        "wgt": 50
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 46
+                    }
+                ],
+                "image": "https://uploads.dailydot.com/2024/07/joe-biden-lea-delaria-donald-trump.jpg?auto=compress&fm=pjpg",
+                "eventUri": null,
+                "sentiment": -0.03529411764705881,
+                "wgt": 458834511,
+                "relevance": 2
+            },
+            {
+                "uri": "8228363477",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:50",
+                "dateTime": "2024-07-16T14:01:50Z",
+                "dateTimePub": "2024-07-16T14:01:25Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.adn.com/nation-world/2024/07/16/dismissal-of-trump-documents-prosecution-draws-new-scrutiny-to-judge-cannon/",
+                "title": "Dismissal of Trump documents prosecution draws new scrutiny to Judge Cannon",
+                "body": "U.S. District Judge Aileen M. Cannon, an appointee of President Donald Trump with relatively little experience on the bench, has been under intense scrutiny since she was selected to preside over Trump's criminal trial for allegedly illegally retaining classified documents and obstructing government efforts to retrieve them.\n\nShe has been praised by Republicans, denounced by Democrats and second-guessed at almost every turn by legal experts. That clamor turned deafening Monday, when the federal judge in Florida tossed the high-profile case in a bombshell move hours before Trump officially became his party's presidential nominee.\n\nRuling on a motion Trump's attorneys submitted months ago, Cannon dismissed what many legal scholars considered the strongest criminal case against the former president and the one that was on the surest legal footing. Centered on highly sensitive national secrets and with significant evidence of alleged obstruction, it also appeared to be the one Trump most feared.\n\nShe ruled not on the merits of the case, but on the legality of the Justice Department's appointment of a special counsel to oversee it.\n\nCannon's 93-page opinion embraced a legal theory that special counsel Jack Smith was improperly appointed. It is one that has gained traction in conservative legal circles but remains \"an outlier,\" rejected by a handful of other judges who have considered it, said conservative legal scholar Jonathan Turley.\n\nHe called the ruling a \"three-point shot\" for Trump, who has repeatedly raised long-shot legal arguments in the case.\n\n\"This is a seismic ruling. The Florida case was the greatest threat to Trump,\" Turley said. \"The other cases have constitutional and statutory problems. The problems have increased over the last year, especially with the recent Supreme Court rulings in the Fisher and Trump cases.\"\n\nTurley was referring to recent decisions by the high court that prosecutors improperly used an obstruction charge to prosecute hundreds of Jan. 6 rioters and that Trump had broad presidential immunity from prosecution. The immunity decision narrowed key aspects of the indictment Trump faces in D.C. federal court for allegedly trying to overturn the 2020 election, with prosecutors having to prove which of his acts were official and which evidence they can use in the case. The obstruction ruling could also affect that indictment, because two of the four counts Smith brought against Trump involved obstruction.\n\nSmith's office said Monday it will appeal Cannon's classified-documents ruling to the 11th Circuit Court of Appeals, and the case could eventually make its way to the Supreme Court. Still, her dismissal of the indictment all but ensures that no trial will occur before November's election or Biden leaves office. If he becomes president, Trump could ask his own Justice Department to drop the appeal of Cannon's ruling.\n\nReaction on Monday was swift and polarized, a dynamic that has played out again and again after Cannon's rulings in the case. Democrats slammed the judge for what they described as putting politics above the law, while Republicans praised her for doing what they felt was overdue. Legal scholars squabbled.\n\n\"This breathtakingly misguided ruling flies in the face of long-accepted practice and repetitive judicial precedence,\" Sen. Majority Leader Charles E. Schumer (D-N.Y.) posted on X. \"It is wrong on the law and must be appealed immediately. This is further evidence that Judge Cannon cannot handle this case impartially and must be reassigned.\"\n\nRep. Matt Gaetz (R-Fla.) posted a photo of Cannon on X and wrote: \"Future Supreme Court Justice Cannon.\"\n\nIn her ruling, Cannon sided with Trump, who argued that the Constitution does not permit Attorney General Merrick Garland to appoint a special counsel without Senate confirmation. The special counsel told Cannon that Garland had such authority - a position other federal judges have upheld when ruling on challenges to special counsel appointments in other cases.\n\nWhile some special counsels are serving as U.S. attorneys when they are appointed, and have been confirmed by the Senate for those positions, others - including Smith - are tapped for the job while serving in jobs that don't require such confirmation.\n\nLegal scholars pointed out that Cannon was following a legal road map that was laid out by Supreme Court Justice Clarence Thomas, who argued in a concurring opinion in the recent immunity decision that Smith was improperly appointed. No other justice joined Thomas in that opinion.\n\nLeah Litman, a law professor and host of a liberal legal podcast, quipped on X that \"Justice Thomas's 'Cannon-currence' worked.\"\n\nControversy has dogged Cannon's other rulings - even before the case began.\n\nThe judge grabbed headlines in fall 2022 when she intervened in the FBI's investigation of Trump for his handling of classified documents, slowing the case. She appointed an expert to review material seized from Mar-a-Lago, Trump's Florida home and private club, and barred agents from looking at those items before the review was concluded.\n\nIn making that ruling, Cannon found that Trump required extra protection as a former president, writing that the \"stigma associated with the subject seizure is in a league of its own. A future indictment, based to any degree on property that ought to be returned, would result in reputational harm of a decidedly different order of magnitude.\"\n\nAn 11th Circuit panel unanimously reversed Cannon's decision, saying it was unwilling to \"carve out an unprecedented exception in our law for former presidents.\"\n\nThe ruling later prompted calls for Cannon's recusal from Trump's classified documents case and led some legal experts to question whether she was out of her depth in handling the prosecution of a former president.\n\nCannon, 43, was appointed by Trump to the U.S. District Court for the Southern District of Florida in 2020 and had less than three years' experience as a judge when she was assigned the classified documents case. A former federal prosecutor, she is one of more than 200 conservative lawyers Trump nominated to the federal bench.\n\nShe was born in Colombia, the daughter of a Cuban immigrant mother, and raised in Miami. She is a graduate of Duke University and joined the conservative Federalist Society as a law student.\n\nCannon raised eyebrows again in March, when she issued an unusual order regarding jury instructions that are given at the end of a trial, even though she was not close to starting the classified documents trial and had yet to resolve many pretrial issues.\n\nIn May, Cannon announced Trump's trial would be delayed indefinitely because of the complicated legal issues involved in the case, angering critics who accused her of slow-walking a trial they thought should play out before voters made their choice in this year's election.\n\nUniversity of Michigan law professor Barbara L. McQuade said Cannon's inexperience was on clear display in such a consequential case. She also called Cannon's Monday ruling an outlier and said it had been rejected by other courts.\n\n\"Judge Cannon's handling of the case has been shaky from the start,\" McQuade wrote in an email. \"After the criminal case was assigned to her, she worked at an incredibly slow pace to hold hearings on motions and to address how classified documents would be handled at trial.\"\n\nBut others dismissed such arguments.\n\nDavid Marcus, a Florida attorney, said the work Cannon put into her ruling was impressive and noted that she was handling an unprecedented legal proceeding.\n\n\"This is the biggest criminal case there is,\" Marcus said. \"She's taking the time to look at it, rule on it and not rush it to trial.\"\n\nTurley said Cannon's ruling on the dismissal had merit, arguing that the Constitution clearly lays out that appointments such as the special counsel must be made by the president and approved by the Senate, not simply announced by the attorney general.\n\nOthers rejected that idea.\n\n\"What she was raising was neither a frivolous or easy question,\" Turley said. \"The one thing I think critics have to acknowledge is that it is a glaring anomaly that we have this formal constitutional process that can simply be circumvented with the unilateral appointment of a private citizen.\"\n\nWhat's clear is that Cannon has dealt another significant blow to Smith's prosecution of Trump, which was already damaged. McQuade said the special counsel could take comfort on one point.\n\n\"This ruling may be a blessing in disguise for Jack Smith, who may now appeal and ask the court to replace Cannon as the judge on this case,\" McQuade wrote.",
+                "source": {
+                    "uri": "adn.com",
+                    "dataType": "news",
+                    "title": "Anchorage Daily News"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Law",
+                        "label": "dmoz/Society/Law",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Law/Legal_Information",
+                        "label": "dmoz/Society/Law/Legal Information",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Law/Courts",
+                        "label": "dmoz/Society/Law/Courts",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Transgendered/Law",
+                        "label": "dmoz/Society/Transgendered/Law",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 100
+                    }
+                ],
+                "image": "https://www.adn.com/resizer//0xsr1HF4FBfd7uBvO06sk2LcIUM=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/adn/GFVEWX5V45I5ROV645NYUJ2AKY.jpg",
+                "eventUri": null,
+                "sentiment": 0.08235294117647052,
+                "wgt": 458834510,
+                "relevance": 26
+            },
+            {
+                "uri": "8228361362",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:45",
+                "dateTime": "2024-07-16T14:01:45Z",
+                "dateTimePub": "2024-07-16T13:59:41Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.yahoo.com/news/fourth-july-parade-pageantry-over-135136580.html",
+                "title": "Fourth of July parade, pageantry over community: Letters to the Editor",
+                "body": "I would like the city to be aware of a serious planning issue in the July 4 parades.\n\nI came back from dropping my husband off at work to find that I was denied access to my apartment via car with no prior notice. I asked the traffic cops on the corner and was told that I could wait three hours in the sun for the parade to end, that there was no provision made for people to access their homes.\n\nTo get home I walked 15 minutes in the heat and sun up the street, dodging people with flags the whole way. This may not seem like much, but I am 31 weeks pregnant, in a high-risk pregnancy, and walking is painful. I had no water with me because it was supposed to be a short car trip. On my way through the gauntlet of people, a man laughed at me after hitting me in the face with his flag because he wasn't paying attention. I was clearly struggling, and not a single person that packed the half mile asked if I was okay or offered me water.\n\nPerhaps I wasn't the most cheerful looking person at the time, but third trimester hormones combined with a small autism meltdown will do that. I would have offered help had our positions been reversed. Not only was this atrocious planning on the city's part, but I got a good look at what El Paso really is. Pageantry over real community. I thank the one single officer who helped me to cross the street to my apartment and who gave me water.\n\nThe recent Supreme Court ruling on presidential immunity is an outright travesty and a direct attack on the foundational principles of our democracy. By effectively placing the president above the law, the Court has shown a shocking disregard for the rule of law. This ruling doesn't just undermine public trust in our judicial system -- it obliterates it.This decision is a slap in the face to the countless individuals who have fought and died to uphold the principles of justice and equality in this country.This Court's willingness to dismantle long-standing legal protections and checks on power indicates a dangerous shift toward authoritarianism. We must fear a Supreme Court that acts without regard for the rule of law, for it threatens the very fabric of our democratic institutions.This ruling opens the door to unchecked executive power, fundamentally altering the balance of power in our government. The Supreme Court's decision is not just misguided; it is a catastrophic failure that endangers the very fabric of our nation.\n\nThe Supreme Court must immediately reconsider this reckless ruling, and our legislative bodies must take urgent action to ensure that the president is held to the same legal standards as every other citizen.",
+                "source": {
+                    "uri": "yahoo.com",
+                    "dataType": "news",
+                    "title": "Yahoo"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Society/Law/Legal_Information",
+                        "label": "dmoz/Society/Law/Legal Information",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Issues/Property_Rights",
+                        "label": "dmoz/Society/Issues/Property Rights",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Humor/Job-Related",
+                        "label": "dmoz/Recreation/Humor/Job-Related",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Transgendered/Law",
+                        "label": "dmoz/Society/Transgendered/Law",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Humor/Subcultures",
+                        "label": "dmoz/Recreation/Humor/Subcultures",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Politics",
+                        "label": "news/Politics",
+                        "wgt": 73
+                    }
+                ],
+                "image": "https://s.yimg.com/ny/api/res/1.2/ubBxSKScWGTQ0rD4x07YCw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04ODg7Y2Y9d2VicA--/https://media.zenfs.com/en/the-el-paso-times/5b3813c0c93dfa4ae7ba84d29fc752a9",
+                "eventUri": null,
+                "sentiment": -0.09019607843137256,
+                "wgt": 458834505,
+                "relevance": 14
+            },
+            {
+                "uri": "8228363246",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:39",
+                "dateTime": "2024-07-16T14:01:39Z",
+                "dateTimePub": "2024-07-16T14:01:14Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.costaricantimes.com/costa-ricas-first-blue-bond-a-bold-move-for-a-sustainable-future/78511",
+                "title": "Costa Rica's First Blue Bond: A Bold Move for a Sustainable Future",
+                "body": "In a groundbreaking initiative, IDB Invest has partnered with Banco Nacional de Costa Rica (BNCR) to launch Costa Rica's first blue bond. This collaboration is a significant step towards promoting the blue economy and sustainable development in the region. IDB Invest has committed $25 million to the $50 million bond issuance, while also mobilizing an additional $20 million from FinDev Canada and $5 million from LAGreen.\n\nBlue bonds are an innovative financial instrument designed to mobilize capital for addressing social and environmental challenges, specifically those related to oceans and water resources. These bonds aim to create sustainable ocean and water-related business opportunities, in alignment with the Sustainable Development Goals (SDGs) and the Paris Agreement. The proceeds from the blue bond will support marine-coastal projects, sustainable water and sewage management, plastic waste management, and the circular economy in Costa Rica.\n\nOceans and coastal zones are vital to the planet's natural infrastructure, providing essential ecosystem services. Costa Rica, with its extensive marine territory of over 51,000 square kilometers and 1,200 kilometers of coastline, is home to about 4% of the world's biodiversity. These areas are crucial for local livelihoods and significantly contribute to the economy through fishing, tourism, and coastal infrastructure.\n\nThe funds raised through this blue bond will not only increase financing for blue economy projects but also strengthen BNCR's capital base. This initiative will support the development of a robust blue portfolio, enabling BNCR to lead in sustainable finance within the region.\n\n\"This collaboration highlights a shared commitment to supporting climate change mitigation and adaptation, conserving natural resources and biodiversity, and promoting sustainable development,\" stated IDB Invest. The project aims to have a catalytic effect on financial markets, opening new opportunities for companies and investors interested in blue economy projects.\n\nIDB Invest has also provided BNCR with extensive advisory services, including blue investment analysis, developing a Sustainable Financing Framework with blue taxonomy, co-financing the second-party opinion, and conducting a training program to enhance sustainable finance capabilities. The partnership will further explore thematic investment categories focusing on climate and social areas, such as Afro-descendant communities, the silver economy, and indigenous peoples.\n\nThis project will contribute to several United Nations Sustainable Development Goals (SDGs), including:\n\nMinister of Tourism William Rodriguez remarked, \"The 2024-2025 high season is expected to be historic for Costa Rica due to the increase in operations announced by several airlines. Starting in December, Alaska Airlines will inaugurate two direct flights from the West Coast of the United States (Seattle and San Francisco) to the Guanacaste Airport.\" This increase in connectivity will further boost the country's tourism industry, providing additional economic benefits.\n\nThe launch of Costa Rica's first blue bond marks a significant milestone in the country's journey towards sustainable development. By leveraging innovative financial instruments like blue bonds, Costa Rica is setting an example for other nations to follow. This initiative not only addresses critical environmental and social challenges but also opens new avenues for economic growth and development.\n\nStay tuned for more updates on how this groundbreaking project unfolds and its impact on Costa Rica's blue economy.",
+                "source": {
+                    "uri": "costaricantimes.com",
+                    "dataType": "news",
+                    "title": "Jaco Super Ride"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Business/Investing/Socially_Responsible",
+                        "label": "dmoz/Business/Investing/Socially Responsible",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Business/Investing/Consulting",
+                        "label": "dmoz/Business/Investing/Consulting",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Environment",
+                        "label": "news/Environment",
+                        "wgt": 70
+                    }
+                ],
+                "image": null,
+                "eventUri": null,
+                "sentiment": 0.3411764705882352,
+                "wgt": 458834499,
+                "relevance": 13
+            },
+            {
+                "uri": "8228363173",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:34",
+                "dateTime": "2024-07-16T14:01:34Z",
+                "dateTimePub": "2024-07-16T14:01:09Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.2oceansvibe.com/2024/07/16/inside-the-centuries-old-treasure-laden-ship-unearthed-in-the-namibian-desert-video/",
+                "title": "Inside The Centuries-Old Treasure-Laden Ship Unearthed In The...",
+                "body": "We are lucky enough to live through one of the most thrilling archaeological discoveries in recent history, namely, the discovery of the elusive Bom Jesus Portuguese treasure ship that sank over five centuries ago.\n\nWhile archaeological findings first commenced in 2008, the shipwreck is considered one of the oldest and most valuable discoveries of our time and, thus, efforts to search for more artefacts and preserve those that have been found are still underway in 2024.\n\nAs we experience similar storms this winter that prompted the first Portuguese visitors to refer to the Black South-Easter wind phenomenon as 'O Monstro' (The Monster), it is high time to reflect on one of the most impactful archaeological discoveries ever made.\n\nThe Bom Jesus, translated to the 'Good Jesus' in English, set sail from Lisbon, Portugal, on Friday, March 7, 1533, laden with gold and copper ingots and its fate remained a mystery until 2008, when its remnants were unearthed during diamond mining operations near the Namibian coast.\n\nThe ship's cargo included 2,000 pure gold coins and tens of thousands of pounds of copper ingots, almost all intact and sparkling beautifully in the Namibian sun. That's a lot of dosh.\n\nIt is believed that the Bom Jesus was pulled too close to shore during a storm off the country's coast, causing it to collide with a rock and capsize.\n\nAs the deep waters receded over hundreds of years, the ship previously lost beneath the deep reemerged in the desert, revealing its hidden wealth.\n\nThe condition of the Bom Jesus suggests that the storm was especially violent - perhaps even similar to last week's weather. The absence of significant human remains, aside from a few scattered bone fragments, indicates that most of the crew likely perished at sea.\n\nDr Dieter Noli, the chief archaeologist of the Southern Africa Institute of Maritime Archaeological Research, noted that, like the Cape, the Namibian coastline was notorious for storms. When the team first set foot at the scene, they could not predict just how fruitful the excavation of the shipwreck would be.\n\n\"It adds new meaning to the concept of the ship having being loaded with gold,\" Dr. Noli told reporters.\n\nFurther investigations uncovered bronze bowls, long metal poles later identified as cannons, muskets estimated to be at least 500 years old, compasses, swords, astronomical tools, and even a time capsule. Silver coins were also found, adding to the ship's rich trove of historical artefacts.\n\nWhile little is known about the specific history of the Bom Jesus, it is speculated that the ship was part of a class of naval vessels designed for longer-distance expeditions undertaken by Portuguese fleets during this period.\n\nBased on the ship's contents, Dr Noli and other scholars believe the Bom Jesus was en route to Western India from Lisbon, navigating the treacherous route around the southern tip of Africa - a common path for Portuguese vessels carrying valuable cargo during that era.\n\nThe Bom Jesus now holds the distinction of being the oldest known and most valuable shipwreck discovered off the western coast of Sub-Saharan Africa. The area remains under joint operation by diamond company DeBeers and the Namibian government and is largely off-limits to the public. The remnants of the shipwreck are protected by mining security, with access to the site highly restricted.\n\nWhile there has been talk of establishing a museum to showcase the ship's artefacts, it remains to be seen whether this idea will come to fruition.\n\nWe do hope that this real-life Treasure Island-esque story is given the platform it deserves.\n\nYou never know what could be hidden in the sand beneath your feet.",
+                "source": {
+                    "uri": "2oceansvibe.com",
+                    "dataType": "news",
+                    "title": "2oceansvibe News | South African and international news"
+                },
+                "authors": [
+                    {
+                        "uri": "maya_rose_torrao@2oceansvibe.com",
+                        "name": "Maya-Rose Torrao",
+                        "type": "author",
+                        "isAgency": false
+                    }
+                ],
+                "categories": [
+                    {
+                        "uri": "dmoz/Business/Transportation_and_Logistics/Maritime",
+                        "label": "dmoz/Business/Transportation and Logistics/Maritime",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Recreation/Travel/Specialty_Travel",
+                        "label": "dmoz/Recreation/Travel/Specialty Travel",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Society/Genealogy/Emigration_and_Immigration",
+                        "label": "dmoz/Society/Genealogy/Emigration and Immigration",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "dmoz/Shopping/Antiques_and_Collectibles/Nautical",
+                        "label": "dmoz/Shopping/Antiques and Collectibles/Nautical",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Science",
+                        "label": "news/Science",
+                        "wgt": 66
+                    }
+                ],
+                "image": "https://media.2oceansvibe.com/wp-content/uploads/2024/07/Header-Image-8.jpg",
+                "eventUri": null,
+                "sentiment": 0.2941176470588236,
+                "wgt": 458834494,
+                "relevance": 11
+            },
+            {
+                "uri": "8228363033",
+                "lang": "eng",
+                "isDuplicate": false,
+                "date": "2024-07-16",
+                "time": "14:01:31",
+                "dateTime": "2024-07-16T14:01:31Z",
+                "dateTimePub": "2024-07-16T14:01:01Z",
+                "dataType": "news",
+                "sim": 0,
+                "url": "https://www.irishnews.com/news/world/hellishly-hot-southern-europe-bakes-under-heatwave-with-worst-still-to-come-WIF32VF2AZPMRJAD6IEQLOY4BQ/",
+                "title": "'Hellishly hot' southern Europe bakes under heatwave with worst still to come",
+                "body": "A wave of hot air from Africa is baking countries including Spain, Italy, Greece and North Macedonia, sending temperatures over 40C (104F).\n\nThe Italian health ministry placed 12 cities under the most severe heat warning on Tuesday as a wave of hot air from Africa baked southern Europe and sent temperatures over 40C (104F), with the worst still to come.\n\nMunicipal authorities in several southern European and Balkan cities took measures to look after elderly people in particular as civil protection crews fielded calls for Canadairs and other aircraft to douse wildfires that raged in southern Italy and North Macedonia.\n\n\"It's hellishly hot,\" said Carmen Diaz, a tourist from Madrid, Spain, who was trying to keep cool with a fan at lunchtime in Rome. \"These fans help a little too, but it's really hot.\"\n\nIn Greece, municipalities made air-conditioned spaces available to the public.\n\nCertain forms of outdoor work were banned, such as manual labour, deliveries and construction, during the hottest time of the day when temperatures reached 40C (104F).\n\nTemperatures are expected to hit 42C (107.6F) on Wednesday and Thursday in several countries.\n\nSpain's national weather service said thermometers could reach 44C (111.2F) in the southern Guadalquivir river basin in the coming days.\n\nTo beat the heat, Rome's zoo made plans to offer popsicle respite for the animals later this week when temperatures were expected to top 38C (100.4F0.\n\nFor those flocking to the Eternal City's Coldplay concerts this week, there were no such icy treats.\n\n\"It really feels like we are in an oven with a hairdryer pointed at us,\" said Patrizia Valerio, who had just arrived in Rome from Varese for the band's final performance on Tuesday night.\n\nFellow concert-goer Mattia Rossi was more philosophical, citing the freak storms which hit Italy earlier this summer as evidence of climate change wreaking havoc on the southern Mediterranean's weather systems.\n\n\"These are all symptoms of a planet that is suffering in my opinion,\" he said.\n\nIn Albania, where temperatures were expected to hit 42C (107.6F), a 72-year-old man was found dead at his farm in Memaliaj, 125 miles (200km) south of the capital, Tirana, with the cause of death believed to be the heat, the local Panorama portal reported. There was no immediate confirmation from health authorities.\n\nIn Tirana itself, streets and cafes seemed almost empty, with the few people out and about using umbrellas to shade themselves.\n\nHigh temperatures and winds have fanned wildfires from the south to the north in recent weeks.\n\nEven with temperatures a comparatively cool 34C (93.2F), Turkey's Istanbul municipality issued a heat warning on Tuesday advising residents - especially the elderly, pregnant women, children, and those with health issues - to avoid going out between 10am and 4pm.\n\nThe advisory said temperatures in Istanbul are expected to remain a few degrees above seasonal norms until July 28 and advised residents to drink plenty of fluids and opt for light or cotton clothing.\n\nFor the second time this month, North Macedonia faced a heatwave with temperatures rising to 42C (107.6F).\n\nSome 200 wildfires have been raging in the country since the beginning of the month, with one firefighter so far injured. The government has declared a month-long state of crisis.\n\nIn Italy, the civil protection service reported that it received 18 calls on Monday for help to douse wildfires that were raging in several southern regions.\n\nThe health ministry placed 12 cities - from Trieste in the north to Rome in the centre - under a red alert heat warning, the highest state of heat emergency.\n\nIn cities under such warnings, everyone - not just the elderly and young children - is urged to stay indoors during the hottest parts of the day and avoid strenuous outdoor exercise and heavy foods.\n\nPalermo in Sicily was expected to join the list of red-bulletin cities on Wednesday, the health ministry said.\n\nMuch of Greece was also sweltering in a heatwave due to last until the end of the week, with temperatures in some areas forecast to reach 42C (107.6F).\n\nThe heatwave is predicted to peak on Wednesday and Thursday, particularly affecting regions of central, western and northern Greece, where temperatures could rise to 43C (109.4F).",
+                "source": {
+                    "uri": "irishnews.com",
+                    "dataType": "news",
+                    "title": "The Irish News"
+                },
+                "authors": [],
+                "categories": [
+                    {
+                        "uri": "dmoz/Home/Home_Improvement/Climate_Control",
+                        "label": "dmoz/Home/Home Improvement/Climate Control",
+                        "wgt": 100
+                    },
+                    {
+                        "uri": "news/Environment",
+                        "label": "news/Environment",
+                        "wgt": 46
+                    }
+                ],
+                "image": "https://www.irishnews.com/resizer/v2/IXHCCR47HFP7RERI6MGSAHW6NQ.jpg?smart=true&auth=64fcf06cea15f562402f7e0c1d90e16b725fae4bc1bd534d65db407985d57b6a&width=1200&height=630",
+                "eventUri": null,
+                "sentiment": -0.04313725490196074,
+                "wgt": 458834491,
+                "relevance": 2
+            }
+        ],
+        "totalResults": 606770,
+        "page": 1,
+        "count": 20,
+        "pages": 30339
+    }
+}
