@@ -1,12 +1,35 @@
-.navbar-lewagon {
+.navigation-bar {
+  background-color: $background-color;
+  color: $text-color;
+  padding: $spacing-large;
+  display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  border-bottom: 1px solid rgba($text-color, 0.2);
+  box-shadow: $box-shadow;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navigation-bar__title {
+  font-size: $font-size-large;
+  font-weight: bold;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navigation-bar__icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navigation-bar__icon--search {
+  color: $text-color;
+}
+
+.navigation-bar__icon--back {
+  color: $text-color;
+}
+
+// Responsive styles for mobile (adjust breakpoints as needed)
+@media (max-width: 768px) {
+  .navigation-bar__title {
+    font-size: 1.2rem;
+  }
 }
