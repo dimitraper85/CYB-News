@@ -1,1 +1,17 @@
 // Specific CSS for your home-page
+.banner {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  background-color: $backgr
+}
+
+
+.container {
+
+}
+
+
+p, h1, h2, h3 {
+  color: white;
+}
