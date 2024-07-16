@@ -2,6 +2,7 @@
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
+@import "config/variables";
 
 // External libraries
 @import "bootstrap";
@@ -10,3 +11,39 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+/* A basic CSS reset to ensure consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  // font-family: $font-family;
+  font-size: $font-size-normal;
+  color: $text-color;
+  background-color: $primary-color;
+}
+
+h1 {
+  font-size: $font-size-xlarge;
+}
+
+h2 {
+  font-size: $font-size-large;
+}
+
+h3 {
+  font-size: $font-size-normal;
+}
+
+p {
+  font-size: $font-size-normal;
+}
+
+small {
+  font-size: $font-size-small;
+}
+
+a {
+  text-decoration: none;
+}
