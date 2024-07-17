@@ -2,9 +2,10 @@
   <% articles.each do |article| %>
     <%= link_to article_path(article) do %>
       <div class="article-card">
-        <img src="<%= article.image_url %>" style="width:100%;" alt="article image">
+        <img src="<%= article.image_url %> " style="width:100%;" alt="article image">
         <h2><%= article.title %></h2>
-        <p><%= article.source_name %></p>
+        <p class="mb-0">Media : <%= article.source_name %></p>
+        <p>Category : <%= article.category.split("/")[1] %></p>
       </div>
     <% end %>
     <p>This article is marked as : <%= article.fake_news_validation %></p>
