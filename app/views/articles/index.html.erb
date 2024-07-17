@@ -1,5 +1,5 @@
 <%= render partial: 'devise/shared/navbar', locals: { show_back_button: true } %>
-<div class="container" data-controller="articles-category">
+<div data-controller="articles-category">
 <%# render category bar %>
 <div class="categories p-2">
   <a data-action="click->articles-category#update" data-articles-category-cate-param="all" href="">All articles</a>

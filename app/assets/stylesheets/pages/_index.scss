@@ -1,7 +1,8 @@
 // Import page-specific CSS files here.
 @import "home";
 
-.container {
+
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 5%;
@@ -10,27 +11,48 @@
   word-wrap: normal;
 }
 
+.grid img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+}
+
 @media (max-width: 760px) {
 
-  .container {
+  .grid {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 570px) {
 
-  .container {
+  .grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 420px) {
 
-  .container {
+  .grid {
     grid-template-columns: 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
   }
 }
 
-.container p {
+.grid p {
   color: $secondary-Text-color
 }
