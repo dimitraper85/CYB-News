@@ -1,33 +1,33 @@
 <div class="tab-bar" data-controller="tab-bar">
-  <ul class="tab-bar__nav" >
-
+  <ul class="tab-bar__nav">
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#selectTab" data-tab-bar-target="navLink">
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
         <i class="fa-solid fa-house"></i>
         Home
-      </a>
+      <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#selectTab" data-tab-bar-target="navLink">
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
+      <%# This is sample %>
+      <%# <%= link_to explore_path, class: "tab-bar__nav-link #{'active' if current_page?(explore_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: explore_path } do %>
         <i class="fa-solid fa-magnifying-glass"></i>
         Explore
-      </a>
+      <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#selectTab" data-tab-bar-target="navLink">
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
         <i class="fa-regular fa-bookmark"></i>
         Saved
-      </a>
+      <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#selectTab" data-tab-bar-target="navLink">
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
         <i class="fa-regular fa-user"></i>
         Profile
-      </a>
+      <% end %>
     </li>
-    
   </ul>
 </div>
