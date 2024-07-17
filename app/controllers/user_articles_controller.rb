@@ -11,10 +11,9 @@ class UserArticlesController < ApplicationController
     user_article = UserArticle.new(safe_params)
     user_article.user_id = current_user.id
     user_article.fake_news_validation = false
-    # add API call to check
-    user_article.save!
     if user_article.save
       flash[:alert] = "Your article gets analysed !"
+      VerifyValidityApiJob.perform_later(user_article)
       redirect_to user_articles_path
     else
       render :new
