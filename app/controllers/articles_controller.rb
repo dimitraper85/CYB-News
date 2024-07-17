@@ -6,8 +6,7 @@ class ArticlesController < ApplicationController
     @categories = []
     @articles.each { |article| @categories.push(article.category) }
     if params[:query].present?
-      puts "this is the query #{params[:query]}"
-      @articles = @articles.where(category: params[:query])
+      @articles = @articles.where(category: params[:query]) unless params[:query] == "all"
     end
 
     respond_to do |format|
