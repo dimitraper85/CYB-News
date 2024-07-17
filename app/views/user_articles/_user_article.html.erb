@@ -1,13 +1,8 @@
-<div class="grid" data-articles-category-target="list">
-  <% articles.each do |article| %>
-    <%= link_to article_path(article) do %>
+<div class="grid">
+  <% user_articles.each do |user_article| %>
       <div class="article-card">
-        <img src="<%= article.image_url %> " style="width:100%;" alt="article image">
-        <h2><%= article.title %></h2>
-        <p class="mb-0">Media : <%= article.source_name %></p>
-        <p>Category : <%= article.category.split("/")[1] %></p>
-        <p>This article is marked as : <%= article.fake_news_validation %></p>
+        <h2><%= user_article.title %></h2>
+        <p>This article is marked as : <%= user_article.fake_news_validation %></p>
       </div>
     <% end %>
-  <% end %>
 </div>

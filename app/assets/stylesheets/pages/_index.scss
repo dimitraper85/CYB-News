@@ -2,6 +2,12 @@
 @import "home";
 @import "showpage";
 
+.wrap {
+  padding-top: $spacing-medium;
+  padding-left: $spacing-large;
+  padding-right: $spacing-large;
+  margin: $spacing-small;
+}
 
 .grid {
   display: grid;
@@ -16,6 +22,7 @@
   width: 200px;
   height: 140px;
   object-fit: cover;
+  border-radius: $border-radius;
 }
 
 @media (max-width: 760px) {
@@ -42,7 +49,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
   .grid {
     grid-template-columns: 1fr;

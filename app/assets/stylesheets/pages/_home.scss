@@ -58,6 +58,7 @@ body {
     width: 35vw;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: $border-radius;
   }
 
   .container p {
@@ -90,7 +91,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
   .container {
     grid-template-columns: 1fr;
