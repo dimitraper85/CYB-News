@@ -1,0 +1,34 @@
+<div>
+  <div class="article-info">
+      <h2><%= @article.title %></h2>
+  </div>
+  <div>
+    <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
+  </div>
+    <div class="article-info">
+      <p class="mb-0">Media : <%= @article.source_name %></p>
+      <p>Category : <%= @article.category.split("/")[1] %></p>
+      <div class ="fake-news-bar" style="width:<%= @percentage %>%">
+        <div class ="fake-news-bg-bar">
+        </div>
+      </div>
+      <div id="meter">This article is marked as : <%= @article.fake_news_validation %>
+      </div>
+    </div>
+    <div class="content">
+    </div>
+  <div class="article-info pt-3">
+    <p><%= @article.content %></p>
+  </div>
+  <div class="article-info">
+    <a href="<%= @article.article_url %>" target="_blank"> Visit the original article</a>
+  </div>
+    <div class="suggested_articles">
+      <ul>
+        <% @articles.each do |article| %>
+         <li><%= link_to article.title, article_path(article) %></li>
+       <% end %>
+      </ul>
+      <%= link_to "See all articles", articles_path, class: "glow" %>
+    </div>
+</div>
