@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100vw;
   height: 5rem;
-  background-color: $primary-color;
+  background-color: $background-color;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: $text-color;
+  color: $secondary-Text-color;
   font-size: 0.8rem;
 }
 
@@ -40,7 +40,7 @@
 .active {
   /* Styles for the selected tab */
   background-color: rgba($primary-color, 0.2); /* Semi-transparent background */
-  color: red; /* Use a different text color for highlight */
+  color: $text-color;
 }
 
 /* Responsive styles for desktop (adjust breakpoints as needed) */
