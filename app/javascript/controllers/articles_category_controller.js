@@ -5,16 +5,15 @@ export default class extends Controller {
   static targets = [ "list"]
 
   connect() {
-    console.log(this.listTarget)
   }
 
   update(event) {
     event.preventDefault()
-    const url = `${event.target.href}?query=${event.target.firstChild.textContent}`
+    const url = `${event.target.href}?query=${event.params.cate}`
     fetch(url, {headers: {"Accept": "text/plain"}})
-      .then(response => response.text())
-      .then((data) => {
-        this.listTarget.outerHTML = data
-      })
+    .then(response => response.text())
+    .then((data) => {
+      this.listTarget.outerHTML = data
+    })
   }
 }
