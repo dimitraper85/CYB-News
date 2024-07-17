@@ -1,0 +1,9 @@
+<div class="p-3">
+  <h2 class="text-center">Tell us more about the article you have found</h2>
+  <%= simple_form_for(@user_article) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :article_url %>
+    <%= f.input :content, as: :text %>
+    <%= f.submit 'Check article', class: 'app-button' %>
+  <% end %>
+</div>
