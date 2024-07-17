@@ -1,0 +1,55 @@
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 5rem;
+  background-color: $background-color;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: $box-shadow;
+}
+
+.tab-bar__nav {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-bar__nav-item {
+  text-align: center;
+}
+
+.tab-bar__nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: $secondary-Text-color;
+  font-size: 0.8rem;
+}
+
+.tab-bar__nav-link i {
+  font-size: medium;
+  width: 2rem;
+  height: 1.2rem;
+}
+
+.active {
+  /* Styles for the selected tab */
+  background-color: rgba($primary-color, 0.2);
+  color: $text-color;
+}
+
+/* Responsive styles for desktop (adjust breakpoints as needed) */
+@media (min-width: 768px) {
+  // .tab-bar {
+  //   position: static; /* Remove fixed positioning for desktop */
+  // }
+
+  .tab-bar__nav-link {
+    font-size: 1rem; /* Adjust font size for desktop */
+  }
+}

@@ -12,7 +12,17 @@
 
   <body>
     <%= render "shared/flashes" %>
-    <%= render partial: 'devise/shared/navbar', locals: { show_back_button: true } %>
+    <% unless current_page?(root_path) %>
+      <% if current_page?(articles_path) %>
+        <%= render partial: 'devise/shared/navbar', locals: { show_back_button: false } %>
+      <% else %>
+        <%= render partial: 'devise/shared/navbar', locals: { show_back_button: true } %>
+      <% end %>
+    <% end %>
+
     <%= yield %>
+    <% if !current_page?(root_path) %>
+      <%= render partial: 'shared/tab_bar' %>
+    <% end %>
   </body>
 </html>
