@@ -43,7 +43,7 @@ body = {
     "eng"],
   forceMaxDataTimeWindow: 7,
   resultType: "articles",
-  apiKey: ""
+  apiKey: "#{NEWS_API_KEY}"
   }.to_json
 
   response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
