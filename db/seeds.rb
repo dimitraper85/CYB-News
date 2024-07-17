@@ -11,7 +11,7 @@ require "rest-client"
 require "json"
 
 User.destroy_all
-Article.destroy_all
+# Article.destroy_all
 Comment.destroy_all
 Bookmark.destroy_all
 
@@ -43,7 +43,7 @@ body = {
     "eng"],
   forceMaxDataTimeWindow: 7,
   resultType: "articles",
-  apiKey: "#{NEWS_API_KEY}"
+  apiKey: "#{ENV["NEWS_API_KEY"]}"
   }.to_json
 
   response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
@@ -54,7 +54,11 @@ body = {
   article.article_url = parsed_article["url"]
   article.title = parsed_article["title"]
   article.content = parsed_article["body"]
-  article.image_url = parsed_article["image"]
+  if parsed_article["image"] == nil
+    article.image_url = "https://tse4.mm.bing.net/th?id=OIG1.v6ZUiKDv.rJpKz47JY7f&pid=ImgGn"
+  else
+    article.image_url = parsed_article["image"]
+  end
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
   article.fake_news_validation = false
