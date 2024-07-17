@@ -37,6 +37,12 @@
   height: 1.2rem;
 }
 
+.active {
+  /* Styles for the selected tab */
+  background-color: rgba($primary-color, 0.2); /* Semi-transparent background */
+  color: red; /* Use a different text color for highlight */
+}
+
 /* Responsive styles for desktop (adjust breakpoints as needed) */
 @media (min-width: 768px) {
   // .tab-bar {

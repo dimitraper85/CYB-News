@@ -1,29 +1,28 @@
-<div class="tab-bar">
+<div class="tab-bar" data-controller="tab-bar">
   <ul class="tab-bar__nav">
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link">
-        <%# <img src="path/to/home-icon.svg" alt="Home"> %>
+      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#addActiveClass">
         <i class="fa-solid fa-house"></i>
         Home
       </a>
     </li>
 
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link">
+      <a href="#" class="tab-bar__nav-link <%= "active" if current_page?(root_path) %>" data-action="click->tab-bar#addActiveClass">
         <i class="fa-solid fa-magnifying-glass"></i>
         Explore
       </a>
     </li>
 
     <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link">
+      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#addActiveClass">
         <i class="fa-regular fa-bookmark"></i>
         Saved
       </a>
     </li>
 
      <li class="tab-bar__nav-item">
-      <a href="#" class="tab-bar__nav-link">
+      <a href="#" class="tab-bar__nav-link" data-action="click->tab-bar#addActiveClass">
         <i class="fa-regular fa-user"></i>
         Profile
       </a>
