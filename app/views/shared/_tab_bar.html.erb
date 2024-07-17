@@ -1,30 +1,28 @@
 <div class="tab-bar" data-controller="tab-bar">
   <ul class="tab-bar__nav">
     <li class="tab-bar__nav-item">
-      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}" do %>
         <i class="fa-solid fa-house"></i>
         Home
       <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
-      <%# This is sample %>
-      <%# <%= link_to explore_path, class: "tab-bar__nav-link #{'active' if current_page?(explore_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: explore_path } do %>
+      <%= link_to articles_path, class: "tab-bar__nav-link #{'active' if current_page?(articles_path)}" do %>
         <i class="fa-solid fa-magnifying-glass"></i>
         Explore
       <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
+      <%= link_to user_articles_path, class: "tab-bar__nav-link #{'active' if current_page?(user_articles_path)}" do %>
         <i class="fa-regular fa-bookmark"></i>
         Saved
       <% end %>
     </li>
 
     <li class="tab-bar__nav-item">
-      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}", data: { action: "click->tab-bar#selectTab", tab_bar_target: "navLink", page: root_path } do %>
+      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}" do %>
         <i class="fa-regular fa-user"></i>
         Profile
       <% end %>
