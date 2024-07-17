@@ -10,19 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_07_16_002205) do
+ActiveRecord::Schema[7.1].define(version: 2024_07_16_153526) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "articles", force: :cascade do |t|
     t.string "article_url"
     t.string "title"
-    t.string "description"
     t.text "content"
     t.string "image_url"
     t.date "pub_date"
     t.string "source_name"
-    t.boolean "fake_news_validation"
+    t.boolean "fake_news_validation", default: false
     t.string "category"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
