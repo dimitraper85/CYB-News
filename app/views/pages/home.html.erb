@@ -2,7 +2,7 @@
   <div class="box">
     <h1>CYB News</h1>
     <p>Check your biases. Prevent fake news.</p>
-    <%= link_to "Discover", root_path, class: "glow" %>
+    <%= link_to "Discover", articles_path, class: "glow" %>
   </div>
 </div>
 <div class="container">
@@ -13,8 +13,8 @@
   </div>
   <div>
     <p>We use artificial intelligence to analyse news and rate their likelihood to be fake or biased. Our mission is to make the web a safer place with less desinformation. You can browse the new we display or sign up to check an article you found elsewhere.</p>
-    <%= link_to ">> Browse news", root_path %>
+    <%= link_to ">> Browse news", articles_path %>
     <br>
-    <%= link_to ">> Check an article you found", root_path %>
+    <%= link_to ">> Check an article you found", new_user_article_path %>
   </div>
 </div>
