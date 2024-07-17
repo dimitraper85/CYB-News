@@ -5,6 +5,8 @@ body {
 }
 
 .banner {
+  position: relative;
+  height: 275px;
   width: 100%;
   background-image: image_url("placeholder-home2.png");
   background-size: cover;
@@ -12,9 +14,11 @@ body {
   padding: $spacing-large $spacing-medium;
 }
 
-.box {
+.banner .box {
+  position: absolute;
+  bottom: $spacing-large;
+  left: $spacing-medium;
   max-width: 50vw;
-  margin: $spacing-large $spacing-small;
   padding: $spacing-medium;
   background-color: $primary-color;
   word-wrap: normal;
@@ -23,7 +27,7 @@ body {
   box-shadow: $box-shadow;
 }
 
-.box p {
+.banner .box p {
   color: $secondary-Text-color
 }
 
@@ -33,46 +37,68 @@ body {
     width: auto;
   }
 
-  .box {
+  .banner .box {
     height: 30vh;
     width: auto;
+    bottom: 80px;
+    left: 50px;
     }
   }
 
-.container p {
-  color: $secondary-Text-color
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 5%;
+    padding: $spacing-large;
+    margin: $spacing-small;
+    word-wrap: break-word;
+  }
+
+  .container img {
+    width: 35vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .container p {
+    color: $secondary-Text-color
+  }
+
+@media (max-width: 760px) {
+
+  .container {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .container img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  column-gap: 5%;
-  padding: $spacing-large;
-  margin: $spacing-small;
-}
-
-.container img {
-  width: 35vw;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 570px) {
 
   .container {
     grid-template-columns: 1fr 1fr;
   }
 
   .container img {
-    width: 40vw;
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 420px) {
 
   .container {
     grid-template-columns: 1fr;
   }
 
   .container img {
-    width: 70vw;
+    object-fit: scale-down;
+    width: 80vw;
+    height: auto;
   }
 }
