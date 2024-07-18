@@ -11,7 +11,7 @@ require "rest-client"
 require "json"
 
 User.destroy_all
-# Article.destroy_all
+Article.destroy_all
 Comment.destroy_all
 Bookmark.destroy_all
 
@@ -61,16 +61,19 @@ body = {
   end
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
-  article.fake_news_validation = false
+  response = PredictNewsService.predict_news(article.content)
+
+  article.fake_news_validation = response[:fake]
+  article.probability = response[:probability]
   article.save!
 end
 
-Comment.create!(user_id: u1.id, article_id: 10, content: "I am really surprised that this is not a fake news ! Good to know.")
-Comment.create!(user_id: u1.id, article_id: 11, content: "It is a disaster how this has been handled. I hope solution will be found")
-Comment.create!(user_id: u2.id, article_id: 10, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
+Comment.create!(user_id: u1.id, article_id: Article.first.id, content: "I am really surprised that this is not a fake news ! Good to know.")
+Comment.create!(user_id: u1.id, article_id: Article.second.id, content: "It is a disaster how this has been handled. I hope solution will be found")
+Comment.create!(user_id: u2.id, article_id: Article.third.id, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
 
-Bookmark.create!(user_id: u3.id, article_id: 12)
-Bookmark.create!(user_id: u3.id, article_id: 11)
-Bookmark.create!(user_id: u1.id, article_id: 10)
+Bookmark.create!(user_id: u3.id, article_id: Article.first.id)
+Bookmark.create!(user_id: u3.id, article_id: Article.second.id)
+Bookmark.create!(user_id: u1.id, article_id: Article.third.id)
 
 puts "seeding successful"
