@@ -1,3 +1,66 @@
 // Import page-specific CSS files here.
 @import "home";
-@import "showpage"
+@import "showpage";
+
+.wrap {
+  padding-top: $spacing-medium;
+  padding-left: $spacing-large;
+  padding-right: $spacing-large;
+  margin: $spacing-small;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5%;
+  padding: $spacing-large;
+  margin: $spacing-small;
+  word-wrap: normal;
+}
+
+.grid img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: $border-radius;
+}
+
+@media (max-width: 760px) {
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.grid p {
+  color: $secondary-Text-color
+}

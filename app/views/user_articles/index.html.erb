@@ -1,3 +1,5 @@
-<% @user_articles.each do |article| %>
-  <p><%= article.title %></p>
-<% end %>
+<%= render partial: 'devise/shared/navbar', locals: { show_back_button: true } %>
+<div class="wrap">
+  <h2>Here are your checked articles</h2>
+</div>
+<%= render "user_article", user_articles: @user_articles %>
