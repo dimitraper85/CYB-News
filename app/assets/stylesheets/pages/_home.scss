@@ -51,13 +51,14 @@ body {
     column-gap: 5%;
     padding: $spacing-large;
     margin: $spacing-small;
-    word-wrap: break-word;
+    word-wrap: normal;
   }
 
   .container img {
     width: 35vw;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: $border-radius;
   }
 
   .container p {
@@ -90,7 +91,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
   .container {
     grid-template-columns: 1fr;
