@@ -2,9 +2,14 @@ Rails.application.routes.draw do
   devise_for :users
   root to: "pages#home"
 
-  resources :articles, only: [:index, :show]
+  resources :articles, only: [:index, :show] do
+    member do
+      post 'toggle_favorite', to: "articles#toggle_favorite"
+    end
+  end
+
   resources :user_articles, only: [:index, :new, :create]
-  resources :bookmarks, only: [:index, :create, :destroy]
+  resources :favoritors, only: [:index] # think if you need to create a standalone route
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
