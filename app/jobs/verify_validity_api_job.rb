@@ -3,9 +3,11 @@ class VerifyValidityApiJob < ApplicationJob
 
   def perform(article)
     # need to connect API call
-    result = true
     puts "Fetching validity of #{article.title}"
-    article.update_attribute(:fake_news_validation, result)
+    response = PredictNewsService.predict_news(article.content)
+    result = response[:fake]
+    puts "update Article to #{result}"
+    article.update(fake_news_validation: result)
     puts "Article checked"
   end
 end
