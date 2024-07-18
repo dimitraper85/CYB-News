@@ -1,7 +1,27 @@
-<nav class="navigation-bar">
+<nav class="navigation-bar"  data-controller="search">
   <% if show_back_button %>
     <i onclick="history.back()" class="navigation-bar__icon navigation-bar__icon--back fas fa-arrow-left"></i>
   <% end %>
-  <h1 class="navigation-bar__title"><%= navigation_bar_title %></h1>
-  <i class="navigation-bar__icon navigation-bar__icon--search fas fa-search"></i>
+  <h1 data-search-target="title" class="navigation-bar__title"><%= navigation_bar_title %></h1>
+  <% if show_search_icon %>
+    <div data-search-target="input"  class="d-none navigation-bar_search ">
+    <i class="fa-solid fa-xmark navigation-bar__icon" data-action="click->search#close"></i>
+    <% if current_page?(articles_path)
+      url = articles_path
+    else
+      url = user_articles_path
+    end %>
+      <%= form_with url: url, method: :get, class: "d-flex" do %>
+        <%= text_field_tag :query,
+            params[:query],
+            class: "form-control",
+            placeholder: "Type a keyword"
+          %>
+        <%= button_tag type: 'submit' do %>
+          <i class="navigation-bar__icon navigation-bar__icon--search fas fa-search"></i>
+        <% end %>
+      <% end %>
+    </div>
+    <i data-action="click->search#open" data-search-target="icon" class="navigation-bar__icon navigation-bar__icon--search fas fa-search"></i>
+  <% end %>
 </nav>

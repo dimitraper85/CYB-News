@@ -1,4 +1,4 @@
-<div data-controller="articles-category">
+<div class="mb-5" data-controller="articles-category">
 <%# render category bar %>
 <div class="categories p-2">
   <a data-action="click->articles-category#update" data-articles-category-cate-param="all" href="">All articles</a>
@@ -8,5 +8,5 @@
 </div>
 
 <%# cards in general / per category %>
-  <%= render "list", articles: @articles %>
+  <%= render "list", articles: @articles.sort_by {|article| article.pub_date} %>
 </div>
