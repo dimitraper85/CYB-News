@@ -43,12 +43,13 @@ body = {
     "eng"],
   forceMaxDataTimeWindow: 7,
   resultType: "articles",
-  apiKey: "#{ENV["NEWS_API_KEY"]}"
+  apiKey: "bc805ec1-fac4-4467-8784-6c7444b95b2d"
   }.to_json
 
   response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
   parsed_response = JSON.parse(response.body)
   parsed_response["articles"]["results"].each do |parsed_article|
+  p parsed_article
   article = Article.new
   article.pub_date = parsed_article["dateTimePub"]
   article.article_url = parsed_article["url"]
