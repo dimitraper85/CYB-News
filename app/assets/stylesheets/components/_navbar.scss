@@ -27,6 +27,37 @@
   color: $text-color;
 }
 
+.navigation-bar_search {
+  display: flex;
+  width: 100%;
+  align-items:center;
+  background-color: #584a5b;
+  padding: 7px;
+  border-radius: $border-radius;
+}
+
+.navigation-bar_search form {
+  flex-grow:1;
+}
+
+.navigation-bar_search form input, .navigation-bar_search form button {
+  background: transparent;
+  border: 0;
+  color: white;
+  padding: 5px;
+}
+
+.navigation-bar_search form input:focus, .navigation-bar_search form input:focus-within {
+  background:transparent;
+  border: 0;
+  color: white;
+}
+
+.navigation-bar_search i {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 // Responsive styles for mobile (adjust breakpoints as needed)
 @media (max-width: 768px) {
   .navigation-bar__title {

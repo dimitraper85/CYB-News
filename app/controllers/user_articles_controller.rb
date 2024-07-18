@@ -1,6 +1,9 @@
 class UserArticlesController < ApplicationController
   def index
     @user_articles = UserArticle.all
+    if params[:query].present?
+      @user_articles = @user_articles.where("title ILIKE ?",  "%#{params[:query]}%")
+    end
   end
 
   def new

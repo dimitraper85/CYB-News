@@ -6,7 +6,10 @@ class ArticlesController < ApplicationController
     @categories = []
     @articles.each { |article| @categories.push(article.category) }
     if params[:query].present?
-      @articles = @articles.where(category: params[:query]) unless params[:query] == "all"
+      @articles = @articles.where("title ILIKE ?",  "%#{params[:query]}%")
+    end
+    if params[:category].present?
+      @articles = @articles.where(category: params[:category]) unless params[:category] == "all"
     end
 
     respond_to do |format|
