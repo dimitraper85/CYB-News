@@ -9,6 +9,7 @@
 #   end
 require "rest-client"
 require "json"
+require 'cgi'
 
 User.destroy_all
 # Article.destroy_all
@@ -23,15 +24,14 @@ u4 = User.create!(email: "max@email.com", password: "123456", username: "Max")
 u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTester")
 
 def predict_news(content)
-  url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{content}"
+  sanitized_text = URI.encode_www_form_component(content)
+  url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{sanitized_text}"
   headers = { accept: "application/json" }
 
   begin
     response = RestClient.post(url, nil, headers)
     parsed_response = JSON.parse(response.body)
 
-    puts parsed_response["fake"]
-    puts parsed_response["probability"]
     return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
   rescue RestClient::ExceptionWithResponse => e
     render json: { error: e.response }, status: :unprocessable_entity
