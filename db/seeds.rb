@@ -23,22 +23,22 @@ u3 = User.create!(email: "judith@email.com", password: "123456", username: "Judi
 u4 = User.create!(email: "max@email.com", password: "123456", username: "Max")
 u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTester")
 
-def predict_news(content)
-  sanitized_text = URI.encode_www_form_component(content)
-  url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{sanitized_text}"
-  headers = { accept: "application/json" }
+# def predict_news(content)
+#   sanitized_text = URI.encode_www_form_component(content)
+#   url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{sanitized_text}"
+#   headers = { accept: "application/json" }
 
-  begin
-    response = RestClient.post(url, nil, headers)
-    parsed_response = JSON.parse(response.body)
+#   begin
+#     response = RestClient.post(url, nil, headers)
+#     parsed_response = JSON.parse(response.body)
 
-    return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
-  rescue RestClient::ExceptionWithResponse => e
-    render json: { error: e.response }, status: :unprocessable_entity
-  rescue RestClient::Exception => e
-    render json: { error: e.message }, status: :unprocessable_entity
-  end
-end
+#     return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
+#   rescue RestClient::ExceptionWithResponse => e
+#     render json: { error: e.response }, status: :unprocessable_entity
+#   rescue RestClient::Exception => e
+#     render json: { error: e.message }, status: :unprocessable_entity
+#   end
+# end
 
 # creates article seeds
 body = {
@@ -79,12 +79,9 @@ body = {
   end
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
-  # article.fake_news_validation = false
-  # service = ApiService.new
-  # service.predict_news()
-  # article.fake_news_validation = predict_news(article.content)
-  prediction = predict_news(article.content)
-  article.fake_news_validation = prediction[:fake]
+  response = PredictNewsService.predict_news(article.content)
+  article.fake_news_validation = response[:fake]
+
   article.save!
 end
 
