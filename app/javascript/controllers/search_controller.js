@@ -1,12 +1,10 @@
 import { Controller } from "@hotwired/stimulus"
-import { useClickOutside } from 'stimulus-use'
 
 // Connects to data-controller="search"
 export default class extends Controller {
   static targets = ["icon", "input", "title"]
 
   connect() {
-    useClickOutside(this)
     console.log("search connected")
   }
 
