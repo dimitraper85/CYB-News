@@ -22,6 +22,24 @@ u3 = User.create!(email: "judith@email.com", password: "123456", username: "Judi
 u4 = User.create!(email: "max@email.com", password: "123456", username: "Max")
 u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTester")
 
+def predict_news(content)
+  url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{content}"
+  headers = { accept: "application/json" }
+
+  begin
+    response = RestClient.post(url, nil, headers)
+    parsed_response = JSON.parse(response.body)
+
+    puts parsed_response["fake"]
+    puts parsed_response["probability"]
+    return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
+  rescue RestClient::ExceptionWithResponse => e
+    render json: { error: e.response }, status: :unprocessable_entity
+  rescue RestClient::Exception => e
+    render json: { error: e.message }, status: :unprocessable_entity
+  end
+end
+
 # creates article seeds
 body = {
   action: "getArticles",
@@ -61,8 +79,12 @@ body = {
   end
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
-  article.fake_news_validation = false
+  # article.fake_news_validation = false
+  # service = ApiService.new
+  # service.predict_news()
   # article.fake_news_validation = predict_news(article.content)
+  prediction = predict_news(article.content)
+  article.fake_news_validation = prediction[:fake]
   article.save!
 end
 
@@ -73,22 +95,5 @@ Comment.create!(user_id: u2.id, article_id: 10, content: "All these shootings ! 
 Bookmark.create!(user_id: u3.id, article_id: 12)
 Bookmark.create!(user_id: u3.id, article_id: 11)
 Bookmark.create!(user_id: u1.id, article_id: 10)
-
-# def predict_news(content)
-  url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=test"
-  headers = { accept: "application/json" }
-
-  begin
-    response = RestClient.post(url, nil, headers)
-    parsed_response = JSON.parse(response.body)
-
-    puts parsed_response["fake"]
-    puts parsed_response["probability"]
-  rescue RestClient::ExceptionWithResponse => e
-    render json: { error: e.response }, status: :unprocessable_entity
-  rescue RestClient::Exception => e
-    render json: { error: e.message }, status: :unprocessable_entity
-  end
-# end
 
 puts "seeding successful"
