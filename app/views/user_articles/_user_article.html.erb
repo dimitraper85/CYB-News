@@ -1,8 +1,28 @@
 <div class="grid">
   <% user_articles.each do |user_article| %>
-      <div class="article-card">
-        <h2><%= user_article.title %></h2>
-        <p>This article is marked as : <%= user_article.fake_news_validation %></p>
+      <div class="listed-user-article">
+          <% decimal = 0.334369874598 %>
+          <% decimal = decimal.round(2) * 100 %>
+          <% value = decimal.to_i  %>
+        <div class="bubble">
+          <% if user_article.fake_news_validation == false %>
+            <% if value >= 68 && value <= 100 %>
+              <span>🔴</span>
+              <% elsif value >= 33 && value < 68 %>
+              <span>🟠</span>
+              <% else %>
+              <span>🟡</span>
+            <% end %>
+          <% else %>
+            <span>🟢</span>
+          <% end %>
+        </div>
+        <div>
+          <h3><%= user_article.title.truncate(35) %></h3>
+          <p>Check: <%= user_article.fake_news_validation %> | Probability: <%= value %> %</p>
+        </div>
+        <div class="bubble"><%= image_tag "Delete.png" %></div>
+        <div class="bubble"><h1>❌</h1></div>
       </div>
     <% end %>
 </div>
