@@ -1,0 +1,40 @@
+// @import 'base/variables';
+
+.share-button-container {
+  position: relative;
+  display: inline-block;
+
+  .share-button {
+    background-color: $accent-color;
+    color: $text-color;
+    padding: $spacing-small $spacing-medium;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    font-size: $font-size-normal;
+    transition: background-color 0.3s;
+  }
+
+  .share-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $primary-color;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    padding: $spacing-small;
+    z-index: 1;
+
+    a {
+      color: $text-color;
+      display: block;
+      padding: $spacing-small 0;
+      text-decoration: none;
+    }
+  }
+
+  .active {
+    display: block;
+  }
+}
