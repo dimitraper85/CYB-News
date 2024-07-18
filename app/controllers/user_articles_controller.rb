@@ -20,6 +20,11 @@ class UserArticlesController < ApplicationController
     end
   end
 
+  def update
+    flash[:notice] = "Take a look at our response !"
+    redirect_to user_articles_path
+  end
+
   private
 
   def safe_params

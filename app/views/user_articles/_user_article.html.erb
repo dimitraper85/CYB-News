@@ -1,5 +1,5 @@
 <div class="grid">
-  <% user_articles.each do |user_article| %>
+  <% user_articles.reverse_each do |user_article| %>
       <div class="article-card">
         <h2><%= user_article.title %></h2>
         <p>This article is marked as : <%= user_article.fake_news_validation %></p>
