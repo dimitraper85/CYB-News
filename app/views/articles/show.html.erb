@@ -4,8 +4,7 @@
   </div>
   <div>
     <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
-    <div class="app-button favoritor" data-controller="favoritor" data-action="click->favoritor#bookmark" data-favoritor-target="bookmark" data-favoritor-url-value="<%=toggle_favorite_article_path(@article)%>">
-      <%# link_to toggle_favorite_article_path(@article), data: {turbo_method: :post}%>
+    <div class="app-button" data-controller="favoritor"  style="width:50px" data-action="click->favoritor#bookmark" data-favoritor-target="bookmark" data-favoritor-url-value="<%=toggle_favorite_article_path(@article)%>">
       <% if current_user.favorited?(@article) %>
         <i class="fa-solid fa-bookmark"></i>
       <% else %>

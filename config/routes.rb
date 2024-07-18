@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: "pages#home"
+  get "bookmarks", to: "pages#saved_bookmarks"
 
   resources :articles, only: [:index, :show] do
     member do
