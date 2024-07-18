@@ -9,10 +9,9 @@
 #   end
 require "rest-client"
 require "json"
-require 'cgi'
 
 User.destroy_all
-# Article.destroy_all
+Article.destroy_all
 Comment.destroy_all
 Bookmark.destroy_all
 
@@ -22,23 +21,6 @@ u2 = User.create!(email: "heena@email.com", password: "123456", username: "Heena
 u3 = User.create!(email: "judith@email.com", password: "123456", username: "Judith")
 u4 = User.create!(email: "max@email.com", password: "123456", username: "Max")
 u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTester")
-
-# def predict_news(content)
-#   sanitized_text = URI.encode_www_form_component(content)
-#   url = "https://cyb-pbnestuqba-ew.a.run.app/predict?text=#{sanitized_text}"
-#   headers = { accept: "application/json" }
-
-#   begin
-#     response = RestClient.post(url, nil, headers)
-#     parsed_response = JSON.parse(response.body)
-
-#     return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
-#   rescue RestClient::ExceptionWithResponse => e
-#     render json: { error: e.response }, status: :unprocessable_entity
-#   rescue RestClient::Exception => e
-#     render json: { error: e.message }, status: :unprocessable_entity
-#   end
-# end
 
 # creates article seeds
 body = {
@@ -80,17 +62,18 @@ body = {
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
   response = PredictNewsService.predict_news(article.content)
-  article.fake_news_validation = response[:fake]
 
+  article.fake_news_validation = response[:fake]
+  article.probability = response[:probability]
   article.save!
 end
 
-Comment.create!(user_id: u1.id, article_id: 10, content: "I am really surprised that this is not a fake news ! Good to know.")
-Comment.create!(user_id: u1.id, article_id: 11, content: "It is a disaster how this has been handled. I hope solution will be found")
-Comment.create!(user_id: u2.id, article_id: 10, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
+Comment.create!(user_id: u1.id, article_id: Article.first.id, content: "I am really surprised that this is not a fake news ! Good to know.")
+Comment.create!(user_id: u1.id, article_id: Article.second.id, content: "It is a disaster how this has been handled. I hope solution will be found")
+Comment.create!(user_id: u2.id, article_id: Article.third.id, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
 
-Bookmark.create!(user_id: u3.id, article_id: 12)
-Bookmark.create!(user_id: u3.id, article_id: 11)
-Bookmark.create!(user_id: u1.id, article_id: 10)
+Bookmark.create!(user_id: u3.id, article_id: Article.first.id)
+Bookmark.create!(user_id: u3.id, article_id: Article.second.id)
+Bookmark.create!(user_id: u1.id, article_id: Article.third.id)
 
 puts "seeding successful"
