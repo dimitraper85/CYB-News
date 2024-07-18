@@ -1,5 +1,4 @@
-<%= render partial: 'devise/shared/navbar', locals: { show_back_button: true } %>
-<div data-controller="articles-category">
+<div class="mb-5" data-controller="articles-category">
 <%# render category bar %>
 <div class="categories wrap">
   <a data-action="click->articles-category#update" data-articles-category-cate-param="all" href="">All articles</a>
@@ -9,5 +8,5 @@
 </div>
 
 <%# cards in general / per category %>
-  <%= render "list", articles: @articles %>
+  <%= render "list", articles: @articles.sort_by {|article| article.pub_date} %>
 </div>
