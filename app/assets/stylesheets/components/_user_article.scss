@@ -8,33 +8,31 @@
   margin: $spacing-small;
   padding: $spacing-small;
   display: grid;
-  grid-template-columns: 1fr 8fr 2fr 2fr;
+  grid-template-columns: 1fr 12fr 2fr 2fr;
   grid-gap: $spacing-small;
-
-
-
 }
 
-.listed-user-article h2 {
+.listed-user-article h3 {
   color: $text-color;
+  margin-right: $spacing-small;
 }
 
 .listed-user-article p {
   margin-bottom: 0px;
 }
 
-.listed-user-article .bubble {
+.listed-user-article .icon {
   align-items: center;
   display:flex;
   align-items:center;
 }
 
-.listed-user-article .bubble span {
+.listed-user-article .icon span {
   position: relative;
   vertical-align: middle;
 }
-.listed-user-article .bubble img {
-  width: 25px;
+.listed-user-article .icon img {
+  width: 30px;
   height:auto;
   object-fit: contain;
 }
