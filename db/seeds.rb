@@ -28,7 +28,7 @@ body = {
   ignoreSourceGroupUri: "paywall/paywalled_sources",
   isDuplicateFilter: "skipDuplicates",
   articlesPage: 1,
-  articlesCount: 30,
+  articlesCount: 50,
   articlesSortBy: "date",
   articlesSortByAsc: false,
   dataType: [
