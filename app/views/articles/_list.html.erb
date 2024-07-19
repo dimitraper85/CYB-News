@@ -1,11 +1,12 @@
 <div class="grid" data-articles-category-target="list">
-  <% articles.each do |article| %>
+  <% articles.reverse_each do |article| %>
     <%= link_to article_path(article) do %>
       <div class="article-card">
         <img src="<%= article.image_url %> " style="width:100%;" alt="article image">
         <h2><%= article.title %></h2>
         <p class="mb-0">Media : <%= article.source_name %></p>
-        <p>Category : <%= article.category.split("/")[1] %></p>
+        <p class="mb-0">Category : <%= article.category.split("/")[1] %></p>
+        <p><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours ago</p>
         <p>This article is marked as : <%= article.fake_news_validation %></p>
       </div>
     <% end %>
