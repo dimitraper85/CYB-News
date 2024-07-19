@@ -22,6 +22,13 @@
         <% end %>
       <% end %>
     </div>
-    <i data-action="click->search#open" data-search-target="icon" class="navigation-bar__icon navigation-bar__icon--search fas fa-search"></i>
-  <% end %>
+    <div data-search-target="icon">
+      <% if current_page?(user_articles_path) %>
+        <%= link_to new_user_article_path, class: "mx-3" do %>
+          <i class="navigation-bar__icon navigation-bar__icon--search fa-solid fa-plus"></i>
+        <% end  %>
+      <% end %>
+      <i data-action="click->search#open" class="navigation-bar__icon navigation-bar__icon--search fas fa-search"></i>
+    </div>
+ <% end %>
 </nav>

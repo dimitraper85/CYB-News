@@ -1,3 +1,5 @@
+require 'time'
+
 class ArticlesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index]
 
@@ -11,7 +13,7 @@ class ArticlesController < ApplicationController
     if params[:category].present?
       @articles = @articles.where(category: params[:category]) unless params[:category] == "all"
     end
-
+    @articles = @articles.sort_by {|article| article[:pub_date]}
     respond_to do |format|
       format.html # Follow regular flow of Rails
       format.text { render partial: "articles/list", locals: {articles: @articles}, formats: [:html] }

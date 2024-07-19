@@ -1,6 +1,6 @@
 class UserArticlesController < ApplicationController
   def index
-    @user_articles = UserArticle.all
+    @user_articles = UserArticle.where(user_id: current_user.id)
     if params[:query].present?
       @user_articles = @user_articles.where("title ILIKE ?",  "%#{params[:query]}%")
     end
@@ -17,7 +17,7 @@ class UserArticlesController < ApplicationController
     user_article.fake_news_validation = response[:fake]
     user_article.probability = response[:probability]
     if user_article.save
-      flash[:alert] = "Check out your article result !"
+      flash[:alert] = "Your article result is there !"
       # VerifyValidityApiJob.perform_later(user_article)
       redirect_to user_articles_path
     else
