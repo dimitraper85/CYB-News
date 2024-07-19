@@ -40,3 +40,9 @@
   margin: 20px;
   box-shadow: $box-shadow;
 }
+
+.article-header {
+  display: flex;
+  padding: $spacing-small $spacing-medium;
+  text-align: center;
+}

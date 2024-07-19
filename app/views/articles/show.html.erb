@@ -2,8 +2,11 @@
   <div class="article-info">
       <h2><%= @article.title %></h2>
   </div>
-  <div>
-    <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
+
+  <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
+
+  <div class="article-header">
+
     <div class="app-button" data-controller="favoritor"  style="width:50px" data-action="click->favoritor#bookmark" data-favoritor-target="bookmark" data-favoritor-url-value="<%=toggle_favorite_article_path(@article)%>">
       <% if current_user.favorited?(@article) %>
         <i class="fa-solid fa-bookmark"></i>
@@ -11,10 +14,10 @@
         <i class="fa-regular fa-bookmark"></i>
       <% end %>
     </div>
-  </div>
-    <!-- Share Button -->
+
+     <!-- Share Button -->
    <div data-controller="share-button" class="share-button-container">
-      <button data-action="click->share-button#toggle" class="share-button"><i class="fa-duotone fa-solid fa-share-nodes"></i></button>
+      <button data-action="click->share-button#toggle" class="app-button share-button"><i class="fa-duotone fa-solid fa-share-nodes"></i></button>
       <div data-share-button-target="options" class="share-options">
         <a href="https://www.facebook.com/sharer/sharer.php?u=<%= request.original_url %>&quote=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-facebook-f"></i></a>
         <a href="https://twitter.com/intent/tweet?url=<%= request.original_url %>&text=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-twitter"></i></a>
@@ -23,6 +26,9 @@
         <a href="mailto:?subject=<%= @article.title %>&body=<%= request.original_url %>" target="_blank" class="share-icon"><i class="fas fa-envelope"></i></a>
       </div>
    </div>
+
+  </div>
+
 
     <div class="article-info">
       <p class="mb-0">Media : <%= @article.source_name %></p>
