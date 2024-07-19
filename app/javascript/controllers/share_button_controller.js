@@ -9,13 +9,7 @@ export default class extends Controller {
   }
 
   toggle() {
-    console.log("Clicked")
     const arrayOptions = Array.from(this.optionsTarget.children)
-    console.log(this.optionsTarget)
-    // console.log(arrayOptions)
-    // arrayOptions.forEach ( (option) => {
-    //   option.classList.toggle("active")
-    // } )
-    this.optionsTarget.classList.add("active")
+    this.optionsTarget.classList.toggle("active")
   }
 }
