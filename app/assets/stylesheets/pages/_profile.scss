@@ -1,0 +1,85 @@
+.profile-page {
+  background-color: #1c1c1e;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+
+  .profile-header {
+    .profile-picture {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .btn-edit-profile {
+      background-color: #4a4a4a;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #5c5c5c;
+      }
+    }
+  }
+
+  .saved-articles-section {
+    margin-top: 30px;
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .saved-articles {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      .article-card {
+        background-color: #2c2c2e;
+        padding: 10px;
+        border-radius: 10px;
+        width: 150px;
+
+        .article-image {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+
+        h4 {
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .btn-view-all {
+      background-color: #5a5a5a;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #6c6c6c;
+      }
+    }
+  }
+}
