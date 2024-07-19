@@ -50,52 +50,38 @@
     <a href="<%= @article.article_url %>" target="_blank"> Visit the original article</a>
   </div>
     <div class="suggested_articles">
-      <ul>
-        <% @articles.each do |article| %>
-         <li><%= link_to article.title, article_path(article) %></li>
-       <% end %>
-      </ul>
       <%= link_to "See all articles", articles_path, class: "glow" %>
-    </div>
-
-</div>
-<div class="grid">
-  <% user_articles.reverse_each do |user_article| %>
-      <div class="listed-user-article">
-          <% prob = user_article.probability.round(2) * 100 %>
-          <% prob_value = prob.to_i  %>
-          <% prob_value = prob_value * -1 if prob_value < 0 %>
-        <div class="icon">
-          <% if user_article.fake_news_validation == false %>
-            <% if prob_value >= 68 && prob_value <= 100 %>
-              <span>🔴</span>
-              <% elsif prob_value >= 33 && prob_value < 68 %>
-              <span>🟠</span>
-              <% else %>
-              <span>🟡</span>
-            <% end %>
-          <% else %>
-            <span>🟢</span>
-          <% end %>
-        </div>
-        <div>
-          <% if user_article.fake_news_validation == false %>
-              <% fake_value = "Fake news" %>
-            <% else %>
-              <% fake_value = "True" %>
-            <% end %>
-              <h3><%= user_article.title.truncate(60) %></h3>
-              <p><%= fake_value %> | Probability: <%= prob_value %> %</p>
-        </div>
-        <div class="icon">
-          <% if user_article.article_url? %>
-            <%= link_to (image_tag("Link-outside.svg")), user_article.article_url %>
-          <% else %>
-          <% end %>
-        </div>
-        <div class="icon">
-          <%= link_to image_tag("Delete.svg"), user_article_path(user_article), data: {turbo_method: :delete, turbo_confirm: "Do you really want to delete the article?"} %>
-        </div>
       </div>
-    <% end %>
-</div>
+      <div class="grid">
+      <h2>Suggested articles: </h2>
+        <% @articles.each do |article| %>
+            <div class="listed-user-article">
+                <% prob = article.probability.round(2) * 100 %>
+                <% prob_value = prob.to_i  %>
+                <% prob_value = prob_value * -1 if prob_value < 0 %>
+              <div class="icon">
+                <% if article.fake_news_validation == false %>
+                  <% if prob_value >= 68 && prob_value <= 100 %>
+                    <span>🔴</span>
+                    <% elsif prob_value >= 33 && prob_value < 68 %>
+                    <span>🟠</span>
+                    <% else %>
+                    <span>🟡</span>
+                  <% end %>
+                <% else %>
+                  <span>🟢</span>
+                <% end %>
+              </div>
+              <div>
+                <% if article.fake_news_validation == false %>
+                    <% fake_value = "Fake news" %>
+                  <% else %>
+                    <% fake_value = "True" %>
+                  <% end %>
+                    <h3><%= link_to article.title.truncate(100), article_path(article)%></h3>
+                    <p><%= fake_value %> | Probability: <%= prob_value %> %</p>
+              </div>
+            </div>
+          <% end %>
+      </div>
+    </div>
