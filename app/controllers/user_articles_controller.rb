@@ -26,7 +26,7 @@ class UserArticlesController < ApplicationController
   end
 
   def destroy
-    @user_article = User_article.find(params[:id])
+    @user_article = UserArticle.find(params[:id])
     @user_article.destroy
 
     redirect_to user_articles_path, status: :see_other

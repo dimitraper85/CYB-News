@@ -33,7 +33,7 @@
           <% end %>
         </div>
         <div class="icon">
-          <%= link_to image_tag("Delete.svg"), user_articles_path(@user_article), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+          <%= link_to image_tag("Delete.svg"), user_article_path(user_article), data: {turbo_method: :delete, turbo_confirm: "Do you really want to delete the article?"} %>
         </div>
       </div>
     <% end %>
