@@ -1,9 +1,16 @@
-<div>
+<div class ="mb-5 pb-5">
   <div class="article-info">
       <h2><%= @article.title %></h2>
   </div>
   <div>
     <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
+    <div class="app-button" data-controller="favoritor"  style="width:50px" data-action="click->favoritor#bookmark" data-favoritor-target="bookmark" data-favoritor-url-value="<%=toggle_favorite_article_path(@article)%>">
+      <% if current_user.favorited?(@article) %>
+        <i class="fa-solid fa-bookmark"></i>
+      <% else %>
+        <i class="fa-regular fa-bookmark"></i>
+      <% end %>
+    </div>
   </div>
     <div class="article-info">
       <p class="mb-0">Media : <%= @article.source_name %></p>
@@ -31,4 +38,5 @@
       </ul>
       <%= link_to "See all articles", articles_path, class: "glow" %>
     </div>
+
 </div>

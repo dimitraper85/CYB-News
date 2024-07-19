@@ -1,0 +1,11 @@
+  <h2>Bookmarks</h2>
+<div>
+  <ul>
+    <% @bookmarks.each do |bookmark|%>
+      <li>
+        <%= link_to bookmark.favoritable.title, article_path(bookmark.favoritable.id) %></p>
+        <p></p>
+      </li>
+    <% end %>
+  </ul>
+</div>
