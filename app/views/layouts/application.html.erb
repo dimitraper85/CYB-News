@@ -16,8 +16,6 @@
     <% unless current_page?(root_path) %>
       <% if current_page?(articles_path) || current_page?(user_articles_path) %>
         <%= render partial: 'devise/shared/navbar', locals: { show_back_button: false, show_search_icon: true } %>
-      <% elsif current_page?(new_user_article_path) %>
-        <%= render partial: 'devise/shared/navbar', locals: { show_back_button: false, show_search_icon: false } %>
       <% else %>
         <%= render partial: 'devise/shared/navbar', locals: { show_back_button: true, show_search_icon: false  } %>
       <% end %>

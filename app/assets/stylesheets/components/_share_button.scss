@@ -1,0 +1,77 @@
+// @import 'base/variables';
+
+.share-button-container {
+  position: relative;
+  display: inline-block;
+
+  .share-button {
+    background-color: $accent-color;
+    color: $text-color;
+    padding: $spacing-small $spacing-medium;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    font-size: $font-size-normal;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($accent-color, 2%);
+    }
+  }
+
+  .share-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $primary-color;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    padding: $spacing-small;
+    z-index: 1;
+
+    .share-icon {
+      color: $secondary-Text-color;
+      display: inline-block;
+      padding: $spacing-small;
+      font-size: $font-size-normal;
+      text-decoration: none;
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+      &:hover {
+        color: $text-color
+      }
+
+      &:nth-child(1) {
+        transition-delay: 0.1s;
+      }
+      &:nth-child(2) {
+        transition-delay: 0.2s;
+      }
+      &:nth-child(3) {
+        transition-delay: 0.3s;
+      }
+      &:nth-child(4) {
+        transition-delay: 0.4s;
+      }
+      &:nth-child(5) {
+        transition-delay: 0.5s;
+      }
+    }
+
+    a {
+      color: $text-color;
+      display: block;
+      padding: $spacing-small 0;
+      text-decoration: none;
+    }
+  }
+
+  .active {
+    display: block;
+    .share-icon {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
