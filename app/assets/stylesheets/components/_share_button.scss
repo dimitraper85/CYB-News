@@ -5,17 +5,17 @@
   display: inline-block;
 
   .share-button {
-    background-color: $accent-color;
+    background-color: $primary-color;
     color: $text-color;
     padding: $spacing-small $spacing-medium;
     border: none;
     border-radius: $border-radius;
     cursor: pointer;
-    font-size: $font-size-normal;
+    font-size: $font-size-large;
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: darken($accent-color, 2%);
+      background-color: darken($primary-color, 10%);
     }
   }
 
