@@ -4,6 +4,7 @@ class ArticlesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index]
 
   def index
+    @count = 100
     @articles = Article.all
     @categories = []
     @articles.each { |article| @categories.push(article.category) }
