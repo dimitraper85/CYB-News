@@ -2,7 +2,7 @@
   <% articles.reverse_each do |article| %>
     <%= link_to article_path(article) do %>
       <div class="article-card">
-        <img src="<%= article.image_url %> " style="width:100%;" alt="article image">
+        <img src="<%= article.image_url %>" onerror="this.src='https://:tse4.mm.bing.net/th?id=OIG1.v6ZUiKDv.rJpKz47JY7f&pid=ImgGn'" style="width:100%;" alt="article image">
         <h2><%= article.title %></h2>
         <p class="mb-0">Media : <%= article.source_name %></p>
         <p class="mb-0">Category : <%= article.category.split("/")[1] %></p>
