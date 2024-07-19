@@ -26,8 +26,15 @@
               <h3><%= user_article.title.truncate(60) %></h3>
               <p><%= fake_value %> | Probability: <%= prob_value %> %</p>
         </div>
-        <div class="icon"><%= image_tag "Link-outside.svg" %></div>
-        <div class="icon"><%= image_tag "Delete.svg" %></div>
+        <div class="icon">
+          <% if user_article.article_url? %>
+            <%= link_to (image_tag("Link-outside.svg")), user_article.article_url %>
+          <% else %>
+          <% end %>
+        </div>
+        <div class="icon">
+          <%= link_to image_tag("Delete.svg"), user_article_path(user_article), data: {turbo_method: :delete, turbo_confirm: "Do you really want to delete the article?"} %>
+        </div>
       </div>
     <% end %>
 </div>

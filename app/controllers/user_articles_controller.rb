@@ -25,6 +25,13 @@ class UserArticlesController < ApplicationController
     end
   end
 
+  def destroy
+    @user_article = UserArticle.find(params[:id])
+    @user_article.destroy
+
+    redirect_to user_articles_path, status: :see_other
+  end
+
   private
 
   def safe_params
