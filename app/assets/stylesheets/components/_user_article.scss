@@ -1,0 +1,38 @@
+
+.listed-user-article {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $accent-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin: $spacing-small;
+  padding: $spacing-small;
+  display: grid;
+  grid-template-columns: 1fr 12fr 2fr 2fr;
+  grid-gap: $spacing-small;
+}
+
+.listed-user-article h3 {
+  color: $text-color;
+  margin-right: $spacing-small;
+}
+
+.listed-user-article p {
+  margin-bottom: 0px;
+}
+
+.listed-user-article .icon {
+  align-items: center;
+  display:flex;
+  align-items:center;
+}
+
+.listed-user-article .icon span {
+  position: relative;
+  vertical-align: middle;
+}
+.listed-user-article .icon img {
+  width: 30px;
+  height:auto;
+  object-fit: contain;
+}
