@@ -20,9 +20,9 @@
         <div >
           <h3><%= user_article.title.truncate(60) %></h3>
           <% if user_article.fake_news_validation == true %>
-            <p>Classification: <span style='color:#c21615;'>Fake news</span><br> We are <%= prob_value %>% confident.</p>
+            <p>Classification: <span style='color:#c21615;'>Fake news</span> | We are <%= prob_value %>% confident.</p>
           <% else %>
-            <p>Classification: <span style='color:#029702;'>Verified</span><br> We are <%= prob_value %>% confident.</p>
+            <p>Classification: <span style='color:#029702;'>Verified</span> | We are <%= prob_value %>% confident.</p>
           <% end %>
         </div>
         <div class="icon">
@@ -32,7 +32,7 @@
           <% end %>
         </div>
         <div class="icon">
-          <%= link_to image_tag("Delete.svg"), user_article_path(user_article), data: {turbo_method: :delete, turbo_confirm: "Do you really want to delete the article?"} %>
+          <%= link_to ("<i class='fa-solid fa-trash' style='color:white;'></i>").html_safe, user_article_path(user_article), data: {turbo_method: :delete, turbo_confirm: "Do you really want to delete the article?"} %>
         </div>
       </div>
     <% end %>
