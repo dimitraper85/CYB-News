@@ -1,7 +1,32 @@
 class SeedJob < ApplicationJob
+  require "rest-client"
+  require "json"
   queue_as :default
 
   def perform
+    body = {
+      action: "getArticles",
+      ignoreSourceGroupUri: "paywall/paywalled_sources",
+      isDuplicateFilter: "skipDuplicates",
+      articlesPage: 1,
+      articlesCount: 100,
+      articlesSortBy: "date",
+      articlesSortByAsc: false,
+      dataType: [
+        "news"
+      ],
+      includeArticleBasicInfo: true,
+      includeArticleCategories: true,
+      categoryUri: [
+        "news/Politics", "news/Environment", "news/Science"
+      ],
+      lang: [
+        "eng"],
+      forceMaxDataTimeWindow: 7,
+      resultType: "articles",
+      apiKey: "#{ENV["NEWS_API_KEY"]}"
+    }.to_json
+
     response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
     parsed_response = JSON.parse(response.body)
     parsed_response["articles"]["results"].each do |parsed_article|
@@ -23,5 +48,13 @@ class SeedJob < ApplicationJob
       article.probability = response[:probability]
       article.save!
     end
+
+    #Comment.create!(user_id: u1.id, article_id: Article.first.id, content: "I am really surprised that this is not a fake news ! Good to know.")
+    #Comment.create!(user_id: u1.id, article_id: Article.second.id, content: "It is a disaster how this has been handled. I hope solution will be found")
+    #Comment.create!(user_id: u2.id, article_id: Article.third.id, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
+
+    #Bookmark.create!(user_id: u3.id, article_id: Article.first.id)
+    #Bookmark.create!(user_id: u3.id, article_id: Article.second.id)
+    #Bookmark.create!(user_id: u1.id, article_id: Article.third.id)
   end
 end

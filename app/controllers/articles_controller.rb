@@ -9,15 +9,15 @@ class ArticlesController < ApplicationController
     @categories = []
     @articles.each { |article| @categories.push(article.category) }
     if params[:query].present?
-      @articles = @articles.where("title ILIKE ?",  "%#{params[:query]}%")
+      @articles = @articles.where("title ILIKE ?", "%#{params[:query]}%")
     end
     if params[:category].present?
       @articles = @articles.where(category: params[:category]) unless params[:category] == "all"
     end
-    @articles = @articles.sort_by {|article| article[:pub_date]}
+    @articles = @articles.sort_by { |article| article[:pub_date] }
     respond_to do |format|
       format.html # Follow regular flow of Rails
-      format.text { render partial: "articles/list", locals: {articles: @articles}, formats: [:html] }
+      format.text { render partial: "articles/list", locals: { articles: @articles }, formats: [:html] }
     end
   end
 

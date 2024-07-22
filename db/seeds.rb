@@ -23,37 +23,4 @@ u4 = User.create!(email: "max@email.com", password: "123456", username: "Max")
 u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTester")
 
 # creates article seeds
-body = {
-  action: "getArticles",
-  ignoreSourceGroupUri: "paywall/paywalled_sources",
-  isDuplicateFilter: "skipDuplicates",
-  articlesPage: 1,
-  articlesCount: 50,
-  articlesSortBy: "date",
-  articlesSortByAsc: false,
-  dataType: [
-    "news"
-  ],
-  includeArticleBasicInfo: true,
-  includeArticleCategories: true,
-  categoryUri: [
-    "news/Politics", "news/Environment", "news/Science"
-  ],
-  lang: [
-    "eng"],
-  forceMaxDataTimeWindow: 7,
-  resultType: "articles",
-  apiKey: "#{ENV["NEWS_API_KEY"]}"
-}.to_json
-
-SeedJob.set(wait: 1.minute).perform_later
-
-Comment.create!(user_id: u1.id, article_id: Article.first.id, content: "I am really surprised that this is not a fake news ! Good to know.")
-Comment.create!(user_id: u1.id, article_id: Article.second.id, content: "It is a disaster how this has been handled. I hope solution will be found")
-Comment.create!(user_id: u2.id, article_id: Article.third.id, content: "All these shootings ! I couldn't believe first. I straight went here to fact check !")
-
-Bookmark.create!(user_id: u3.id, article_id: Article.first.id)
-Bookmark.create!(user_id: u3.id, article_id: Article.second.id)
-Bookmark.create!(user_id: u1.id, article_id: Article.third.id)
-
 puts "seeding successful"
