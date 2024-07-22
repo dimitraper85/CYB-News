@@ -5,14 +5,8 @@
           <% prob_value = prob.to_i  %>
           <% prob_value = prob_value * -1 if prob_value < 0 %>
         <div class="icon">
-          <% if user_article.fake_news_validation == true %>
-            <% if prob_value >= 80 && prob_value <= 100 %>
-              <span>🔴</span>
-              <% elsif prob_value >= 60 && prob_value < 80 %>
-              <span>🟠</span>
-              <% else %>
-              <span>🟡</span>
-            <% end %>
+        <% if user_article.fake_news_validation == true %>
+            <span>🔴</span>
           <% else %>
             <span>🟢</span>
           <% end %>

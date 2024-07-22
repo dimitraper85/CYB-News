@@ -9,11 +9,9 @@ class PredictNewsService
       parsed_response = JSON.parse(response.body)
       return { fake: parsed_response["fake"], probability: parsed_response["probability"] }
     rescue RestClient::ExceptionWithResponse => e
-      p e
-      # raise PredictNewsError, "API call failed with status: #{e.http_code}"
+      raise PredictNewsError, "API call failed with status: #{e.http_code}"
     rescue RestClient::Exception => e
-      p e
-      # raise PredictNewsError, "API call failed: #{e.message}"
+      raise PredictNewsError, "API call failed: #{e.message}"
     end
   end
 end
