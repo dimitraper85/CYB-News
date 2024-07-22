@@ -6,8 +6,12 @@
         <h2><%= article.title %></h2>
         <p class="mb-0">Media : <%= article.source_name %></p>
         <p class="mb-0">Category : <%= article.category.split("/")[1] %></p>
-        <p><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours ago</p>
-        <p>this article <% if article.fake_news_validation == true %>spreads misinformation<% else %>is verified<% end %></p>
+        <p class="mb-0"><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours ago</p>
+        <% if article.fake_news_validation == true %>
+            <p>This article spreads <span style="color:#c21615;">misinformation</span></p>
+          <% else %>
+            <p>This article is <span style="color:#029702;">verified</span></p>
+          <% end %>
       </div>
     <% end %>
   <% end %>
