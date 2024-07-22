@@ -1,10 +1,25 @@
-<div class="my-4">
-  <ul>
-    <% @bookmarks.reverse_each do |bookmark|%>
-      <li>
-        <%= link_to bookmark.favoritable.title, article_path(bookmark.favoritable.id) %></p>
-        <p></p>
-      </li>
+<div class="m-2 mt-5">
+  <h2 class="d-flex justify-content-center">Your saved articles: </h2>
+  <% @bookmarks.reverse_each do |bookmark| %>
+      <div class="listed-suggested-article">
+          <% prob = bookmark.favoritable.probability.round(2) * 100 %>
+          <% prob_value = prob.to_i  %>
+          <% prob_value = prob_value * -1 if prob_value < 0 %>
+        <div class="icon">
+          <% if bookmark.favoritable.fake_news_validation == true %>
+            <span>🔴</span>
+          <% else %>
+            <span>🟢</span>
+          <% end %>
+        </div>
+        <div >
+              <h3><%= link_to bookmark.favoritable.title.truncate(100), article_path(bookmark.favoritable)%></h3>
+          <% if bookmark.favoritable.fake_news_validation == true %>
+              <p> This article spreads <span style="color:#c21615;"> misinformation</span> | We are <%= prob_value %>% confident on this assessment</p>
+            <% else %>
+              <p> This article is <span style="color:#029702;"> verified</span> | We are <%= prob_value %>% confident on this assessment</p>
+            <% end %>
+        </div>
+      </div>
     <% end %>
-  </ul>
 </div>
