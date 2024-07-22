@@ -21,11 +21,22 @@
       <% end %>
     </li>
 
-    <li class="tab-bar__nav-item">
-      <%= link_to root_path, class: "tab-bar__nav-link #{'active' if current_page?(root_path)}" do %>
-        <i class="fa-solid fa-house"></i>
-        Home
-      <% end %>
-    </li>
+     <% if user_signed_in? %>
+      <li class="tab-bar__nav-item">
+        <%= link_to profile_path, class: "tab-bar__nav-link #{'active' if current_page?(profile_path(current_user))}" do %>
+          <i class="fa-regular fa-user"></i>
+          Profile
+        <% end %>
+      </li>
+    <% else %>
+      <li class="tab-bar__nav-item">
+        <%= link_to profile_path, class: "tab-bar__nav-link #{'active' if current_page?(new_user_session_path)}" do %>
+          <i class="fa-regular fa-user"></i>
+          Sign in
+        <% end %>
+      </li>
+    <% end %>
+
+
   </ul>
 </div>
