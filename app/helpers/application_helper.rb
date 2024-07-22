@@ -14,6 +14,8 @@ module ApplicationHelper
       'CYB Checker'
     when 'user_articles'
       'My Checked Articles'
+    when 'user_profile'
+      'Profile'
     else
       'CYB News' # Default title
     end
@@ -29,6 +31,8 @@ module ApplicationHelper
       'new_article'
     elsif current_page?(user_articles_path)
       'user_articles'
+    elsif current_page?(profile_path)
+      'user_profile'
     else
       'Default Page'
     end

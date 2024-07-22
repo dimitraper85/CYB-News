@@ -23,7 +23,7 @@
 
      <% if user_signed_in? %>
       <li class="tab-bar__nav-item">
-        <%= link_to profile_path, class: "tab-bar__nav-link #{'active' if current_page?(profile_path(current_user))}" do %>
+        <%= link_to profile_path, class: "tab-bar__nav-link #{'active' if current_page?(profile_path)}" do %>
           <i class="fa-regular fa-user"></i>
           Profile
         <% end %>
