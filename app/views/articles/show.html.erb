@@ -84,7 +84,7 @@
                   <% else %>
                     <% fake_value = "This article is verified" %>
                   <% end %>
-                    <h3 style="width:240px"><%= link_to article.title.truncate(100), article_path(article)%></h3>
+                    <h3><%= link_to article.title.truncate(100), article_path(article)%></h3>
                     <p><%= fake_value %> | We are <%= prob_value %>% confident on this assessment</p>
               </div>
             </div>

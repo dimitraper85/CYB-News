@@ -11,6 +11,8 @@
   grid-template-columns: 1fr 14fr 2fr 2fr;
   grid-gap: $spacing-small;
   word-break: break-word;
+  margin-top:$spacing-medium;
+  margin-bottom:$spacing-medium;
 }
 
 .listed-user-article h3 {
