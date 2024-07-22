@@ -2,6 +2,10 @@
 @import "home";
 @import "showpage";
 
+.article-card h2{
+  color: $text-color;
+}
+
 .wrap {
   padding-top: $spacing-medium;
   padding-left: $spacing-large;
