@@ -1,0 +1,12 @@
+<div class="profile-page">
+    <div class="profile-header mt-4">
+      <h2><%= @user.username %></h2>
+      <p><%= @user.email %></p>
+      <p>Joined in <%= @user.created_at.strftime("%B %Y") %></p>
+      <%# <%= link_to 'Edit profile', edit_user_registration_path, class: "btn btn-edit-profile" %>
+    </div>
+
+    <div class="profile-actions mt-5">
+      <%= link_to "Log out", destroy_user_session_path, class: "app-button", data: {turbo_method: :delete} %>
+    </div>
+</div>

@@ -14,6 +14,8 @@ module ApplicationHelper
       'CYB Checker'
     when 'user_articles'
       'My Checked Articles'
+    when 'user_profile'
+      'Profile'
     when 'bookmarks'
       'My CYB News Bookmarks'
     else
@@ -31,6 +33,8 @@ module ApplicationHelper
       'new_article'
     elsif current_page?(user_articles_path)
       'user_articles'
+    elsif current_page?(profile_path)
+      'user_profile'
     elsif current_page?(bookmarks_path)
       'bookmarks'
     else
