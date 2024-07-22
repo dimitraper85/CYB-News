@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     member do
       post 'toggle_favorite', to: "articles#toggle_favorite"
     end
+    resources :comments, only: [:create, :destroy]
   end
 
   resources :user_articles, only: [:index, :new, :create, :destroy]

@@ -16,6 +16,8 @@ module ApplicationHelper
       'My Checked Articles'
     when 'user_profile'
       'Profile'
+    when 'bookmarks'
+      'My CYB News Bookmarks'
     else
       'CYB News' # Default title
     end
@@ -33,6 +35,8 @@ module ApplicationHelper
       'user_articles'
     elsif current_page?(profile_path)
       'user_profile'
+    elsif current_page?(bookmarks_path)
+      'bookmarks'
     else
       'Default Page'
     end

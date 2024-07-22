@@ -3,7 +3,6 @@
 }
 
 .article-info{
-  margin-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
   color: $secondary-Text-color;
@@ -40,9 +39,46 @@
   margin: 20px;
   box-shadow: $box-shadow;
 }
-
+.comment {
+  position: relative;
+}
+.comment .fa-xmark {
+  color: #ff0909;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.new_comment textarea {
+  width: 100%;
+  background: transparent;
+  color: white;
+  padding:2px;
+  z-index: 12;
+}
+.new_comment textarea:focus {
+  background: white;
+  color: black;
+}
+.new_comment input {
+  width: 100%;
+}
+.new_comment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #584a5b;
+  padding: 7px;
+  border-radius:$border-radius;
+}
+.t-small {
+  font-size: 12px;
+}
 .article-header {
   display: flex;
   padding: $spacing-small $spacing-medium;
   text-align: center;
+}
+.comments {
+  margin:20px;
 }
