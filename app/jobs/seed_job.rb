@@ -4,12 +4,13 @@ class SeedJob < ApplicationJob
   queue_as :default
 
   def perform
+    Article.destroy_all
     body = {
       action: "getArticles",
       ignoreSourceGroupUri: "paywall/paywalled_sources",
       isDuplicateFilter: "skipDuplicates",
       articlesPage: 1,
-      articlesCount: 100,
+      articlesCount: 10,
       articlesSortBy: "date",
       articlesSortByAsc: false,
       dataType: [
@@ -42,6 +43,7 @@ class SeedJob < ApplicationJob
       end
       article.category = parsed_article["categories"].last["label"]
       article.source_name = parsed_article["source"]["title"]
+      sleep(1)
       response = PredictNewsService.predict_news(article.content)
 
       article.fake_news_validation = response[:fake]
