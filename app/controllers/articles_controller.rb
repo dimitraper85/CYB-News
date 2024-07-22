@@ -21,10 +21,16 @@ class ArticlesController < ApplicationController
   end
 
   def show
-    @article = Article.find(params[:id])
+    if params[:id].nil?
+      @article = Article.find(params["article_id"])
+    else
+      @article = Article.find(params[:id])
+    end
     # Hardcoded for display purposes - placeholder till data team provides 0 to 1 value
     @percentage = 50
     @articles = Article.where("id > ?", @article.id).order(id: :asc).limit(3)
+    @comments = Comment.where(article_id: @article.id, user_id: current_user.id)
+    @new_comment = Comment.new
   end
 
   def toggle_favorite
