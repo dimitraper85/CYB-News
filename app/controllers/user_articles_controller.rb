@@ -1,6 +1,6 @@
 class UserArticlesController < ApplicationController
   def index
-    @user_articles = UserArticle.all
+    @user_articles = UserArticle.where(user_id: current_user.id)
     if params[:query].present?
       @user_articles = @user_articles.where("title ILIKE ?",  "%#{params[:query]}%")
     end
@@ -23,6 +23,13 @@ class UserArticlesController < ApplicationController
     else
       render :new
     end
+  end
+
+  def destroy
+    @user_article = UserArticle.find(params[:id])
+    @user_article.destroy
+
+    redirect_to user_articles_path, status: :see_other
   end
 
   private

@@ -75,3 +75,8 @@
 .t-small {
   font-size: 12px;
 }
+.article-header {
+  display: flex;
+  padding: $spacing-small $spacing-medium;
+  text-align: center;
+}
