@@ -23,7 +23,7 @@
 
 .fake-news-bg-bar {
   box-sizing: border-box;
-  width: 390px;
+  width: 85vw;
   height: 4px;
   margin-right: 10px;
   background-color: $text-color;
@@ -38,6 +38,45 @@
 .suggested_articles{
   margin: 20px;
   box-shadow: $box-shadow;
+}
+.listed-suggested-article {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $accent-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  margin: $spacing-small;
+  padding: $spacing-small;
+  display: grid;
+  grid-template-columns: 1fr 14fr;
+  grid-gap: $spacing-small;
+  word-break: break-word;
+}
+
+.listed-suggested-article h3 {
+  color: $text-color;
+  margin-right: $spacing-small;
+
+}
+
+.listed-suggested-article p {
+  margin-bottom: 0px;
+}
+
+.listed-suggested-article .icon {
+  align-items: center;
+  display:flex;
+  align-items:center;
+}
+
+.listed-suggested-article .icon span {
+  position: relative;
+  vertical-align: middle;
+}
+.listed-suggested-article .icon img {
+  width: 30px;
+  height:auto;
+  object-fit: contain;
 }
 .comment {
   position: relative;

@@ -11,6 +11,8 @@
   grid-template-columns: 1fr 14fr 2fr 2fr;
   grid-gap: $spacing-small;
   word-break: break-word;
+  margin-top:$spacing-medium;
+  margin-bottom:$spacing-medium;
 }
 
 .listed-user-article h3 {
@@ -33,8 +35,8 @@
   position: relative;
   vertical-align: middle;
 }
-.listed-user-article .icon img {
-  width: 30px;
+.listed-user-article .icon img, .listed-user-article .icon i {
+  width: 20px;
   height:auto;
   object-fit: contain;
 }
