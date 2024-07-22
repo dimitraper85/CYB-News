@@ -41,7 +41,7 @@
         <% if @article.fake_news_validation == true %>
             <p style="margin-bottom:0;">This article spreads <span style="color:#c21615;">misinformation</span></p>
           <% else %>
-            <p style="margin-bottom:0;">This article is <span style="color:#029702;">verified</span></p>
+            <p>This article is <span style="color:#029702;">verified</span></p>
           <% end %>
           <p>We are <%= (@article.probability.round(2) * 100).to_i %>% confident on this assessment</p>
       </div>
