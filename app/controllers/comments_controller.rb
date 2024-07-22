@@ -2,8 +2,8 @@ class CommentsController < ApplicationController
   def create
     comment = Comment.new(content: params["comment"][:content])
     comment.user_id = current_user.id
-    comment.article_id = params[:article_id]
-    article = Article.find(params[:article_id])
+    comment.article_id = params["article_id"]
+    article = Article.find(params["article_id"])
     if comment.save
       redirect_to article_path(article)
     else
