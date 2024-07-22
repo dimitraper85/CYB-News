@@ -53,7 +53,7 @@
       <%= link_to "See all articles", articles_path, class: "glow" %>
       </div>
       <div class="grid">
-      <h2>Suggested articles: </h2>
+        <h2 class="d-flex justify-content-center">Suggested articles: </h2>
         <% @articles.each do |article| %>
             <div class="listed-user-article">
                 <% prob = article.probability.round(2) * 100 %>
@@ -72,13 +72,13 @@
                   <span>🟢</span>
                 <% end %>
               </div>
-              <div>
+              <div >
                 <% if article.fake_news_validation == false %>
                     <% fake_value = "Fake news" %>
                   <% else %>
                     <% fake_value = "True" %>
                   <% end %>
-                    <h3><%= link_to article.title.truncate(100), article_path(article)%></h3>
+                    <h3 style="width:240px"><%= link_to article.title.truncate(100), article_path(article)%></h3>
                     <p><%= fake_value %> | Probability: <%= prob_value %> %</p>
               </div>
             </div>
