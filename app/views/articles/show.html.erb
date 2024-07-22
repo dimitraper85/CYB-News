@@ -67,13 +67,7 @@
                 <% prob_value = prob_value * -1 if prob_value < 0 %>
               <div class="icon">
                 <% if article.fake_news_validation == true %>
-                  <% if prob_value >= 80 && prob_value <= 100 %>
-                    <span>🔴</span>
-                    <% elsif prob_value >= 60 && prob_value < 80 %>
-                    <span>🟠</span>
-                    <% else %>
-                    <span>🟡</span>
-                  <% end %>
+                  <span>🔴</span>
                 <% else %>
                   <span>🟢</span>
                 <% end %>
