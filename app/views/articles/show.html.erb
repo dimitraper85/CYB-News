@@ -101,8 +101,7 @@
         </div>
         <div class="comments mt-5">
           <h2 class>Add my comment</h3>
-          <%= simple_form_for [ @article, @new_comment ], html: {
-            data: { update_comments_target: "form", action: "submit->update-comments#create" } } do |f| %>
+          <%= simple_form_for [ @article, @new_comment ], html: {data: { update_comments_target: "form", action: "submit->update-comments#create" } } do |f| %>
             <%= f.text_area :content, data: {update_comments_target: "input"} %>
             <%= f.submit class: "glow mt-2" %>
           <% end %>
