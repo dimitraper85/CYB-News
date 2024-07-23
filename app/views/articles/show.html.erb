@@ -1,6 +1,6 @@
 <div class ="mb-5 pb-5">
   <div class="article-info">
-      <h2><%= @article.title %></h2>
+      <h5><%= @article.title %></h5>
   </div>
 
   <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
@@ -16,7 +16,7 @@
     </div>
      <!-- Share Button -->
       <div data-controller="share-button" class="share-button-container">
-          <button data-action="click->share-button#toggle" class="app-button share-button"><i class="fa-duotone fa-solid fa-share-nodes"></i></button>
+          <button data-action="click->share-button#toggle" class="share-button app-button"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
           <div data-share-button-target="options" class="share-options">
             <a href="https://www.facebook.com/sharer/sharer.php?u=<%= request.original_url %>&quote=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/intent/tweet?url=<%= request.original_url %>&text=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-twitter"></i></a>
@@ -26,8 +26,6 @@
           </div>
       </div>
   </div>
-
-
     <div class="article-info">
       <p class="mb-0">Source : <%= @article.source_name %></p>
       <p class="mb-0"><%= @article.category.split("/")[1] %></p>
@@ -55,79 +53,86 @@
               <%# <p>This article is <span style="color:#029702;">verified</span></p> %>
             <%# end %>
             <div class ="fake-news-bar" style="width:<%= (@article.probability.round(2) * 100).to_i %>%">
-              <div class ="fake-news-bg-bar">
-              </div>
+            <div class ="fake-news-bg-bar">
             </div>
-            <p>We are <%= (@article.probability.round(2) * 100).to_i %>% confident on this assessment</p>
-        </div>
+          </div>
+          <p>We are <%= (@article.probability.round(2) * 100).to_i %>% confident on this assessment</p>
       </div>
     </div>
-    <div class="content">
-    </div>
-  <div class="article-info pt-3">
+  <%# </div> %>
+
+  <div class="content"> </div>
+
+  <div class="article-content-show">
     <p><%= @article.content %></p>
   </div>
-  <div class="article-info">
+  <%# <div class="original-article"> %>
     <a href="<%= @article.article_url %>" target="_blank"> Visit the original article</a>
-  </div>
+  <%# </div> %>
     <div class="suggested_articles">
       <%= link_to "See all articles", articles_path, class: "glow" %>
-      </div>
+    </div>
+  </div>
+
       <div class="m-2 mt-5">
-        <h2 class="d-flex justify-content-center">Suggested articles: </h2>
+        <h4 class="d-flex justify-content-center">Suggested articles: </h4>
         <% @articles.each do |article| %>
-            <div class="listed-suggested-article">
-                <% prob = article.probability.round(2) * 100 %>
-                <% prob_value = prob.to_i  %>
-                <% prob_value = prob_value * -1 if prob_value < 0 %>
-              <div class="icon">
-                <% if article.fake_news_validation == true && prob_value >= 75 %>
-                    <span>🔴</span>
-                  <% elsif article.fake_news_validation == false && prob_value >= 75%>
-                    <span>🟢</span>
-                  <% else %>
-                    <span>🟡</span>
-                <% end %>
-              </div>
-              <div >
-                <h3><%= link_to article.title.truncate(100), article_path(article)%></h3>
-                <% if article.fake_news_validation == true %>
-                  <% if prob_value >= 75 %>
-                    <p>This article is most likely <span style='color:#f8312f;'>false</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
-                  <% else %>
-                    <p>This article has falsy elements.<br>Our analysis is only <%= prob_value %>% certain.</p>
+          <%= link_to article_path(article) do %>
+              <div class="listed-suggested-article">
+                  <% prob = article.probability.round(2) * 100 %>
+                  <% prob_value = prob.to_i  %>
+                  <% prob_value = prob_value * -1 if prob_value < 0 %>
+                <div class="icon">
+                  <% if article.fake_news_validation == true && prob_value >= 75 %>
+                      <span>🔴</span>
+                    <% elsif article.fake_news_validation == false && prob_value >= 75%>
+                      <span>🟢</span>
+                    <% else %>
+                      <span>🟡</span>
                   <% end %>
-                <% else %>
-                  <% if prob_value >= 75 %>
-                    <p>This article is most likely <span style='color:#00d26a;'>true</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+                </div>
+                <div >
+                  <h3><%= article.title.truncate(100) %></h3>
+                  <% if article.fake_news_validation == true %>
+                    <% if prob_value >= 75 %>
+                      <p>This article is most likely <span style='color:#f8312f;'>false</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+                    <% else %>
+                      <p>This article has falsy elements.<br>Our analysis is only <%= prob_value %>% certain.</p>
+                    <% end %>
                   <% else %>
-                    <p>This article has truthy elements.<br>Our analysis is only <%= prob_value %>% certain.</p>
+                    <% if prob_value >= 75 %>
+                      <p>This article is most likely <span style='color:#00d26a;'>true</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+                    <% else %>
+                      <p>This article has truthy elements.<br>Our analysis is only <%= prob_value %>% certain.</p>
+                    <% end %>
                   <% end %>
-                <% end %>
+                </div>
               </div>
-            </div>
+            <% end %>
           <% end %>
       </div>
       <% unless @comments.empty? %>
         <div class="comments mt-5">
-          <h2>User comments :</h2>
+          <h4>User comments :</h4>
           <% @comments.reverse_each do |comment| %>
-            <div class="py-2 border-top comment">
+
+            <div class="py-2 comment">
               <% if comment.user_id == current_user.id %>
-                <%= link_to ("<i class='fa-solid fa-xmark fa-xl'></i>").html_safe, article_comment_path(comment.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure to delete your comment ?"} %>
+                <%= link_to ("<small><i class='fa-solid fa-trash'></i></small>").html_safe, article_comment_path(comment.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure to delete your comment ?"} %>
               <% end %>
-              <h4 class="mb-0"><%= User.find(comment.user_id).username %></h4>
-              <p class="t-small"><%= comment.created_at.strftime("%Hh%M - %d/%m/%Y") %></p>
+              <p class="mb-0"><%= User.find(comment.user_id).username %></p>
+              <p class="t-small"><%= comment.created_at.strftime("%b %d, %Y at %I:%M %p") %></p>
               <p>"<%= comment.content %>"</p>
             </div>
+
           <% end %>
         </div>
       <% end %>
       <div class="comments mt-5">
-        <h2 class>Add my comment</h3>
+        <h4 class>Leave a Comment</h4>
         <%= simple_form_for [ @article, @new_comment ] do |f| %>
-          <%= f.text_area :content %>
-          <%= f.submit class: "glow mt-2" %>
+          <%= f.text_area :content, placeholder: "Share your thoughts...", class: "comment-textarea" %>
+          <%= f.submit "Post Comment", class: "glow app-button mt-2" %>
         <% end %>
       </div>
     </div>
