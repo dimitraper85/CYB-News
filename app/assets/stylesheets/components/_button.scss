@@ -10,10 +10,10 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Consolas, Courier New, monospace;
+  // font-family: Consolas, Courier New, monospace;
   border: solid #404c5d 1px;
-  font-size: 16px;
-  color: rgb(161, 161, 161);
+  font-size: $font-size-normal;
+  color: $text-color;
   -webkit-transition: 500ms;
   transition: 500ms;
   border-radius: 5px;
@@ -55,7 +55,7 @@
 
 .glow:before {
   content: '';
-  background: linear-gradient(45deg, #ff00c8, #00ffd5, #c9ef0a, #00ff62, #00ffd5, #002bff, #7a00ff, #ff00c8);
+  background: linear-gradient(45deg, #d502a7, #1269b5, #c9ef0a, #9dba0c, #0f8cd0, #002bff, #7a00ff, #d502a7);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -126,7 +126,7 @@
 
 .glow-on:before {
   content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #d502a7, #1269b5, #c9ef0a, #9dba0c, #0f8cd0, #002bff, #7a00ff, #d502a7);
   position: absolute;
   top: -2px;
   left: -2px;

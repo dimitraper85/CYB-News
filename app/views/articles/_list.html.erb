@@ -3,15 +3,19 @@
     <%= link_to article_path(article) do %>
       <div class="article-card">
         <img src="<%= article.image_url %>" onerror="this.style.display='none'" style="width:100%;" alt="article image">
-        <h2><%= article.title %></h2>
-        <p class="mb-0">Media : <%= article.source_name %></p>
-        <p class="mb-0">Category : <%= article.category.split("/")[1] %></p>
-        <p class="mb-0"><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours ago</p>
-        <% if article.fake_news_validation == true %>
-            <p>This article spreads <span style="color:#c21615;">misinformation</span></p>
+
+        <div class="article-content">
+          <h5><%= article.title %></h5>
+          <p class="mb-0">Media : <%= article.source_name %></p>
+          <p class="mb-0">Category : <%= article.category.split("/")[1] %></p>
+          <small class="mb-0"><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours ago</small>
+          <% if article.fake_news_validation == true %>
+              <p>This article spreads <span style="color:#c21615;">misinformation</span></p>
           <% else %>
-            <p>This article is <span style="color:#029702;">verified</span></p>
+              <p>This article is <span style="color:#029702;">verified</span></p>
           <% end %>
+        </div>
+
       </div>
     <% end %>
   <% end %>
