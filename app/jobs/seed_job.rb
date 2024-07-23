@@ -4,13 +4,13 @@ class SeedJob < ApplicationJob
   queue_as :default
 
   def perform
-    Article.destroy_all
+    Article.where('created_at < ?', 48.hours.ago).destroy_all
     body = {
       action: "getArticles",
       ignoreSourceGroupUri: "paywall/paywalled_sources",
       isDuplicateFilter: "skipDuplicates",
       articlesPage: 1,
-      articlesCount: 10,
+      articlesCount: 100,
       articlesSortBy: "date",
       articlesSortByAsc: false,
       dataType: [
@@ -31,7 +31,7 @@ class SeedJob < ApplicationJob
     response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
     parsed_response = JSON.parse(response.body)
     parsed_response["articles"]["results"].each do |parsed_article|
-      article = Article.new
+      article = Article.find_or_initialize_by(article_url: parsed_article["url"])
       article.pub_date = parsed_article["dateTimePub"]
       article.article_url = parsed_article["url"]
       article.title = parsed_article["title"]
