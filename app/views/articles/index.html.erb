@@ -1,9 +1,9 @@
 <div class="mb-5" data-controller="articles-category">
 <%# render category bar %>
 <div class="categories wrap">
-  <a data-action="click->articles-category#update" data-articles-category-cate-param="all" href="">All articles</a>
+  <a class="active" data-action="click->articles-category#update" data-articles-category-target="link" data-articles-category-cate-param="all" href="">All articles</a>
   <% @categories.uniq.each do |category| %>
-    <a data-action="click->articles-category#update" data-articles-category-cate-param="<%= category %>" href="">&emsp;||&emsp;<%= category.split("/")[1] %></a>
+    <a data-action="click->articles-category#update" data-articles-category-target="link" data-articles-category-cate-param="<%= category %>" href="">&emsp;||&emsp;<%= category.split("/")[1] %></a>
   <% end %>
 </div>
 

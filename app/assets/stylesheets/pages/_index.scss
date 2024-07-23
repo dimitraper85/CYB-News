@@ -3,8 +3,32 @@
 @import "showpage";
 @import "profile";
 
-.article-card h2{
+.article-card h5 {
   color: $text-color;
+}
+
+.article-card {
+ background-color: $primary-color;
+ border-radius: $border-radius;
+ margin-bottom: $spacing-large;
+ box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ animation: fadeInUp 1s ease-in-out;
+//  animation: fadeInUp 0.5s ease forwards;
+ position: relative;
+ overflow: hidden;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  // transform: scale(1.05);
+  // box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+.article-content {
+  padding: $spacing-small $spacing-medium;
+  position: relative;
+  z-index: 2;
 }
 
 .wrap {
@@ -18,8 +42,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 2%;
-  padding: $spacing-large;
-  margin: $spacing-small;
+  padding: $spacing-small;
+  margin: $spacing-medium;
   word-wrap: normal;
 }
 
@@ -70,5 +94,32 @@
 }
 
 .grid p {
-  color: $secondary-Text-color
+  color: $secondary-Text-color;
+  margin-bottom: 0;
+}
+
+.categories.wrap a {
+  // color: $text-color;
+  color: $secondary-Text-color;
+}
+
+.categories a.active {
+  color: $text-color;
+}
+
+.categories {
+  text-wrap: nowrap;
+  // color: $secondary-Text-color;
+  // overflow: scroll;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
