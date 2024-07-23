@@ -6,13 +6,14 @@
   </div>
 </div>
 <div class="container">
-  <div><h2>How it works</h2></div>
-  <div></div>
+  <div><h2>How it works</h2><br></div>
   <div>
-    <%= image_tag "How-it-works.png" %>
+    <%= image_tag "About-us.png" %>
+    <br>
   </div>
   <div>
-    <p>We use artificial intelligence to analyse news and rate their likelihood to be fake or biased. Our mission is to make the web a safer place with less desinformation. You can browse the new we display or sign up to check an article you found elsewhere.</p>
+  <br>
+    <p>We use artificial intelligence to analyse news and check if they can be trusted or not. We use the classifications: "most likely true", "possibly true" "most likely false" and "possibly false". And we also give you a percentage value. It shows how accurate our classification is. So you can make up your mind about the news you see. You can also log in and check articles you found elsewhere.</p>
     <%= link_to ">> Browse news", articles_path %>
     <br>
     <%= link_to ">> Check an article you found", new_user_article_path %>

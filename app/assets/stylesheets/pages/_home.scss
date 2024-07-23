@@ -12,6 +12,7 @@ body {
   background-size: cover;
   display: flex;
   padding: $spacing-large $spacing-medium;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 .banner .box {
@@ -56,10 +57,8 @@ body {
 
   .container img {
     width: 35vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-radius: $border-radius;
-    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
   }
 
   .container p {
