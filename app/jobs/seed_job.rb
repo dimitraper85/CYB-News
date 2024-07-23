@@ -4,13 +4,13 @@ class SeedJob < ApplicationJob
   queue_as :default
 
   def perform
-    Article.destroy_all
+    Article.where('created_at < ?', 48.hours.ago).destroy_all
     body = {
       action: "getArticles",
       ignoreSourceGroupUri: "paywall/paywalled_sources",
       isDuplicateFilter: "skipDuplicates",
       articlesPage: 1,
-      articlesCount: 10,
+      articlesCount: 100,
       articlesSortBy: "date",
       articlesSortByAsc: false,
       dataType: [
