@@ -13,11 +13,11 @@
           <% end %>
         </div>
         <div >
-              <h3><%= link_to bookmark.favoritable.title.truncate(100), article_path(bookmark.favoritable)%></h3>
+              <h3><%= link_to bookmark.favoritable.title.truncate(60), article_path(bookmark.favoritable)%></h3>
           <% if bookmark.favoritable.fake_news_validation == true %>
-              <p> This article spreads <span style="color:#c21615;"> misinformation</span> | We are <%= prob_value %>% confident on this assessment</p>
+              <p> This article spreads <span style="color:#f8312f;"> misinformation</span>.<br>We are <%= prob_value %>% confident on this assessment</p>
             <% else %>
-              <p> This article is <span style="color:#029702;"> verified</span> | We are <%= prob_value %>% confident on this assessment</p>
+              <p> This article is <span style="color:#00d26a;"> verified</span>.<br>We are <%= prob_value %>% confident on this assessment.</p>
             <% end %>
         </div>
       </div>
