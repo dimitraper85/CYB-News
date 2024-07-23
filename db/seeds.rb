@@ -15,7 +15,7 @@ Article.destroy_all
 Comment.destroy_all
 Bookmark.destroy_all
 
-creates user seeds
+# creates user seeds
 u1 = User.create!(email: "dimitra@email.com", password: "123456", username: "Dimitra")
 u2 = User.create!(email: "heena@email.com", password: "123456", username: "Heena")
 u3 = User.create!(email: "judith@email.com", password: "123456", username: "Judith")
