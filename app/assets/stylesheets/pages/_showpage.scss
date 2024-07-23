@@ -51,8 +51,8 @@
   border-color: $accent-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
-  margin: $spacing-small;
-  padding: $spacing-small;
+  margin: $spacing-medium $spacing-small;
+  padding: $spacing-medium;
   display: grid;
   grid-template-columns: 1fr 14fr;
   grid-gap: $spacing-small;
@@ -87,8 +87,9 @@
 .comment {
   position: relative;
 }
-.comment .fa-xmark {
-  color: #ff0909;
+// .comment .fa-xmark {
+.comment .fa-trash {
+  color: $text-color;
   position: absolute;
   right: 10px;
   top: 20px;
@@ -129,4 +130,8 @@
 
 .show-link {
   color: $text-color;
+}
+
+.comment-textarea::placeholder {
+  padding-left: 5px;
 }
