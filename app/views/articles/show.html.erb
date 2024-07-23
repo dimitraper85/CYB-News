@@ -31,7 +31,7 @@
     <div class="article-info">
       <p class="mb-0">Media : <%= @article.source_name %></p>
       <p class="mb-0">Category : <%= @article.category.split("/")[1] %></p>
-      <p><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</p>
+      <p class="mb-0"><% if ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600) >= 1 %><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours <% else %><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 60).round %> minutes <% end %>ago</p>
       <div id="meter">
         <div>
           <% if @article.fake_news_validation == true %>

@@ -14,7 +14,7 @@
         <div >
           <h3><%= user_article.title.truncate(60) %></h3>
           <% if user_article.fake_news_validation == true %>
-            <p style="color:#B099BD;">Classification: <span style='color:#c21615;'>Fake news</span> | We are <%= prob_value %>% confident.</p>
+            <p style="color:#B099BD;">Classification: <span style='color:#c21615;'>Missinformation</span> | We are <%= prob_value %>% confident.</p>
           <% else %>
             <p style="color:#B099BD;">Classification: <span style='color:#029702;'>Verified</span> | We are <%= prob_value %>% confident.</p>
           <% end %>

@@ -6,6 +6,12 @@ export default class extends Controller {
 
   connect() {
     console.log("search connected")
+    const currentUrl = window.location.href;
+    if (currentUrl.includes("query")) {
+      this.iconTarget.classList.add("d-none")
+      this.titleTarget.classList.add("d-none")
+      this.inputTarget.classList.remove("d-none")
+    }
   }
 
   open() {
@@ -19,5 +25,8 @@ export default class extends Controller {
     this.iconTarget.classList.remove("d-none")
     this.titleTarget.classList.remove("d-none")
     this.inputTarget.classList.add("d-none")
+    const pageUrl = window.location.href.split("?")[0]
+    window.location.replace(pageUrl)
+
   }
 }
