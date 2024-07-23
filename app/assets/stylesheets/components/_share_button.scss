@@ -12,11 +12,12 @@
   .share-button {
     background-color: $primary-color;
     color: $text-color;
-    padding: $spacing-small $spacing-medium;
+    padding: 12px $spacing-medium;
+    display: flex;
     border: none;
     border-radius: $border-radius;
     cursor: pointer;
-    font-size: $font-size-large;
+    font-size: 20px;
     transition: background-color 0.3s;
 
     &:hover {

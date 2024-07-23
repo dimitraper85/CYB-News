@@ -113,10 +113,10 @@
         </div>
       <% end %>
       <div class="comments mt-5">
-        <h4 class>Add your comment</h4>
+        <h4 class>Leave a Comment</h4>
         <%= simple_form_for [ @article, @new_comment ] do |f| %>
-          <%= f.text_area :content, placeholder: "Your comment..." %>
-          <%= f.submit class: "glow app-button mt-2" %>
+          <%= f.text_area :content, placeholder: "Share your thoughts..." %>
+          <%= f.submit "Post Comment", class: "glow app-button mt-2" %>
         <% end %>
       </div>
     </div>
