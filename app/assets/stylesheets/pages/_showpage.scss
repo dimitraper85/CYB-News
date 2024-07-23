@@ -3,14 +3,19 @@
 }
 
 .article-info{
-  margin-left: 20px;
-  margin-right: 20px;
-  color: $secondary-Text-color;
-
-}
-.article-info h2{
-  font-size: $font-size-large;
   color: $text-color;
+  margin: $spacing-medium;
+  margin-bottom: 0px;
+}
+.article-info h5{
+  color: $text-color;
+}
+.article-content {
+  color: $text-color;
+  opacity: 0.8;
+}
+.original-article {
+  color: $accent-color;
 }
 
 .fake-news-bar{

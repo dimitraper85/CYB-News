@@ -1,6 +1,6 @@
 <div class ="mb-5 pb-5">
   <div class="article-info">
-      <h2><%= @article.title %></h2>
+      <h5><%= @article.title %></h5>
   </div>
 
   <img class="article-image" src="<%= @article.image_url %>" alt="<%@article.title%>">
@@ -31,7 +31,7 @@
     <div class="article-info">
       <p class="mb-0">Media : <%= @article.source_name %></p>
       <p class="mb-0">Category : <%= @article.category.split("/")[1] %></p>
-      <p><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</p>
+      <small><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</small>
       <div id="meter">
         <div>
           <% if @article.fake_news_validation == true %>
@@ -49,10 +49,11 @@
     </div>
     <div class="content">
     </div>
-  <div class="article-info pt-3">
+  <div class="article-content pt-3">
     <p><%= @article.content %></p>
   </div>
-  <div class="article-info">
+  <%# <div class="article-info"> %>
+  <div class="original-article">
     <a href="<%= @article.article_url %>" target="_blank"> Visit the original article</a>
   </div>
     <div class="suggested_articles">
