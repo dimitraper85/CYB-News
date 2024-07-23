@@ -44,7 +44,6 @@ body = {
   resultType: "articles",
   apiKey: "#{ENV["NEWS_API_KEY"]}"
   }.to_json
-
   response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
   parsed_response = JSON.parse(response.body)
   parsed_response["articles"]["results"].each do |parsed_article|
@@ -61,7 +60,6 @@ body = {
   article.category = parsed_article["categories"].last["label"]
   article.source_name = parsed_article["source"]["title"]
   response = PredictNewsService.predict_news(article.content)
-
   article.fake_news_validation = response[:fake]
   article.probability = response[:probability]
   article.save!
