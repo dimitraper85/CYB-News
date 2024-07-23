@@ -16,7 +16,7 @@
     </div>
      <!-- Share Button -->
       <div data-controller="share-button" class="share-button-container">
-          <button data-action="click->share-button#toggle" class="app-button share-button"><i class="fa-duotone fa-solid fa-share-nodes"></i></button>
+          <button data-action="click->share-button#toggle" class="share-button app-button"><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
           <div data-share-button-target="options" class="share-options">
             <a href="https://www.facebook.com/sharer/sharer.php?u=<%= request.original_url %>&quote=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/intent/tweet?url=<%= request.original_url %>&text=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-twitter"></i></a>
