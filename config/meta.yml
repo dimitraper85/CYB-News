@@ -2,3 +2,4 @@ meta_product_name: "CYB-News"
 meta_title: "CYB-News - Check Your Biases, prevent fake news."
 meta_description: "Check Your Bias News (CYB News) uses Artificial Intelligence to assess the validity of published news. Get informed by reading articles from various sources in our news aggregator or check the validity of an article you found online!"
 meta_image: "app/assets/images/Logo-placeholder.jpg" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account" # required for Twitter Cards
