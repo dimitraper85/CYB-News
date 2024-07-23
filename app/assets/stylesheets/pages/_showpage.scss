@@ -10,9 +10,10 @@
 .article-info h5{
   color: $text-color;
 }
-.article-content {
+.article-content-show {
+  padding: 0px;
   color: $text-color;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .original-article {
   color: $accent-color;
@@ -41,8 +42,8 @@
   color: $text-color;
 }
 .suggested_articles{
-  margin: 20px;
-  box-shadow: $box-shadow;
+  margin-top: $spacing-large;
+  text-align: center;
 }
 .listed-suggested-article {
   border-style: solid;

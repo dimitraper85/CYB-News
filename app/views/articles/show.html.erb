@@ -27,40 +27,41 @@
       </div>
   </div>
 
-
-    <div class="article-info">
-      <p class="mb-0">Media : <%= @article.source_name %></p>
-      <p class="mb-0">Category : <%= @article.category.split("/")[1] %></p>
-      <small><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</small>
-      <div id="meter">
-        <div>
-          <% if @article.fake_news_validation == true %>
-              <p>This article spreads <span style="color:#c21615;">misinformation</span></p>
-            <% else %>
-              <p>This article is <span style="color:#029702;">verified</span></p>
-            <% end %>
-            <div class ="fake-news-bar" style="width:<%= (@article.probability.round(2) * 100).to_i %>%">
-              <div class ="fake-news-bg-bar">
-              </div>
+  <div class="article-info">
+    <p class="mb-0">Media : <%= @article.source_name %></p>
+    <p class="mb-0">Category : <%= @article.category.split("/")[1] %></p>
+    <small><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</small>
+    <div id="meter">
+      <div>
+        <% if @article.fake_news_validation == true %>
+            <p>This article spreads <span style="color:#c21615;">misinformation</span></p>
+          <% else %>
+            <p>This article is <span style="color:#029702;">verified</span></p>
+          <% end %>
+          <div class ="fake-news-bar" style="width:<%= (@article.probability.round(2) * 100).to_i %>%">
+            <div class ="fake-news-bg-bar">
             </div>
-            <p>We are <%= (@article.probability.round(2) * 100).to_i %>% confident on this assessment</p>
-        </div>
+          </div>
+          <p>We are <%= (@article.probability.round(2) * 100).to_i %>% confident on this assessment</p>
       </div>
     </div>
-    <div class="content">
-    </div>
-  <div class="article-content pt-3">
+  <%# </div> %>
+
+  <div class="content"> </div>
+
+  <div class="article-content-show">
     <p><%= @article.content %></p>
   </div>
-  <%# <div class="article-info"> %>
-  <div class="original-article">
+  <%# <div class="original-article"> %>
     <a href="<%= @article.article_url %>" target="_blank"> Visit the original article</a>
-  </div>
+  <%# </div> %>
     <div class="suggested_articles">
       <%= link_to "See all articles", articles_path, class: "glow" %>
-      </div>
+    </div>
+  </div>
+
       <div class="m-2 mt-5">
-        <h2 class="d-flex justify-content-center">Suggested articles: </h2>
+        <h4 class="d-flex justify-content-center">Suggested articles: </h4>
         <% @articles.each do |article| %>
             <div class="listed-suggested-article">
                 <% prob = article.probability.round(2) * 100 %>
@@ -87,7 +88,7 @@
       </div>
       <% unless @comments.empty? %>
         <div class="comments mt-5">
-          <h2>User comments :</h2>
+          <h4>User comments :</h4>
           <% @comments.reverse_each do |comment| %>
             <div class="py-2 border-top comment">
               <% if comment.user_id == current_user.id %>
