@@ -110,7 +110,12 @@
 .categories {
   text-wrap: nowrap;
   // color: $secondary-Text-color;
-  // overflow: scroll;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.categories::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
 }
 
 @keyframes fadeInUp {
