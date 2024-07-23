@@ -4,11 +4,16 @@ body {
   background-color: $background-color;
 }
 
+img {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
 .banner {
   position: relative;
   height: 275px;
   width: 100%;
-  background-image: image_url("placeholder-home2.png");
+  background-image: image_url("Home.png");
   background-size: cover;
   display: flex;
   padding: $spacing-large $spacing-medium;
