@@ -102,7 +102,7 @@
         </div>
       <% end %>
       <div class="comments mt-5">
-        <h2 class>Add my comment</h3>
+        <h4 class>Add my comment</h4>
         <%= simple_form_for [ @article, @new_comment ] do |f| %>
           <%= f.text_area :content %>
           <%= f.submit class: "glow mt-2" %>
