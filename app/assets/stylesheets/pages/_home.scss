@@ -8,10 +8,11 @@ body {
   position: relative;
   height: 275px;
   width: 100%;
-  background-image: image_url("placeholder-home2.png");
+  background-image: image_url("Home.png");
   background-size: cover;
   display: flex;
   padding: $spacing-large $spacing-medium;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 .banner .box {
@@ -56,9 +57,8 @@ body {
 
   .container img {
     width: 35vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-radius: $border-radius;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
   }
 
   .container p {
