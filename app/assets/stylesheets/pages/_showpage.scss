@@ -57,6 +57,7 @@
   grid-template-columns: 1fr 14fr;
   grid-gap: $spacing-small;
   word-break: break-word;
+  color: $secondary-Text-color
 }
 
 .listed-suggested-article h3 {
