@@ -101,7 +101,8 @@
         <div class="comments mt-5">
           <h4>User comments :</h4>
           <% @comments.reverse_each do |comment| %>
-            <div class="py-2 border-top comment">
+
+            <div class="py-2 comment">
               <% if comment.user_id == current_user.id %>
                 <%= link_to ("<small><i class='fa-solid fa-trash'></i></small>").html_safe, article_comment_path(comment.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure to delete your comment ?"} %>
               <% end %>
@@ -109,6 +110,7 @@
               <p class="t-small"><%= comment.created_at.strftime("%b %d, %Y at %I:%M %p") %></p>
               <p>"<%= comment.content %>"</p>
             </div>
+
           <% end %>
         </div>
       <% end %>

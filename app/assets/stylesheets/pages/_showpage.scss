@@ -85,7 +85,15 @@
   object-fit: contain;
 }
 .comment {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $accent-color;
   position: relative;
+  box-sizing: border-box;
+  padding: $spacing-medium;
+  margin: $spacing-medium 0;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
 }
 // .comment .fa-xmark {
 .comment .fa-trash {
