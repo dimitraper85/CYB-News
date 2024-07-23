@@ -63,7 +63,6 @@
 .listed-suggested-article h3 {
   color: $text-color;
   margin-right: $spacing-small;
-
 }
 
 .listed-suggested-article p {
@@ -126,4 +125,8 @@
 }
 .comments {
   margin:20px;
+}
+
+.show-link {
+  color: $text-color;
 }
