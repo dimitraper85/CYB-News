@@ -48,7 +48,8 @@ u5 = User.create!(email: "test@email.com", password: "123456", username: "ProTes
 #   response = RestClient.post("https://eventregistry.org/api/v1/article/getArticles", body, {"Content-Type" => "application/json"})
 #   parsed_response = JSON.parse(response.body)
 #   parsed_response["articles"]["results"].each do |parsed_article|
-#   article = Article.new
+#   # article = Article.new
+#   article = Article.find_or_initialize_by(article_url: parsed_article["url"])
 #   article.pub_date = parsed_article["dateTimePub"]
 #   article.article_url = parsed_article["url"]
 #   article.title = parsed_article["title"]
