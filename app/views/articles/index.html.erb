@@ -3,7 +3,8 @@
 <div class="categories wrap">
   <a class="active" data-action="click->articles-category#update" data-articles-category-target="link" data-articles-category-cate-param="all" href="">All articles</a>
   <% @categories.uniq.each do |category| %>
-    <a data-action="click->articles-category#update" data-articles-category-target="link" data-articles-category-cate-param="<%= category %>" href="">&emsp;||&emsp;<%= category.split("/")[1] %></a>
+    <a>&emsp;||&emsp; </a>
+    <a data-action="click->articles-category#update" data-articles-category-target="link" data-articles-category-cate-param="<%= category %>" href=""><%= category.split("/")[1] %></a>
   <% end %>
 </div>
 
