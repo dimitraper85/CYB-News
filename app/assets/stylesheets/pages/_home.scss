@@ -4,11 +4,6 @@ body {
   background-color: $background-color;
 }
 
-img {
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-}
-
 .banner {
   position: relative;
   height: 275px;
@@ -61,9 +56,10 @@ img {
 
   .container img {
     width: 35vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: $border-radius;
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
   }
 
   .container p {
