@@ -30,7 +30,7 @@
   <div class="article-info">
     <p class="mb-0">Media : <%= @article.source_name %></p>
     <p class="mb-0">Category : <%= @article.category.split("/")[1] %></p>
-    <small><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours ago</small>
+    <small><p class="mb-0"><% if ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600) >= 1 %><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 3600).round %> hours <% else %><%= ((Time.now - Time.parse(@article.pub_date.to_s)) / 60).round %> minutes <% end %>ago</p></small>
     <div id="meter">
       <div>
         <% if @article.fake_news_validation == true %>
@@ -38,7 +38,7 @@
           <% else %>
             <p>This article is <span style="color:#029702;">verified</span></p>
           <% end %>
-          <div class ="fake-news-bar" style="width:<%= (@article.probability.round(2) * 100).to_i %>%">
+            <div class ="fake-news-bar" style="width:<%= (@article.probability.round(2) * 100).to_i %>%">
             <div class ="fake-news-bg-bar">
             </div>
           </div>
