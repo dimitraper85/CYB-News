@@ -4,6 +4,7 @@ class UserArticlesController < ApplicationController
     if params[:query].present?
       @user_articles = @user_articles.where("title ILIKE ?",  "%#{params[:query]}%")
     end
+    redirect_to new_user_article_path if @user_articles.empty?
   end
 
   def new
