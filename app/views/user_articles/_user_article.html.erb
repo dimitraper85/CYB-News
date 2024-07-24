@@ -13,7 +13,7 @@
               <span>🟡</span>
           <% end %>
         </div>
-        <div >
+        <div>
           <h3><%= user_article.title.truncate(60) %></h3>
           <% if user_article.fake_news_validation == true %>
             <% if prob_value >= 75 %>
