@@ -1,5 +1,6 @@
 <div class="m-2 mt-5">
   <% @bookmarks.reverse_each do |bookmark| %>
+      <%= link_to article_path(bookmark.favoritable) do %>
       <div class="listed-suggested-article">
           <% prob = bookmark.favoritable.probability.round(2) * 100 %>
           <% prob_value = prob.to_i  %>
@@ -14,7 +15,7 @@
           <% end %>
         </div>
         <div>
-          <h3><%= link_to bookmark.favoritable.title.truncate(60), article_path(bookmark.favoritable)%></h3>
+          <h3><%= bookmark.favoritable.title.truncate(60) %></h3>
           <% if bookmark.favoritable.fake_news_validation == true %>
             <% if prob_value >= 75 %>
               <p>This article is most likely <span style='color:#f8312f;'>false</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
@@ -31,4 +32,5 @@
         </div>
       </div>
     <% end %>
+  <% end %>
 </div>
