@@ -3,3 +3,18 @@
   color: $text-color;
   text-align: center;
 }
+
+.contact-area {
+  margin-top: 80px;
+  background-color: $background-color;
+  color: $secondary-Text-color;
+  text-align: center;
+}
+
+.contact-area p {
+  margin: $spacing-small;
+  padding: 0px;
+  background-color: $background-color;
+  color: $secondary-Text-color;
+  text-align: center;
+}

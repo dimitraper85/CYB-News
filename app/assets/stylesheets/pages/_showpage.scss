@@ -3,14 +3,20 @@
 }
 
 .article-info{
-  margin-left: 20px;
-  margin-right: 20px;
-  color: $secondary-Text-color;
-
-}
-.article-info h2{
-  font-size: $font-size-large;
   color: $text-color;
+  margin: $spacing-medium;
+  margin-bottom: 0px;
+}
+.article-info h5{
+  color: $text-color;
+}
+.article-content-show {
+  padding: 0px;
+  color: $text-color;
+  opacity: 0.9;
+}
+.original-article {
+  color: $accent-color;
 }
 
 .fake-news-bar{
@@ -36,17 +42,17 @@
   color: $text-color;
 }
 .suggested_articles{
-  margin: 20px;
-  box-shadow: $box-shadow;
+  margin-top: $spacing-large;
+  text-align: center;
 }
 .listed-suggested-article {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
   border-color: $accent-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
-  margin: $spacing-small;
-  padding: $spacing-small;
+  margin: $spacing-medium $spacing-small;
+  padding: $spacing-medium;
   display: grid;
   grid-template-columns: 1fr 14fr;
   grid-gap: $spacing-small;
@@ -57,7 +63,6 @@
 .listed-suggested-article h3 {
   color: $text-color;
   margin-right: $spacing-small;
-
 }
 
 .listed-suggested-article p {
@@ -80,10 +85,19 @@
   object-fit: contain;
 }
 .comment {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: $accent-color;
   position: relative;
+  box-sizing: border-box;
+  padding: $spacing-medium;
+  margin: $spacing-medium 0;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
 }
-.comment .fa-xmark {
-  color: #ff0909;
+// .comment .fa-xmark {
+.comment .fa-trash {
+  color: $text-color;
   position: absolute;
   right: 10px;
   top: 20px;
@@ -107,7 +121,7 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
-  padding: 7px;
+  // padding: 7px;
   border-radius:$border-radius;
 }
 .t-small {
@@ -120,4 +134,22 @@
 }
 .comments {
   margin:20px;
+}
+
+.show-link {
+  color: $text-color;
+}
+
+.comment-textarea::placeholder {
+  padding-left: 5px;
+}
+
+.comment-textarea {
+  padding: $spacing-small;
+  margin-bottom: $spacing-small;
+  border-radius: $border-radius;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: $secondary-Text-color;
 }
