@@ -19,14 +19,14 @@ export default class extends Controller {
       const url = this.formTarget.action
       fetch(url, {
         method: "POST",
-        headers: { "Accept": "text/plain" },
+        headers: { "Accept": "text/plain", "credentials": "same-origin" },
         body: new FormData(this.formTarget)
       })
-        // .then(response => response.text())
-        // .then((data) => {
-        //   this.outputTarget.innerHTML = data
-        //   // console.log(data)
-        // })
+        .then(response => response.text())
+        .then((data) => {
+          this.outputTarget.innerHTML = data
+          // console.log(data)
+        })
         this.inputTarget.value = ""
     } else {
       this.inputTarget.style.border = "1px solid #f8312f"

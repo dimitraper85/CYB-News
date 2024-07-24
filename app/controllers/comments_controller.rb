@@ -1,4 +1,6 @@
 class CommentsController < ApplicationController
+  protect_from_forgery with: :null_session, only: [:create]
+  
   def create
     comment = Comment.new(safe_params)
     comment.user_id = current_user.id
