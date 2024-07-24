@@ -15,7 +15,7 @@
     </li>
 
     <li class="tab-bar__nav-item">
-      <%= link_to user_articles_path, class: "tab-bar__nav-link #{'active' if (current_page?(user_articles_path) || current_page?(new_user_article_path))}" do %>
+      <%= link_to user_articles_path, class: "tab-bar__plus-link #{'active' if (current_page?(user_articles_path) || current_page?(new_user_article_path))}" do %>
         <i class="fa-solid fa-plus"></i>
         My Articles
       <% end %>
