@@ -14,8 +14,13 @@
   <div>
     <br>
     <p>We use artificial intelligence to analyse news and check if they can be trusted or not. We use the classifications: "most likely true", "possibly true" "most likely false" and "possibly false". And we also give you a percentage value. It shows how accurate our classification is. So you can make up your mind about the news you see. You can also log in and check articles you found elsewhere.</p>
-    <%= link_to ">> Browse news", articles_path %>
-    <br>
-    <%= link_to ">> Check an article you found", new_user_article_path %>
+    <div class="profile-actions mt-4">
+      <%= link_to "Log in", new_user_session_path, class: "app-button" %>
+    </div>
+    <div class="mt-4">
+      <%= link_to ">> Browse news", articles_path %>
+      <br>
+      <%= link_to ">> Check an article you found", new_user_article_path %>
+    </div>
   </div>
 </div>

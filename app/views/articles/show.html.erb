@@ -21,13 +21,14 @@
         </button>
         <div data-share-button-target="options" class="share-options">
           <a href="https://www.facebook.com/sharer/sharer.php?u=<%= request.original_url %>&quote=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://twitter.com/intent/tweet?url=<%= request.original_url %>&text=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-x"></i></a>
+          <a href="https://twitter.com/intent/tweet?url=<%= request.original_url %>&text=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-x-twitter"></i></a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url=<%= request.original_url %>&title=<%= @article.title %>" target="_blank" class="share-icon"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://api.whatsapp.com/send?text=<%= @article.title %> <%= request.original_url %>" target="_blank" class="share-icon"><i class="fab fa-whatsapp"></i></a>
           <a href="mailto:?subject=<%= @article.title %>&body=<%= request.original_url %>" target="_blank" class="share-icon"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
   </div>
+
     <div class="article-info">
       <p class="mb-0">Source : <%= @article.source_name %></p>
       <p class="mb-0"><%= @article.category.split("/")[1] %></p>
