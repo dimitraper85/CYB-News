@@ -7,19 +7,19 @@
   padding: 0;
 
   .share-button {
-    background-color: $primary-color;
-    color: $text-color;
-    padding: 12px $spacing-medium;
+    // background-color: $primary-color;
+    // color: $text-color;
+    // padding: 12px $spacing-medium;
     display: flex;
-    border: none;
-    border-radius: $border-radius;
+    // border: none;
+    // border-radius: $border-radius;
     cursor: pointer;
     font-size: 20px;
-    transition: background-color 0.3s;
+    // transition: background-color 0.3s;
 
-    &:hover {
-      background-color: darken($primary-color, 50%);
-    }
+    // &:hover {
+    //   background-color: darken($primary-color, 50%);
+    // }
   }
 
   .share-options {
