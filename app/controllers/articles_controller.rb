@@ -28,7 +28,7 @@ class ArticlesController < ApplicationController
       @article = Article.find(params[:id])
     end
     @articles = Article.where("id > ?", @article.id).order(id: :asc).limit(3)
-    @comments = Comment.where(article_id: @article.id, user_id: current_user.id)
+    @comments = Comment.where(article_id: @article.id)
     @new_comment = Comment.new
   end
 
