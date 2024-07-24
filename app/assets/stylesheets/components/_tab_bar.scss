@@ -38,6 +38,20 @@
   height: 1.2rem;
 }
 
+.tab-bar__plus-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: $secondary-Text-color;
+  font-size: 0.8rem;
+}
+.tab-bar__plus-link i {
+  font-size: 19px;
+  width: 2rem;
+
+}
+
 .active {
   /* Styles for the selected tab */
   background-color: rgba($primary-color, 0.2);
