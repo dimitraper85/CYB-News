@@ -19,7 +19,7 @@ module ApplicationHelper
     when 'bookmarks'
       'My Saved Articles'
     else
-      'CYB News' # Default title
+      link_to 'CYB News', root_path # Default title
     end
   end
 
