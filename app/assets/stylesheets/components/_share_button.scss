@@ -1,13 +1,10 @@
 .share-button-container {
   position: relative;
   display: inline-block;
-  // text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-
-
 
   .share-button {
     background-color: $primary-color;
@@ -21,31 +18,37 @@
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: darken($primary-color, 50%);
     }
   }
 
   .share-options {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 0%;
+    left: 95%;
     background-color: $primary-color;
-    box-shadow: $box-shadow;
-    border-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
     padding: $spacing-small;
     z-index: 1;
+    opacity: 0;
+    transform: translateX(-15px);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
     .share-icon {
-      color: $secondary-Text-color;
+      color: $text-color;
       display: inline-block;
       padding: $spacing-small;
       font-size: $font-size-normal;
       text-decoration: none;
-      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 
       &:hover {
-        color: $text-color
+        color: $text-color;
       }
 
       &:nth-child(1) {
@@ -74,9 +77,11 @@
   }
 
   .active {
-    display: block;
+    display: flex;
+    opacity: 1;
+    transform: translateX(0);
     .share-icon {
-      transform: translateY(0);
+      transform: translateX(0);
       opacity: 1;
     }
   }
