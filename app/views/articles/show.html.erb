@@ -113,28 +113,18 @@
             <% end %>
           <% end %>
       </div>
-      <% unless @comments.empty? %>
-        <div class="comments mt-5">
-          <h4>User comments :</h4>
-          <% @comments.reverse_each do |comment| %>
-
-            <div class="py-2 comment">
-              <% if comment.user_id == current_user.id %>
-                <%= link_to ("<small><i class='fa-solid fa-trash'></i></small>").html_safe, article_comment_path(comment.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure to delete your comment ?"} %>
-              <% end %>
-              <p class="mb-0"><%= User.find(comment.user_id).username %></p>
-              <p class="t-small"><%= comment.created_at.strftime("%b %d, %Y at %I:%M %p") %></p>
-              <p>"<%= comment.content %>"</p>
-            </div>
-
+      <div data-controller="update-comments">
+        <div data-update-comments-target="output" class="comments">
+          <% unless @comments.empty? %>
+              <%= render "comments", comments: @comments %>
           <% end %>
         </div>
-      <% end %>
-      <div class="comments mt-5">
-        <h4 class>Leave a Comment</h4>
-        <%= simple_form_for [ @article, @new_comment ] do |f| %>
-          <%= f.text_area :content, placeholder: "Share your thoughts...", class: "comment-textarea" %>
-          <%= f.submit "Post Comment", class: "glow app-button mt-2" %>
-        <% end %>
+        <div class="comments mt-5">
+          <h4>Leave a Comment</h4>
+          <%= simple_form_for [ @article, @new_comment ], html: {data: { update_comments_target: "form", action: "submit->update-comments#create" } } do |f| %>
+            <%= f.text_area :content, placeholder: "Share your thoughts...", class: "comment-textarea", data: {update_comments_target: "input"} %>
+            <%= f.submit "Post Comment", class: "glow app-button mt-2" %>
+          <% end %>
+        </div>
       </div>
     </div>
