@@ -1,36 +1,41 @@
 <div class="m-2">
-  <% @bookmarks.reverse_each do |bookmark| %>
-      <%= link_to article_path(bookmark.favoritable) do %>
-      <div class="listed-suggested-article">
-          <% prob = bookmark.favoritable.probability.round(2) * 100 %>
-          <% prob_value = prob.to_i  %>
-          <% prob_value = prob_value * -1 if prob_value < 0 %>
-        <div class="icon">
-          <% if bookmark.favoritable.fake_news_validation ==  true && prob_value >= 75 %>
-              <span>🔴</span>
-            <% elsif bookmark.favoritable.fake_news_validation == false && prob_value >= 75 %>
-              <span>🟢</span>
-            <% else %>
-              <span>🟡</span>
-          <% end %>
-        </div>
-        <div>
-          <h3><%= bookmark.favoritable.title.truncate(60) %></h3>
-          <% if bookmark.favoritable.fake_news_validation == true %>
-            <% if prob_value >= 75 %>
-              <p>This article is most likely <span style='color:#f8312f;'>false</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
-            <% else %>
-              <p>This article is <span style='color:#fff100;'>possibly false</span>.<br>Our analysis is <%= prob_value %>% certain.</p>
+  <% if @bookmarks.empty? %>
+    <br>
+    <p>No saved articles yet...</p>
+  <% else %>
+    <% @bookmarks.reverse_each do |bookmark| %>
+        <%= link_to article_path(bookmark.favoritable) do %>
+        <div class="listed-suggested-article">
+            <% prob = bookmark.favoritable.probability.round(2) * 100 %>
+            <% prob_value = prob.to_i  %>
+            <% prob_value = prob_value * -1 if prob_value < 0 %>
+          <div class="icon">
+            <% if bookmark.favoritable.fake_news_validation ==  true && prob_value >= 75 %>
+                <span>🔴</span>
+              <% elsif bookmark.favoritable.fake_news_validation == false && prob_value >= 75 %>
+                <span>🟢</span>
+              <% else %>
+                <span>🟡</span>
             <% end %>
-          <% else %>
-            <% if prob_value >= 75 %>
-              <p>This article is most likely <span style='color:#00d26a;'>true</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+          </div>
+          <div>
+            <h3><%= bookmark.favoritable.title.truncate(60) %></h3>
+            <% if bookmark.favoritable.fake_news_validation == true %>
+              <% if prob_value >= 75 %>
+                <p>This article is most likely <span style='color:#f8312f;'>false</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+              <% else %>
+                <p>This article is <span style='color:#fff100;'>possibly false</span>.<br>Our analysis is <%= prob_value %>% certain.</p>
+              <% end %>
             <% else %>
-              <p>This article is <span style='color:#fff100;'>possibly true</span>.<br>Our analysis is only <%= prob_value %>% certain.</p>
+              <% if prob_value >= 75 %>
+                <p>This article is most likely <span style='color:#00d26a;'>true</span>.<br>We are <%= prob_value %>% confident about our analysis.</p>
+              <% else %>
+                <p>This article is <span style='color:#fff100;'>possibly true</span>.<br>Our analysis is only <%= prob_value %>% certain.</p>
+              <% end %>
             <% end %>
-          <% end %>
+          </div>
         </div>
-      </div>
+      <% end %>
     <% end %>
   <% end %>
 </div>
