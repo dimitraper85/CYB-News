@@ -100,10 +100,10 @@
           <% end %>
         </div>
         <div class="comments mt-5">
-          <h2 class>Add my comment</h3>
+          <h2>Leave a Comment</h3>
           <%= simple_form_for [ @article, @new_comment ], html: {data: { update_comments_target: "form", action: "submit->update-comments#create" } } do |f| %>
-            <%= f.text_area :content, data: {update_comments_target: "input"} %>
-            <%= f.submit class: "glow mt-2" %>
+            <%= f.text_area :content, placeholder: "Share your thoughts...", class: "comment-textarea", data: {update_comments_target: "input"} %>
+            <%= f.submit "Post Comment", class: "glow app-button mt-2" %>
           <% end %>
         </div>
       </div>
