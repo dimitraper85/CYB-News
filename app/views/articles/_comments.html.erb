@@ -2,7 +2,6 @@
 <% @comments.reverse_each do |comment| %>
     <div class="py-2 border-top comment">
       <% if comment.user_id == current_user.id %>
-          <%= link_to ("<i class='fa-solid fa-xmark fa-xl'></i>").html_safe, article_comment_path(comment.id), data: {turbo_method: :delete, turbo_confirm: "Are you sure to delete your comment ?"} %>
       <% end %>
       <h4 class="mb-0"><%= User.find(comment.user_id).username %></h4>
       <p class="t-small"><%= comment.created_at.strftime("%Hh%M - %d/%m/%Y") %></p>

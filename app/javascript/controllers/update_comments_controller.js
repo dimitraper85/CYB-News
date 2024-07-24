@@ -9,10 +9,9 @@ export default class extends Controller {
   }
 
   create(event) {
-    console.log("bloc event")
     event.preventDefault()
     if (this.inputTarget.value != "") {
-      if (this.inputTarget.style.border != "0px") {
+      if (this.inputTarget.previousElementSibling.classList.contains("error-msg")) {
         this.inputTarget.style.border = "0px"
         this.inputTarget.previousElementSibling.remove()
       }
@@ -25,12 +24,12 @@ export default class extends Controller {
         .then(response => response.text())
         .then((data) => {
           this.outputTarget.innerHTML = data
-          // console.log(data)
         })
         this.inputTarget.value = ""
     } else {
+      if (!this.inputTarget.previousElementSibling.classList.contains("error-msg")) {
       this.inputTarget.style.border = "1px solid #f8312f"
-      this.inputTarget.insertAdjacentHTML("beforebegin", "<p style='color:#f8312f; margin-bottom:3px;'>Please write your comment below</p>")
-
+      this.inputTarget.insertAdjacentHTML("beforebegin", "<p class='error-msg' style='color:#f8312f; margin-bottom:3px;'>Please write your comment below</p>")
+      }
   }
 }}
