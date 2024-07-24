@@ -17,7 +17,7 @@ module ApplicationHelper
     when 'user_profile'
       'Profile'
     when 'bookmarks'
-      'My CYB News Bookmarks'
+      'My Saved Articles'
     else
       'CYB News' # Default title
     end
