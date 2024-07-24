@@ -13,7 +13,6 @@ class CommentsController < ApplicationController
 
   def destroy
     comment = Comment.find(params[:id])
-    puts comment
     comment.destroy
     redirect_to article_path(params[:article_id])
   end
