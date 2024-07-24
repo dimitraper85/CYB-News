@@ -62,7 +62,7 @@ body {
   }
 
   .container p {
-    color: $secondary-Text-color
+    color: $secondary-Text-color;
   }
 
 @media (max-width: 760px) {
@@ -95,6 +95,10 @@ body {
 
   .container {
     grid-template-columns: 1fr;
+  }
+
+  .container p {
+    width: 80vw;
   }
 
   .container img {
