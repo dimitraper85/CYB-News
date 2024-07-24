@@ -7,15 +7,15 @@ class CommentsController < ApplicationController
     @comments = Comment.where(article_id: params["article_id"])
     respond_to do |format|
       format.html { redirect_to article_path(Article.find(params["article_id"])) }
-      format.text { render partial: "articles/comments", locals: { comments: @comments }, formats: [:html] }
+      format.text { render partial: "articles/comments", locals: { article: comment.article, comments: @comments }, formats: [:html] }
     end
   end
 
   def destroy
-    comment = Comment.find(params[:article_id])
+    comment = Comment.find(params[:id])
     puts comment
     comment.destroy
-    redirect_to article_path(params[:id])
+    redirect_to article_path(params[:article_id])
   end
 
   private
