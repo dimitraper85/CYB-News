@@ -8,7 +8,7 @@
           <h5><%= article.title %></h5>
           <p class="mb-0">Source : <%= article.source_name %></p>
           <p class="mb-0"><%= article.category.split("/")[1] %></p>
-          <small class="mb-0"><% if ((Time.now - Time.parse(article.pub_date.to_s)) / 3600) >= 1 %><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours <% else %><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 60).round %> minutes <% end %>ago</small>
+          <small class="mb-0" style="font-size:12px;"><% if ((Time.now - Time.parse(article.pub_date.to_s)) / 3600) >= 1 %><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 3600).round %> hours <% else %><%= ((Time.now - Time.parse(article.pub_date.to_s)) / 60).round %> minutes <% end %>ago</small>
           <% prob = article.probability.round(2) * 100 %>
           <% prob_value = prob.to_i  %>
           <% if article.fake_news_validation == true %>
