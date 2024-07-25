@@ -2,7 +2,7 @@
   <div class="box">
     <h1>CYB News</h1>
     <p>Check your biases. Prevent fake news.</p>
-    <%= link_to "Discover", articles_path, class: "glow" %>
+    <%= link_to "Discover", articles_path, class: "glow", data: {turbo: false} %>
   </div>
 </div>
 <div class="container">
@@ -20,7 +20,7 @@
       <%= link_to "Log in", new_user_session_path, class: "app-button" %>
     </div>
     <div class="mt-4">
-      <%= link_to ">> Browse news", articles_path %>
+      <%= link_to ">> Browse news", articles_path, data: {turbo: false} %>
       <br>
       <%= link_to ">> Check an article you found", new_user_article_path %>
     </div>
