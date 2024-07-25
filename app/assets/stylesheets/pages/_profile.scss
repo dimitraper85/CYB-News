@@ -1,20 +1,60 @@
 .profile-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
   background-color: $background-color;
   color: $text-color;
   text-align: center;
+  padding: 24px;
+  position: relative;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+  margin-top: 15vh;
+}
+
+.profile-header h2,
+.profile-header p {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.profile-actions-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.logout-button {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
 }
 
 .contact-area {
-  margin-top: 80px;
+  margin-top: auto;
+  padding: 20px 0;
   background-color: $background-color;
   color: $secondary-Text-color;
   text-align: center;
 }
 
-.contact-area p {
-  margin: $spacing-small;
-  padding: 0px;
-  background-color: $background-color;
+.contact-area p,
+.contact-area a {
+  margin: 5px 0;
+  padding: 5px 0;
   color: $secondary-Text-color;
-  text-align: center;
 }
