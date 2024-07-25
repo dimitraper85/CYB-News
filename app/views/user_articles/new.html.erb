@@ -3,7 +3,7 @@
   <%= simple_form_for(@user_article) do |f| %>
     <%= f.input :title %>
     <%= f.input :article_url %>
-    <%= f.input :content, as: :text %>
+    <%= f.input :content, as: :text, input_html: { class: 'min-height-30vh' } %>
     <%= f.submit 'Check article', class: 'app-button' %>
   <% end %>
 </div>
